@@ -1,0 +1,206 @@
+---
+title: "DataSOC -- Centro de Datos Sociales"
+pagetitle: "datasoc Website"
+page-layout: custom
+format: html
+page-navigation: false
+toc: false
+about:
+  image: "resources/imagenes/sharing-default.png"
+  id: hero-heading
+  template: jolla
+  image-shape: rectangle
+
+# listing:
+  
+# - id: analisis
+#   contents: 
+#     - analisis/posts/*/*.qmd
+#   sort: date desc
+#   type: grid
+#   grid-columns: 3
+#   image-height: 150px
+#   fields: [image, title, description]
+#   max-items: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   feed: false  
+  
+# - id: noticias
+#   contents: 
+#     - noticias/posts/*/*.qmd
+#     - "!noticias/posts/drafts/*qmd"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 3
+#   image-height: 150px
+#   fields: [image, title, description]
+#   max-items: 6
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   feed: false  
+#   
+# - id: reportes
+#   contents:
+#     - reportes/posts/*/*.qmd
+#   sort: date desc
+#   type: default
+#   fields: [title, date, author]
+#   max-items: 4
+#   categories: false
+#   sort-ui: false
+#   feed: false
+#   page-size: 500
+#   
+# - id: equipo
+#   template: people-box.ejs
+#   contents: 
+#     - equipo/posts/*/*.qmd
+#   sort: date desc
+---
+
+:::hero-heading
+<div class="hero-heading-wrapper">
+<div id="particles-js" class="particles-layer" aria-hidden="true"></div>
+<div class="hero-heading-content">
+<img src="resources/imagenes/sharing-default.png"
+     class="img-fluid mb-3"
+     alt="datasoc"
+     style="width:90%;max-width:900px;display:block;margin:0 auto;">
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" integrity="sha384-oHYQNeDBTZNj6KnIfJMAzcEn2OTbeMKKXFeEwU6T+pH0oS1yTIzEBaW6BXmCtvs2" crossorigin="anonymous"></script>
+<script>
+window.addEventListener("load", function () {
+  var container = document.getElementById("particles-js");
+  if (window.particlesJS && container) {
+    window.particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 130,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ac221e"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 3
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 143.94242303078775,
+          "color": "#ff0000",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "top-right",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": false
+    });
+  }
+});
+</script>
+:::
+
+<!-- ====================== DATASOC ====================== -->
+::: {.parallax-container}
+::: {.parallax-image-container2}
+<div>
+  <p class="section-title">
+    <span class="data-style">data</span><span class="soc-style">SOC</span>
+  </p>
+  <p class="section-lead">
+<span class="data-style">data</span><span class="soc-style">SOC</span> es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos. 
+  </p>
+</div>
+:::
+:::
