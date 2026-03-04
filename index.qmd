@@ -6,7 +6,7 @@ format: html
 page-navigation: false
 toc: false
 about:
-  image: "resources/imagenes/sharing-default.png"
+  image: "resources/imagenes/sharing-default-2.png"
   id: hero-heading
   template: jolla
   image-shape: rectangle
@@ -65,7 +65,7 @@ about:
 <div class="hero-heading-wrapper">
 <div id="particles-js" class="particles-layer" aria-hidden="true"></div>
 <div class="hero-heading-content">
-<img src="resources/imagenes/sharing-default.png"
+<img src="resources/imagenes/sharing-default-2.png"
      class="img-fluid mb-3"
      alt="datasoc"
      style="width:90%;max-width:900px;display:block;margin:0 auto;">

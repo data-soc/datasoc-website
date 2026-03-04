@@ -10,14 +10,14 @@ website:
   page-footer:
     background: "#121212"
     left: |
-      [2025]()
+      [2026]()
     center:
       - href: https://github.com/data-soc/datasoc-website
         target: _blank
         icon: github
         aria-label: GitHub
-    right: |
-       Last Update: 03-07-2025
+    # right: |
+    #    Last Update: {{< modified isodate>}}
   navbar:
     logo: resources/imagenes/datasoc.png
     background: "#FFFFFF"

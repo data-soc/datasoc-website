@@ -414,6 +414,7 @@ strong code
   max-width: 65ch;
   font-size: clamp(1rem, 3.5vw, 1.5rem);
   color: inherit;
+  font-family: "Courier New", Courier, monospace;
 }
 /* En parallax, títulos/textos blancos */
 .parallax-image-container .section-title,
@@ -574,4 +575,22 @@ html, body { max-width: 100%; overflow-x: clip; }
   color: #000000;
   font-family: "Courier New", system-ui; 
   font-weight: bold;
+}
+
+/* =========================================================
+   FIX FOOTER - Fuerza logos en fila horizontal (Quarto pisa Bootstrap)
+   ========================================================= */
+#footer .row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer .col,
+#footer [class*="col-"] {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: 300px;
 }
