@@ -1,0 +1,596 @@
+/* css styles */
+.about-link i {
+    font-size: 3em; /* Tamaño del ícono */
+}
+
+
+html {
+  scroll-behavior: smooth;
+} /*Esto para que al hacer click en los links del navbar la página no "salte", sino que se deslice */
+
+/*Backgrounds*/
+
+body {
+  background-color: #ffffff;
+}
+
+.light-bg{
+  background-color: #ffffff;
+}
+
+.logos-bg{
+  background-color: #E8E8E8;
+}
+
+.dark-bg {
+  background-color: #212121;
+  color: #ffffff;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/*-- links hover --*/
+
+a:hover {
+  color: #c22828;
+}
+  
+
+/*-- section style --*/
+
+.section-container {
+  padding-left: 1.5em;
+  padding-right:  1.5em;
+  padding-top: 1em;
+  margin-top: 0em;
+  max-width: 100%;
+  width: 100vw;
+}
+
+
+.section-block {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 1.1em;
+  box-sizing: border-box;
+}
+
+.post-contents {
+	padding-left: 1.5em
+	padding-right: 1.5em;
+	margin: 1rem;
+}
+
+
+
+/*margenes y padding*/
+
+#quarto-document-content .column-page{
+  padding-top: 0.1em;
+  margin-top: 0;
+}
+
+#quarto-content {
+  padding-top: 0.1em;
+  margin-top: 0;
+}
+
+/*banner
+
+.column-page .title,
+.column-body .title{
+  color: #ffffff;
+} */
+
+/*nav bar*/
+
+.active{
+  color: #ffffff !important;
+  font-weight: 400;
+  background-color: #ECA0A0;
+}
+
+.navbar-logo {
+  max-height: 75px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #ECA0A0;
+}
+
+.bi-github:hover,
+.bi-facebook:hover,
+.bi-twitter:hover,
+.bi-instagram:hover,
+.bi-youtube:hover{
+  color: #ECA0A0;
+}
+
+
+/* tiles */
+
+.wrap
+{
+  margin: 20px auto 0 auto;
+  width: 80%;
+  display:flex;
+  align-items:space-around;
+  max-width:1500px;
+}
+.tile
+{
+  width:380px;
+  height:450px;
+  margin:10px;
+  background-color:#497BBD;
+  border-radius:15px;
+  display:inline-block;
+  background-size:cover;
+  position:relative;
+  cursor:pointer;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 35px 77px -17px #212121;
+  overflow:hidden;
+  color:white;
+  font-family:'Roboto';
+  
+}
+.tile img
+{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: all 0.4s ease-out;
+  filter: brightness(0.7) blur(1px);
+}
+.tile .text
+{
+/*   z-index:99; */
+  position:absolute;
+  padding:30px;
+  font-size: 20px;
+  height:calc(100% - 60px);
+}
+.tile h1
+{
+ 
+  font-weight:300;
+  margin:0;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.tile h2
+{
+  font-weight:100;
+  margin:20px 0 0 0;
+  font-style:italic;
+   transform: translateX(200px);
+}
+.tile p
+{
+  font-weight:300;
+  margin:20px 0 0 0;
+  line-height: 25px;
+/*   opacity:0; */
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+}
+.animate-text
+{
+  opacity:0;
+  transition: all 0.6s ease-in-out;
+}
+.tile:hover
+{
+/*   background-color:#99aeff; */
+box-shadow: 0px 35px 77px -17px #212121;
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 0.2;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
+}
+.dots
+{
+  position:absolute;
+  bottom:20px;
+  right:30px;
+  margin: 0 auto;
+  width:30px;
+  height:30px;
+  color:currentColor;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+  
+}
+
+.dots span
+{
+    width: 5px;
+    height:5px;
+    background-color: currentColor;
+    border-radius: 50%;
+    display:block;
+  opacity:0;
+  transition: transform 0.4s ease-out, opacity 0.5s ease;
+  transform: translateY(30px);
+ 
+}
+
+.tile:hover span
+{
+  opacity:1;
+  transform:translateY(0px);
+}
+
+.dots span:nth-child(1)
+{
+   transition-delay: 0.05s;
+}
+.dots span:nth-child(2)
+{
+   transition-delay: 0.1s;
+}
+.dots span:nth-child(3)
+{
+   transition-delay: 0.15s;
+}
+
+/* Fuentes */
+
+.red{
+  color: #F20505;
+}
+
+.disegno{
+  color: #A7D0D9;
+}
+
+.datos{
+  color: #F2BBC9;
+}
+
+.repro{
+  color: #97F294;
+}
+
+.publibres{
+  color: #F28705;
+}
+
+
+/* Botones */
+.btn-template-primary {
+    color: #ECA0A0;
+    background-color: white;
+    border-color: #ECA0A0 !important;
+}
+
+.btn-template-primary:hover,
+.btn-template-primary:focus,
+.btn-template-primary:active,
+.btn-template-primary.active,
+.open > .dropdown-toggle.btn-template-primary {
+  color: #ffffff;
+  background-color: #ECA0A0;
+  border-color: #c22828;
+}
+
+/* Código */
+
+p code{
+  color: #c22828;
+  background-color: #ECA0A0;
+}
+
+h2 code,
+h3 code,
+strong code
+{
+  color: #c22828;
+  background-color: #ECA0A0;
+}
+
+.listing-box-calendar {
+  color: #ECA0A0;
+}
+
+/* Menu de Navegación*/
+
+.dropdown-item:hover{
+  background-color:#ECA0A0;
+}
+
+/* demobox ipo */
+
+#demobox {
+  background-color: #ddd ;
+  font-family: monospace;
+  padding: 10px ;
+  border: 1px solid grey ;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: monospace;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* ===== Parallax base ===== */
+.parallax-container { position: relative; overflow: hidden; }
+
+.parallax-image-container,
+.parallax-image-container2 {
+  background-image: url(resources/imagenes/parallax-blocs.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;   /* Desktop ok */
+  position: relative;
+  isolation: isolate;
+  display: block;
+}
+
+
+.parallax-image-container::before,
+.parallax-image-container2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.9) 35%,
+    rgba(255, 255, 255, 0.6) 65%,
+    rgba(255, 255, 255, 0.3) 85%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.parallax-image-container > *,
+.parallax-image-container2 > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Alturas por tipo (puedes ajustar) */
+.parallax-image-container  { min-height: 800px; } /* Noticias/Recomendados */
+.parallax-image-container2 { min-height: 600px; } /* Sobre LISA */
+
+.parallax-inner {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 3rem 1rem 1.25rem;
+  text-align: center;
+}
+
+/* ===== Títulos y textos ===== */
+.section-title {
+  font-weight: normal;
+  line-height: 1.15;
+  margin: 0 0 .5rem 0;
+  font-size: clamp(1.6rem, 5vw, 3rem);
+  color: inherit;  /* <-- por defecto usa el color del contexto (negro en secciones claras) */
+}
+.section-lead {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 65ch;
+  font-size: clamp(1rem, 3.5vw, 1.5rem);
+  color: inherit;
+  font-family: "Courier New", Courier, monospace;
+}
+/* En parallax, títulos/textos blancos */
+.parallax-image-container .section-title,
+.parallax-image-container .section-lead,
+.parallax-image-container2 .section-title,
+.parallax-image-container2 .section-lead {
+  color: #fff;
+}
+
+/* ===== Secciones normales ===== */
+.section-text { padding-block: clamp(2rem, 6vw, 5rem); }
+.section-container { width: min(100%, 1200px); margin-inline: auto; padding-inline: 1rem; }
+.section-block { position: relative; }
+
+/* Evitar scroll lateral fantasma */
+html, body { max-width: 100%; overflow-x: clip; }
+
+/* Compensar navbar fija al usar anclas (#equipo, etc.) */
+[id] { scroll-margin-top: 80px; }
+
+/* =========================================================
+   RESPONSIVE / MOBILE
+   ========================================================= */
+@media (max-width: 768px) {
+  /* Desactivar fixed en móvil para ambos */
+  .parallax-image-container,
+  .parallax-image-container2 {
+    background-attachment: scroll !important;
+    min-height: auto;
+  }
+
+  /* Noticias/Recomendados: menos padding (porque llevan listing adentro) */
+  .parallax-image-container { padding: 0; }
+
+  /* Sobre LISA: conservar aire (se veía “apretado” sin padding) */
+  .parallax-image-container2 { padding: 2rem 1rem; }
+
+  .parallax-inner { padding: 1.75rem 1rem 1rem; }
+}
+
+/* Accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  .parallax-image-container,
+  .parallax-image-container2 {
+    background-attachment: scroll !important;
+  }
+}
+
+/* =========================================================
+   (Opcional) EFECTO DEGRADADO INFERIOR SUAVE EN PARALLAX
+   ========================================================= */
+.parallax-image-container::after,
+.parallax-image-container2::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: 0;
+  height: 160px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.4) 100%);
+  pointer-events: none;
+}
+
+/* =========================================================
+   Limpiezas para listings dentro del parallax (móvil)
+   ========================================================= */
+@media (max-width: 768px) {
+  /* Evita márgenes superiores que empujan el listado */
+  .parallax-image-container .quarto-listing,
+  .parallax-image-container [id^="listing-"],
+  .parallax-image-container .cards,
+  .parallax-image-container .grid,
+  .parallax-image-container > *:last-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    background: transparent !important;
+  }
+}
+
+/* Centrado vertical real (flex) */
+.parallax-image-container2 {
+  display: flex;                 /* en desktop ya no es block */
+  align-items: center;           /* centra vertical */
+  justify-content: center;       /* centra horizontal el wrapper */
+  min-height: 600px;             /* la altura que ya usabas */
+}
+
+/* Wrapper centrado y un poco más abajo del centro */
+.parallax-image-container2 .parallax-inner {
+  width: min(100%, 1100px);
+  padding: 0 1rem;               /* elimina padding superior grande */
+  text-align: center;
+  transform: translateY(8%);     /* empuja ~8% hacia abajo (ajusta a gusto) */
+}
+
+/* Fuerza título y lead centrados (por si el tema les aplica estilos) */
+.parallax-image-container2 .section-title,
+.parallax-image-container2 .section-lead {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* En móvil, no bajes el bloque: que quede centrado sin desplazamiento extra */
+@media (max-width: 768px) {
+  .parallax-image-container2 {
+    display: block;              /* vuelve a flujo normal en móvil */
+    padding: 2rem 1rem;          /* conserva aire */
+    min-height: auto;
+  }
+  .parallax-image-container2 .parallax-inner {
+    transform: none;             /* sin bajar extra en pantallas chicas */
+    padding: 0;                  /* usa el padding del contenedor */
+  }
+}
+
+/* Hero particles*/ 
+.hero-heading-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 480px;
+  padding: 3rem 0;
+  overflow: visible;
+}
+
+
+
+\.hero-heading-content {\n  position: relative;\n  z-index: 2;
+  pointer-events: none;
+}
+
+.hero-heading-content img {
+  pointer-events: none;
+}
+
+/* Particles */
+.particles-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.particles-layer canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*fuentes*/
+
+.soc-style {
+  color: #ac221e;
+  font-family: 'Baumans', system-ui; 
+  font-weight: normal;
+}
+
+.data-style {
+  color: #000000;
+  font-family: "Courier New", system-ui; 
+  font-weight: bold;
+}
+
+/* =========================================================
+   FIX FOOTER - Fuerza logos en fila horizontal (Quarto pisa Bootstrap)
+   ========================================================= */
+#footer .row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer .col,
+#footer [class*="col-"] {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: 300px;
+}
