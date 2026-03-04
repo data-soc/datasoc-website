@@ -4,7 +4,7 @@ project:
        - /scss-posts.scss
   render:
         - "*.qmd"
-  output-dir: "_site"
+  output-dir: "docs"
 website:
   title: ""
   page-footer:
