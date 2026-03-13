@@ -48,6 +48,8 @@ a:hover {
 }
 
 
+
+
 .section-block {
   max-width: 1000px;
   margin: 0 auto;
@@ -360,6 +362,8 @@ strong code
   position: relative;
   isolation: isolate;
   display: block;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -594,3 +598,227 @@ html, body { max-width: 100%; overflow-x: clip; }
   width: auto !important;
   max-width: 300px;
 }
+
+
+/* BOTONES */
+.btn-21 {
+  cursor: pointer;
+  font-family: 'Baumans', system-ui;
+  font-size: 20px;
+  bottom: -50px;
+  animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /
+  width: 140px;
+  height: 80px;
+  position: relative;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0px;
+  background: transparent;
+  overflow: hidden;
+  border: none;
+}
+
+.btn-21:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ac221e);
+  animation: btn-21-right 2s linear infinite;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-21:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #ac221e);
+  animation: btn-21-bottom 2s linear infinite;
+  animation-delay: 1s;
+  transform: translateY(-100%);
+}
+
+.btn-21 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+
+.btn-21 span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, transparent, #ac221e);
+  animation: btn-21-left 2s linear infinite;
+}
+
+.btn-21 span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #ac221e);
+  animation: btn-21-top 2s linear infinite;
+  animation-delay: 1s;
+  transform: translateY(-100%);
+}
+
+.btn-21:hover:before {
+  background: linear-gradient(to right, transparent, #ac221e);
+}
+
+.btn-21:hover:after {
+  background: linear-gradient(to bottom, transparent, #ac221e);
+}
+
+.btn-21 span:hover:before {
+  background: linear-gradient(to top, transparent, #ac221e);
+}
+
+.btn-21 span:hover:after {
+  background: linear-gradient(to left, transparent, #ac221e);
+}
+
+.btn-21:hover {
+  color: #ac221e;
+}
+
+.btn-21:active:before {
+  background: linear-gradient(to right, transparent, #ffff);
+}
+
+.btn-21:active:after {
+  background: linear-gradient(to bottom, transparent, #ffff);
+}
+
+.btn-21 span:active:before {
+  background: linear-gradient(to top, transparent, #ffff);
+}
+
+.btn-21 span:active:after {
+  background: linear-gradient(to left, transparent, #ffff);
+}
+
+.btn-21:active {
+  color: #ffff;
+}
+
+@keyframes btn-21-right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+
+}
+
+@keyframes btn-21-top {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+
+}
+
+@keyframes btn-21-left {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+
+}
+
+@keyframes btn-21-bottom {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+
+}
+
+.btn-21:focus {
+  outline: none
+}
+
+
+/* ICONOS */
+
+.bi-hexagon-fill,
+.bi-briefcase-fill,
+.bi-newspaper,
+.bi-people-fill{
+  color:#ac221e;
+}
+
+/*-- imagen hero --*/
+
+@keyframes fadeIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.img-fluid {
+  animation: fadeIn 6s 1s both; /* 'both' cubre el inicio y el final */
+}
+
+
+/* tiles-lineas */
+
+  .hex-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  .btn-hex {
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: filter 0.2s ease, transform 0.15s ease;
+  }
+
+  .btn-hex:hover {
+    filter: brightness(1.2) drop-shadow(0 4px 12px #ac221e);
+    transform: translateY(-3px);
+  }
+
+  .btn-hex:active {
+    transform: translateY(0px);
+    filter: brightness(0.9);
+  }
+
+  .btn-hex svg {
+    width: 150px;
+    height: 150px;
+    display: block;
+  }

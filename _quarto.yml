@@ -19,38 +19,34 @@ website:
     # right: |
     #    Last Update: {{< modified isodate>}}
   navbar:
-    logo: resources/imagenes/datasoc.png
+    logo: resources/imagenes/logo-nobg.png
     background: "#FFFFFF"
-    tools: 
-       - icon: github
-         href: https://github.com/datasoc/
-         target: _blank
-       - icon: globe
-         href: https://facso.uchile.cl/
-         target: _blank
-       - icon: twitter
-         href: https://x.com/facsouchile
-         target: _blank
-       - icon: instagram
-         href: https://www.instagram.com/facsouchile
-         target: _blank
-       - icon: youtube
-         href: https://www.youtube.com/user/webfacso
-         target: _blank
+    # tools: 
+    #    - icon: github
+    #      href: https://github.com/datasoc/
+    #      target: _blank
+    #    - icon: globe
+    #      href: https://facso.uchile.cl/
+    #      target: _blank
+    #    - icon: twitter
+    #      href: https://x.com/facsouchile
+    #      target: _blank
+    #    - icon: instagram
+    #      href: https://www.instagram.com/facsouchile
+    #      target: _blank
+    #    - icon: youtube
+    #      href: https://www.youtube.com/user/webfacso
+    #      target: _blank
     # pinned: true
-    # left:
-    #   - href: index.qmd#destacadosh1
-    #     text: "<i class='bi bi-pin-angle'></i> Destacados"
-    #   - href: index.qmd#analisish1
-    #     text: "<i class='bi bi-graph-up-arrow'></i> Análisis"
-    #   - href: index.qmd#noticiash1
-    #     text: "<i class='bi bi-newspaper'></i> Noticias"
-    #   - href: index.qmd#reportesh1
-    #     text: "<i class='bi bi-journals'></i> Reportes"
-    #   - href: index.qmd#equipoh1
-    #     text: "<i class='bi bi-people-fill'></i> Equipo"
-    #   - href: links.qmd
-    #     text: "<i class='bi bi-link-45deg'></i> Enlaces"
+    right:
+      - href: index.qmd#lineas
+        text: "<i class='bi bi-hexagon-fill'></i> Líneas de Trabajo"
+      - href: index.qmd#proyectos
+        text: "<i class='bi bi-briefcase-fill'></i> Proyectos y Reportes"
+      - href: index.qmd#noticias
+        text: "<i class='bi bi-newspaper'></i> Noticias"
+      - href: index.qmd#equipo
+        text: "<i class='bi bi-people-fill'></i> Equipo"
 format:
   html:
     theme: 

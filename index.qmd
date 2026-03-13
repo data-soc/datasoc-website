@@ -199,8 +199,188 @@ window.addEventListener("load", function () {
     <span class="data-style">data</span><span class="soc-style">SOC</span>
   </p>
   <p class="section-lead">
-<span class="data-style">data</span><span class="soc-style">SOC</span> es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos. 
+    <span class="data-style">data</span><span class="soc-style">SOC</span> es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos. 
+  </p>
+  </div>
+  
+<a href="#lineas">
+  <button class="btn-21">
+    <span>Nuestras Líneas<br>de Trabajo</span>
+  </button>
+</a>
+:::
+:::
+
+<!-- ====================== Líneas ====================== -->
+::: {.section-text}
+::: {.section-container}
+
+
+<p class="section-title" style="text-align:center;">
+  <i class="bi bi-hexagon-fill" style="margin-right: 10px;"></i><span class="soc-style">LÍNEAS DE TRABAJO</span>
+</p>
+
+
+::: {#lineas}
+
+<div class="hex-buttons">
+
+  <!-- I -->
+  <a href="#i" class="btn-hex" title="I">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="80" fill="#7a0a0a">I</text>
+      <text x="50" y="63" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">INVESTIGACIÓN</text>
+    </svg>
+  </a>
+
+  <!-- F -->
+  <a href="#f" class="btn-hex" title="F">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="72" fill="#7a0a0a">F</text>
+      <text x="50" y="63" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">FORMACIÓN</text>
+    </svg>
+  </a>
+
+  <!-- T -->
+  <a href="#t" class="btn-hex" title="T">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="72" fill="#7a0a0a">T</text>
+      <text x="50" y="55" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">TRANSFERENCIA</text>
+        <text x="50" y="70" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">E IMPACTO</text>
+    </svg>
+  </a>
+
+  <!-- C -->
+  <a href="#c" class="btn-hex" title="C">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="72" fill="#7a0a0a">C</text>
+      <text x="50" y="55" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">CERTIFICACIÓN</text>
+        <text x="50" y="70" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">DE CALIDAD</text>
+    </svg>
+  </a>
+
+  <!-- G -->
+  <a href="#g" class="btn-hex" title="G">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="72" fill="#7a0a0a">G</text>
+      <text x="50" y="55" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">GOBERNANZA</text>
+        <text x="50" y="70" text-anchor="middle"
+        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">DE DATOS</text>
+    </svg>
+  </a>
+
+</div>
+
+<style>
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .btn-hex { opacity: 0; }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var buttons = document.querySelectorAll(".btn-hex");
+
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          buttons.forEach(function(btn, index) {
+            setTimeout(function() {
+              btn.style.animation = "fadeIn 1s forwards";
+            }, index * 600);
+          });
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.3 });
+
+    var lineas = document.getElementById("lineas");
+    if (lineas) observer.observe(lineas);
+  });
+</script>
+:::
+
+:::
+:::
+
+<!-- ====================== Proyectos ====================== -->
+::: {.parallax-container}
+::: {.parallax-image-container}
+<div class="parallax-inner">
+  <p class="section-title">
+    <i class="bi bi-briefcase-fill" style="margin-right: 10px;"></i><span class="soc-style">PROYECTOS Y REPORTES</span>
   </p>
 </div>
+
+::: {#proyectos}
 :::
 :::
+:::
+
+<!-- ====================== Noticias ====================== -->
+::: {.section-text}
+::: {.section-container}
+
+
+<p class="section-title" style="text-align:center;">
+  <i class="bi bi-newspaper" style="margin-right: 10px;"></i><span class="soc-style">NOTICIAS</span>
+</p>
+
+
+::: {#noticias}
+:::
+
+:::
+:::
+
+<!-- ====================== Equipo ====================== -->
+::: {.parallax-container}
+::: {.parallax-image-container}
+<div class="parallax-inner">
+  <p class="section-title">
+    <i class="bi bi-people-fill" style="margin-right: 10px;"></i><span class="soc-style">EQUIPO</span>
+  </p>
+</div>
+
+::: {#equipo}
+:::
+:::
+:::
+
