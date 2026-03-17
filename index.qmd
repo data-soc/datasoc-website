@@ -199,10 +199,10 @@ window.addEventListener("load", function () {
 ::: {.parallax-image-container2}
 <div>
   <p class="section-title">
-    <span class="data-style">data</span><span class="soc-style">SOC</span>
+    <span class="data-style">Data</span><span class="soc-style">SOC</span>
   </p>
   <p class="section-lead">
-    <span class="data-style">data</span><span class="soc-style">SOC</span> es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos. 
+    <span class="data-style">Data</span><span class="soc-style">SOC</span> es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos. 
   </p>
   </div>
   

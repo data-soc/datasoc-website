@@ -19,7 +19,7 @@ website:
     # right: |
     #    Last Update: {{< modified isodate>}}
   navbar:
-    logo: resources/imagenes/logo-nobg.png
+    logo: resources/imagenes/logo-d-nobg.png
     background: "#FFFFFF"
     # tools: 
     #    - icon: github
