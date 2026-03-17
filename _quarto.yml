@@ -50,7 +50,7 @@ format:
     theme: 
       light: flatly
     css: 
-      - styles.css
+      - datasoc_styles.css
     toc: true
     linkcolor: "#497BBD"
 include-after-body: "footer.html"

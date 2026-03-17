@@ -25,28 +25,14 @@ format:
     code-copy: false
     page-layout: article
 filters: []
+listing:
+  - id: equipo-proyecto
+    contents:
+      - "../../../equipo/posts/gc/_metadata.yml" #agregar cuantos perfiles sea necesario
+    template: "../../team-card.ejs"
 --- 
 
 ## Responsable del Proyecto
-```{r}
-#| echo: false
-#| output: asis
-#| html-preserve: true
 
-person <- yaml::read_yaml(here::here("equipo/posts/gc/_metadata.yml"))
-
-htmltools::HTML(sprintf('
-<div class="team-card">
-  <div class="team-photo-cell">
-    <img src="%s" alt="Foto de %s" class="team-image">
-    <a href="%s" class="team-name-link"><div class="team-title">%s</div></a>
-    <div class="team-subtitle">%s</div>
-    <div class="team-icons">
-      <a href="mailto:%s" class="contact-link" target="_blank" title="Contacto"><i class="bi bi-envelope-fill"></i></a>
-      <a href="https://github.com/%s" class="github-link" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
-    </div>
-  </div>
-  <div class="team-bio">%s</div>
-</div>
-', person$image, person$title, person$permalink, person$title, person$subtitle, person$contacto, person$github, person$bio))
-```
+::: {#equipo-proyecto}
+:::
