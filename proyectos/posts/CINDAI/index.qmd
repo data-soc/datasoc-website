@@ -1,0 +1,50 @@
+---
+title: CINDAI
+subtitle: Ciencias de Datos de Investigación
+description: "CINDAI es el primer sistema de gestión de datos desarrollado por DataSOC. Su función consiste en facilitar el análisis de información científica en la Dirección de Investigación y Publicaciones de la Facultad de Ciencias Sociales"
+categories: [Gobernanza de Datos]
+date: last-modified
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "featured.png"
+  # image-alt: "Ilustración de ciencia abierta con iconos de datos y colaboración"
+format:
+   html:
+    # theme: scss-posts.scss
+    # css: [styles/pro.css]
+    toc: false
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    df-print: paged
+    code-copy: false
+    page-layout: article
+filters: []
+--- 
+
+## Responsable del Proyecto
+```{r}
+#| echo: false
+#| output: asis
+#| html-preserve: true
+
+person <- yaml::read_yaml(here::here("equipo/posts/gc/_metadata.yml"))
+
+htmltools::HTML(sprintf('
+<div class="team-card">
+  <div class="team-photo-cell">
+    <img src="%s" alt="Foto de %s" class="team-image">
+    <a href="%s" class="team-name-link"><div class="team-title">%s</div></a>
+    <div class="team-subtitle">%s</div>
+    <div class="team-icons">
+      <a href="mailto:%s" class="contact-link" target="_blank" title="Contacto"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://github.com/%s" class="github-link" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+    </div>
+  </div>
+  <div class="team-bio">%s</div>
+</div>
+', person$image, person$title, person$permalink, person$title, person$subtitle, person$contacto, person$github, person$bio))
+```

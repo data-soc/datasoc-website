@@ -102,6 +102,11 @@ a:hover {
   background-color: #ECA0A0;
 }
 
+.bi-github,
+.bi-envelope-fill {
+  color: #ac221e;
+}
+
 .bi-github:hover,
 .bi-facebook:hover,
 .bi-twitter:hover,
@@ -545,7 +550,9 @@ html, body { max-width: 100%; overflow-x: clip; }
 
 
 
-\.hero-heading-content {\n  position: relative;\n  z-index: 2;
+.hero-heading-content {
+  position: relative;
+  z-index: 2;
   pointer-events: none;
 }
 
@@ -607,7 +614,7 @@ html, body { max-width: 100%; overflow-x: clip; }
   font-size: 20px;
   bottom: -50px;
   animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /
+  animation-duration: 2s;
   width: 140px;
   height: 80px;
   position: relative;
@@ -822,7 +829,6 @@ html, body { max-width: 100%; overflow-x: clip; }
     height: 150px;
     display: block;
   }
-
 
 /*listings*/
 

@@ -1,0 +1,31 @@
+---
+title: Workshop DataSOC en la Universidad de Concepción
+description: "Investigadores DataSOC realizaron Workshop Herramientas computaciones para la investigación social reproducible en el Doctorado de Educación de la Universidad de Educación"
+categories: [Formación]
+date: last-modified
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "featured.jpg"
+  # image-alt: "Ilustración de ciencia abierta con iconos de datos y colaboración"
+format:
+   html:
+    # theme: scss-posts.scss
+    # css: [styles/pro.css]
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: true
+    df-print: paged
+    code-copy: false
+    page-layout: article
+filters: []
+--- 
+
+::: {.post-meta-row}
+::: {.post-actions}
+[<i class="bi bi-github"></i> Repositorio](https://github.com/data-soc/workshop-reproducibilidad){.btn .btn-primary .btn-sm .no-external target="_blank" rel="noopener"}
+:::
+:::

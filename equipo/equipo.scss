@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+
+$primary: #e5e7e9 !default;
+$font-size-root: 18px !default;
+
+/*-- scss:rules --*/
+
+// Fondo general de la página
+body {
+background-color: #e5e7e9 !important;
+}
+
+// Color de texto general
+h1 {
+color: #212529 !important;
+}
+
+// Estilo del navbar
+.navbar {
+background-color: #fff !important;
+color: #212529 !important;
+
+// Color de enlaces en el navbar
+.navbar-brand, .nav-link {
+color: #212529 !important;
+}
+}
+
+.sidebar, .toc {
+color: #212529 !important;            // Texto del TOC
+}
+
+.toc-title {
+color: #212529 !important;
+font-weight: bold;
+}
+
+.toc-entry a {
+color: #e5e7e9 !important;
+text-decoration: none;
+}
+
+.about-link-text{
+  color:#212121 !important;
+}
+
+.bi-github,
+.bi-envelope,
+.bi-globe {
+  color: #212121 !important;
+}

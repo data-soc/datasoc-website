@@ -11,7 +11,7 @@ about:
   template: jolla
   image-shape: rectangle
 
-# listing:
+listing:
   
 # - id: analisis
 #   contents: 
@@ -27,38 +27,41 @@ about:
 #   filter-ui: false
 #   feed: false  
   
-# - id: noticias
-#   contents: 
-#     - noticias/posts/*/*.qmd
-#     - "!noticias/posts/drafts/*qmd"
-#   sort: date desc
-#   type: grid
-#   grid-columns: 3
-#   image-height: 150px
-#   fields: [image, title, description]
-#   max-items: 6
-#   categories: false
-#   sort-ui: false
-#   filter-ui: false
-#   feed: false  
-#   
-# - id: reportes
-#   contents:
-#     - reportes/posts/*/*.qmd
-#   sort: date desc
-#   type: default
-#   fields: [title, date, author]
-#   max-items: 4
-#   categories: false
-#   sort-ui: false
-#   feed: false
-#   page-size: 500
-#   
-# - id: equipo
-#   template: people-box.ejs
-#   contents: 
-#     - equipo/posts/*/*.qmd
-#   sort: date desc
+  - id: noticias
+    contents:
+      - noticias/posts/*/*.qmd
+      - "!noticias/posts/drafts/*qmd"
+    sort: date desc
+    type: default
+    grid-columns: 3
+    image-height: 150px
+    fields: [image, title, description, date, author]
+    max-items: 6
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+ 
+  - id: proyectos
+    contents:
+      - proyectos/posts/*/*.qmd
+    sort: date desc
+    type: grid
+    image-height: 150px
+    fields: [title, author, description, date, image]
+    max-items: 3
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    date-format: "MMMM YYYY"
+    page-size: 5
+  
+  - id: equipo
+    template: people-box.ejs
+    contents:
+      - equipo/posts/*/*.qmd
+    sort: date desc
 ---
 
 :::hero-heading
@@ -203,7 +206,7 @@ window.addEventListener("load", function () {
   </p>
   </div>
   
-<a href="#lineas">
+<a href="#lineash1">
   <button class="btn-21">
     <span>Nuestras Líneas<br>de Trabajo</span>
   </button>
@@ -215,18 +218,20 @@ window.addEventListener("load", function () {
 ::: {.section-text}
 ::: {.section-container}
 
+::: {#lineash1}
+
 
 <p class="section-title" style="text-align:center;">
   <i class="bi bi-hexagon-fill" style="margin-right: 10px;"></i><span class="soc-style">LÍNEAS DE TRABAJO</span>
 </p>
-
+:::
 
 ::: {#lineas}
 
 <div class="hex-buttons">
 
   <!-- I -->
-  <a href="#i" class="btn-hex" title="I">
+  <a href="componentes/investigacion/index.qmd" class="btn-hex" title="I">
     <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
@@ -343,20 +348,32 @@ window.addEventListener("load", function () {
 <!-- ====================== Proyectos ====================== -->
 ::: {.parallax-container}
 ::: {.parallax-image-container}
+
+::: {#proyectosh1}
+:::
+
 <div class="parallax-inner">
   <p class="section-title">
     <i class="bi bi-briefcase-fill" style="margin-right: 10px;"></i><span class="soc-style">PROYECTOS Y REPORTES</span>
   </p>
 </div>
 
+
 ::: {#proyectos}
 :::
+
+
+
 :::
 :::
 
 <!-- ====================== Noticias ====================== -->
 ::: {.section-text}
 ::: {.section-container}
+
+
+::: {#noticiash1}
+:::
 
 
 <p class="section-title" style="text-align:center;">

@@ -1,0 +1,177 @@
+```{=html}
+<style>
+.listing-equipo .quarto-listing-container-grid-team {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.listing-equipo .list.responsive-grid-team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  align-items: stretch;
+}
+
+.listing-equipo .listing-box-team {
+  width: 100%;
+}
+
+.listing-equipo .team-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  background: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.listing-equipo .team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.listing-equipo .card-header-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.listing-equipo .listing-box-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  min-width: 100%;
+  object-position: center top; 
+}
+
+.listing-equipo .card-header-link {
+  display: block;
+  width: 100%; /* ← asegura que el <a> llene la card */
+}
+
+.listing-equipo .team-card-body {
+  padding: 1rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 120px; /* ← ajusta según cuánto texto máximo esperas */
+  overflow: hidden; /* por si el texto es muy largo */
+}
+
+.listing-equipo .listing-box-title {
+  margin: 0.5rem 0 0.25rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #1f2937;
+  font-family: 'Baumans', system-ui; 
+  font-weight: normal;
+  text-align: center;
+}
+
+.listing-equipo .listing-box-subtitle {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+  font-family: "Courier New", system-ui; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.listing-equipo .listing-box-links {
+  margin: 0.25rem 0 0.5rem;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+/* Contenedor de iconos en fila */
+.listing-equipo .card-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem 0.75rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.listing-equipo .contact-link,
+.listing-equipo .github-link,
+.listing-equipo .web-link {
+  display: inline-flex;
+  align-items: center;
+  color: #ac221e;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.listing-equipo .contact-link:hover,
+.listing-equipo .github-link:hover,
+.listing-equipo .web-link:hover {
+  color: #ac221e;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .listing-equipo .list.responsive-grid-team {
+    grid-template-columns: 1fr;
+  }
+
+  .listing-equipo .listing-box-image {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}
+</style>
+
+<div class="listing-equipo">
+  <div class="quarto-listing-container-grid-team">
+    <div class="list responsive-grid-team">
+      <% items.forEach(item => { %>
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="<%- item.path %>" class="card-header-link">
+              <img src="<%= item.image %>" alt="<%= item.title %>" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title"><%= item.title %></div>
+                <div class="listing-box-subtitle"><%= item.subtitle %></div>
+                <div class="listing-box-links"><%= item.links %></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              <% if (item.contacto) { %>
+                <a href="mailto:<%= item.contacto %>" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              <% } %>
+
+              <% if (item.github) { %>
+                <a href="<%= item.github %>" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              <% } %>
+
+              <% if (item.web) { %>
+                <a href="<%= item.web %>" class="web-link" target="_blank" title="Web Personal">
+                  <i class="bi bi-globe2"></i>
+                </a>
+              <% } %>
+            </div>
+
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+</div>
+```

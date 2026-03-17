@@ -1,0 +1,16 @@
+---
+title: "Investigación"
+format: html
+categories:
+- Líneas
+- Investigación
+date: last-modified
+image: investigacion.png
+about:
+  id: hero-heading
+  template: solana
+  image-shape: rounded
+---
+::: hero-heading
+DataSOC se propone como un nodo para el desarrollo de investigación metodológica y metacientífica avanzada, integrando datos tanto cuantitativos como cualitativos. La investigación es el componente que permite transformar los datos en conocimiento, contribuyendo a cerrar la brecha entre lo técnico y lo social. De tal manera, esta línea opera en el núcleo de DataSOC, proporcionando las bases conceptuales
+:::

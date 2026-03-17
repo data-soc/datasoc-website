@@ -822,3 +822,123 @@ html, body { max-width: 100%; overflow-x: clip; }
     height: 150px;
     display: block;
   }
+
+
+/*listings*/
+
+.card-left {
+  margin-left: 20px;
+}
+
+.listing-title .no-external {
+  font-family: 'Baumans', system-ui;
+  font-weight: bold;
+}
+
+#listing-proyectos .listing-title {
+  font-family: 'Baumans', system-ui;
+  font-weight: bold;
+}
+
+/*botones noticias */
+
+.post-actions .no-external{
+  background-color: #ac221e ;
+  border: black;
+  font-family: 'Baumans', system-ui;
+  font-weight: normal;
+}
+
+.post-actions .no-external:hover{
+ filter: brightness(1.2) drop-shadow(0 4px 12px #ac221e);
+    transform: translateY(-3px);
+}
+
+
+/* Eliminar símbolo de enlace externo en todo el sitio */
+a[target="_blank"]::after,
+a[href^="http"]::after,
+a[href^="https"]::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* perfiles proyectos */
+
+/* ===== Tarjeta de equipo con fotos circulares ===== */
+.team-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: var(--content-max, 1040px);
+  margin: 2rem auto;
+}
+
+.team-photo-cell {
+  width: 220px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1rem;
+}
+
+.team-bio {
+  padding: 1rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.team-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 0.75rem;
+  border: 2px solid $line;
+}
+
+.team-title {
+  font-family: $headingFont;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+}
+
+.team-subtitle {
+  font-size: 0.95rem;
+  color: $ink-soft;
+}
+
+.team-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem 0.75rem;
+  justify-content: center;
+}
+
+.team-name-link {
+  text-decoration: none;
+  color: inherit;
+}
+.team-name-link:hover {
+  color: #ac221e;
+}
+
+/* Versión responsiva en móvil */
+@media (max-width: 640px) {
+  .team-card {
+    flex-direction: column;
+  }
+
+  .team-photo-cell {
+    width: 100%;
+    padding-bottom: 0.25rem;
+  }
+
+  .team-bio {
+    width: 100%;
+    padding-top: 0;
+  }
+}

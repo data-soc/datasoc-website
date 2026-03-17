@@ -1,0 +1,17 @@
+---
+title: "Noticias"
+page-layout: full
+title-block-banner: true
+lang: es
+listing:
+  contents:
+  - "*/index.qmd"
+sort: "date desc"
+type: default
+fields: [date, author, title, description]  # sin categorías
+filter-ui: [search]
+date-format: "MMM YYYY" 
+page-size: 10
+max-items: 999
+format: html
+---

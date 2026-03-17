@@ -1,0 +1,28 @@
+[
+  {
+    "listing": "/proyectos/proyectos.html",
+    "items": [
+      "/proyectos/posts/CINDAI/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/noticias/posts/taller-udec/index.html",
+      "/proyectos/posts/CINDAI/index.html",
+      "/equipo/posts/a-jc/index.html",
+      "/equipo/posts/gc/index.html",
+      "/equipo/posts/tbd/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/equipo.html",
+    "items": []
+  },
+  {
+    "listing": "/noticias/noticias.html",
+    "items": [
+      "/noticias/posts/taller-udec/index.html"
+    ]
+  }
+]
