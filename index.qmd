@@ -312,11 +312,11 @@ window.addEventListener("load", function () {
 </div>
 
 <style>
-  @keyframes fadeIn {
+  @keyframes hexfadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to   { opacity: 1; transform: translateY(0); }
   }
-  .btn-hex { opacity: 0; }
+  #lineas .btn-hex { opacity: 0; }
 </style>
 
 <script>
@@ -328,7 +328,7 @@ window.addEventListener("load", function () {
         if (entry.isIntersecting) {
           buttons.forEach(function(btn, index) {
             setTimeout(function() {
-              btn.style.animation = "fadeIn 1s forwards";
+              btn.style.animation = "hexfadeIn 1s forwards";
             }, index * 600);
           });
           observer.disconnect();

@@ -106,9 +106,24 @@ a:hover {
 .bi-facebook:hover,
 .bi-twitter:hover,
 .bi-instagram:hover,
-.bi-youtube:hover{
+.bi-youtube:hover,
+.bi-envelope-fill:hover,
+.bi-globe2:hover
+{
   color: #ECA0A0;
 }
+
+.bi-github,
+.bi-facebook,
+.bi-twitter,
+.bi-instagram,
+.bi-youtube,
+.bi-envelope-fill,
+.bi-globe2
+{
+  color: #ac221e;
+}
+
 
 
 /* tiles */
@@ -781,7 +796,7 @@ html, body { max-width: 100%; overflow-x: clip; }
   100% { transform: scale(1); opacity: 1; }
 }
 
-.img-fluid {
+.hero-heading-content .img-fluid {
   animation: fadeIn 6s 1s both; /* 'both' cubre el inicio y el final */
 }
 
