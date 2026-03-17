@@ -11,6 +11,28 @@ about:
   template: solana
   image-shape: rounded
 ---
-::: hero-heading
-DataSOC se propone como un nodo para el desarrollo de investigación metodológica y metacientífica avanzada, integrando datos tanto cuantitativos como cualitativos. La investigación es el componente que permite transformar los datos en conocimiento, contribuyendo a cerrar la brecha entre lo técnico y lo social. De tal manera, esta línea opera en el núcleo de DataSOC, proporcionando las bases conceptuales
-:::
+<!-- ::: hero-heading -->
+<!-- DataSOC se propone como un nodo para el desarrollo de investigación metodológica y metacientífica avanzada, integrando datos tanto cuantitativos como cualitativos. La investigación es el componente que permite transformar los datos en conocimiento, contribuyendo a cerrar la brecha entre lo técnico y lo social. De tal manera, esta línea opera en el núcleo de DataSOC, proporcionando las bases conceptuales -->
+<!-- ::: -->
+
+## Nuestro Diagnóstico
+
+El panorama contemporáneo de la investigación social enfrenta cambios importantes derivados de las nuevas tecnologías digitales, y de la demanda por mayor transparencia y apertura de datos sociales. Avances como el modelamiento de la Big Data y la inteligencia artificial generativa implican una transformación en las formas tradicionales de investigación social, acelerando la producción basada en análisis de datos. Dado que estas innovaciones vienen principalmente de disciplinas STEM, se ha cuestionado el rol de las ciencias sociales en su desarrollo y utilización, llegando a proclamar el “fin de la teoría social” y la emergencia de una ciencia computacional puramente inductiva (Sato, 2024).
+
+Por otro lado, en los años recientes, la academia ha enfrentado desafíos importantes derivados de la crisis de replicabilidad (Baker, 2016; Nosek et al., 2015; Peng, 2015) y las restricciones de acceso a publicaciones financiadas por fondos públicos. En este contexto, el movimiento Ciencia Abierta ha ganado relevancia impulsando iniciativas que promueven la transparencia y el acceso a la investigación. En esta línea, la Agencia Nacional de Investigación y Desarrollo (ANID) ha recogido parte de estas inquietudes, publicando una Política de Acceso Abierto a la Información Científica y a Datos de Investigación (ANID, 2022).
+
+En este contexto, es necesario relevar dos premisas centrales. En primer lugar, frente a la formas netamente inductivas de análisis, la ciencias sociales pueden aportar marcos interpretativos que orienten al dato y lo hagan útil para la toma de decisiones. En segundo lugar, aceptar el valor agregado de la teoría social en el análisis de datos implica necesariamente reconocer y valorar la diversidad del conocimiento producido a partir de distintos tipos de datos que no se limitan al puro dato cuantitativo, sino que se extiende a textos, imagenes y material arqueológico, por nombrar algunos. 
+
+## Nuestra Propuesta
+
+DataSOC se propone como un nodo para el desarrollo de investigación metodológica y metacientífica avanzada, integrando datos tanto cuantitativos como cualitativos. La investigación es el componente que permite transformar los datos en conocimiento, contribuyendo a cerrar la brecha entre lo técnico y lo social. De tal manera, esta línea opera en el núcleo de DataSOC, proporcionando las bases conceptuales, técnicas y empíricas que habilitan el desarrollo del resto de sus líneas de acción. Además, el desarrollo de líneas de investigación permitirá a DataSOC presentarse ante fondos concursables externos, lo que constituirá una potencial fuente de financiamiento y, por lo tanto, contribuirá a la sustentabilidad del Centro.
+Algunas líneas de investigación que DataSOC podría albergar incluyen:
+
+
+ - Investigación metodológica en el área de las ciencias sociales computacionales, con especial énfasis en el desarrollo de nuevas técnicas y tecnologías tales como la inteligencia artificial, el Machine Learning, el Agent-Based Modelling, Big Data, el Procesamiento de Lenguaje Natural, entre otras. En este contexto, se busca establecer vínculos con iniciativas similares en la Universidad de Chile, como la Iniciativa de Datos e Inteligencia Artificial de FCFM, con el propósito de relevar el rol de las ciencias sociales y construir un espacio interdisciplinario de diálogo en el desarrollo de estas herramientas.
+
+- Investigación vinculada a las áreas de la ciencia abierta, la metaciencia y cienciometría: particularmente, se propone utilizar los datos sobre proyectos de investigación postulados, adjudicados y no-adjudicados por académicos de la Facultad como un potencial objeto de estudio. En esta línea, la Dirección de Investigación y Publicaciones ha venido desarrollando la Unidad de Ciencia de Datos en Investigación - CINDAI que busca desarrollar un sistema local e integrado de gestión, producción y visualización de información científica en la Facultad.
+
+- La reflexión metodológica, ética y epistemológica de los datos sociales, incluyendo la diversidad de tipo de datos que producen las disciplinas de la Facultad y avanzando en crear estándares para su tratamiento y análisis.
+
+

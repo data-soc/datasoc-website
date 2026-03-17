@@ -1,59 +1,24 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre DataSOC",
+    "section": "",
+    "text": "En los últimos años, la disponibilidad masiva de grandes volúmenes de big data, la irrupción de la inteligencia artificial generativa, y el aprendizaje automático (machine learning), han transformado radicalmente las posibilidades del análisis de datos. Las metodologías han debido actualizarse e incorporar ciencia de datos, procesamiento de lenguaje natural, prácticas de reproducibilidad y ciencia abierta, habilitando nuevos tipos de evidencia y herramientas analíticas para el diseño de políticas y la evaluación de impacto. Tal contexto introduce desafíos significativos para las ciencias sociales: problemas de representatividad y sesgo en fuentes no previstas para investigación, riesgos sobre privacidad y protección de datos, dificultades de interpretabilidad de modelos complejos, y la necesidad de adaptar marcos teóricos y metodológicos para integrar resultados algorítmicos con explicaciones sociales robustas.\nLos datos sociales pueden definirse como toda aquella información que permite comprender fenómenos sociales, económicos, culturales o políticos. Incluyen desde encuestas de opinión pública y censos demográficos, hasta registros administrativos, datos geoespaciales, interacciones en redes sociales y grandes volúmenes de datos digitales generados por plataformas en línea. Además, abarcan datos cualitativos como entrevistas, grupos focales, observaciones etnográficas y archivos históricos, así como también datos visuales y audiovisuales. Estos datos sociales no son meros insumos técnicos, sino representaciones de procesos sociales que demandan posicionamiento epistemológico, interpretaciones teóricas, precisión metodológica y marcos éticos robustos. No se trata de seguir reproduciendo una oposición radical entre lo “técnico” y lo “social” (Edwards et al., 2023; Barjak et al., 2009), sino de reconocer los caminos que abren los avances computacionales y hacerlos dialogar con los marcos interpretativos de estas disciplinas, y con ello dar respuesta a las preguntas y las necesidades del país. En este espacio es que la Facultad de Ciencias Sociales de la Universidad de Chile posee una fortaleza distintiva, al contar con una amplia diversidad de disciplinas, enfoques teóricos y metodologías que permiten dar sentido a los datos sociales desde múltiples perspectivas.\nActualmente, en Chile no existe una plataforma articulada y sostenible dedicada específicamente al desarrollo, gobernanza y proyección estratégica de los datos sociales. Si bien hay iniciativas y proyectos relacionadas con datos sociales (como el Consorcio IDI, el Instituto Milenio Fundamentos de los Datos IMFD, o el Centro de Microdatos), hasta ahora los datos sociales se producen y circulan de manera altamente fragmentada, con escasos estándares comunes y mecanismos débiles de coordinación. Tal dispersión limita la calidad, comparabilidad y trazabilidad de los datos, y dificulta su preservación en el tiempo. Esto reduce su potencial para generar evidencia robusta que fortalezca la investigación, la formulación de políticas públicas y la innovación social. La Universidad de Chile y la Facultad de Ciencias Sociales no son ajenas a estos desafíos, observándose múltiples problemas en la gobernanza de datos, en la incorporación de nuevas tecnologías en la investigación, formación y gestión, y en la transferencia de conocimientos hacia la sociedad.\nLa necesidad de contar con una infraestructura robusta de datos sociales se vuelve aún más urgente en el contexto actual, dadas las transformaciones tecnológicas, sociales y políticas que enfrentan las sociedades contemporáneas. El conocimiento científico se ve amenazado por la crisis de confianza pública, la proliferación de desinformación y la creciente complejidad de los fenómenos sociales. Además, los populismos y las crisis democráticas en la región subrayan la importancia de contar con datos sociales rigurosos y transparentes que permitan fundamentar decisiones públicas y fortalecer la participación ciudadana. En este escenario, las universidades tienen un rol crucial como productores y guardianes del conocimiento social, siendo responsables de garantizar que los datos generados sean de alta calidad, éticamente gestionados y accesibles para la sociedad.\nFrente a este escenario, la Facultad de Ciencias Sociales de la Universidad de Chile propone la creación de DataSOC, una iniciativa orientada a generar un centro que pueda posicionarse como un referente nacional en el procesamiento, análisis, gestión y transferencia de datos sociales, guiados por altos estándares conceptuales, metodológicos y éticos. DataSOC busca articular y potenciar las capacidades existentes en la Facultad, integrando investigación, formación, gobernanza de datos, innovación y certificación de calidad. A diferencia de otras iniciativas como el Centro de Microdatos de la Facultad de Economía y Negocios, DataSOC no se orienta al levantamiento de datos, sino a transformar la manera en que se producen, gestionan y utilizan los datos sociales, asegurando que el conocimiento generado sea riguroso, transparente y socialmente relevante.\nSu diseño se organiza en torno a cinco líneas de trabajo: investigación, formación (en pregrado, postgrado y educación continua), innovación y transferencia, certificación de la calidad de los datos sociales, y gobernanza responsable de datos. Cada una de estas líneas de trabajo aporta elementos esenciales para utilizar los datos sociales: generación de evidencia y de metodologías, formación de capacidades humanas especializadas, desarrollo de estándares éticos y técnicos, incubación y transferencia de soluciones innovadoras, y mecanismos de aseguramiento de la calidad que garanticen la confiabilidad y la trazabilidad.\nLa relevancia de DataSOC radica precisamente en su capacidad de ordenar, conectar y potenciar los datos sociales, lo que permite que el conocimiento social circule de forma más abierta, transparente y rigurosa. Al establecer protocolos de gobernanza, estándares de documentación, herramientas de preservación, programas de formación especializada y mecanismos de certificación, DataSOC ofrece una estructura estable que reduce la fragmentación, facilita la interoperabilidad entre proyectos y equipos, y fortalece la función pública de la Universidad en la producción de conocimiento socialmente significativo. A mediano y largo plazo, DataSOC aspira a convertirse en un referente nacional en ciencia de datos sociales, articulando redes al interior de la Universidad de Chile y generando alianzas estratégicas con instituciones públicas, organismos internacionales y organizaciones sociales. De este modo, DataSOC busca situar a la Universidad de Chile en la vanguardia regional en el desarrollo de ciencia de datos sociales al servicio de la sociedad. Para ello, toma como referente iniciativas internacionales como el German Data Forum (RatSWD) y el Institute for Social Research (ISR) de la Universidad de Michigan, infraestructuras de datos abocadas a la certificación y apertura de datos sociales, adaptando sus aprendizajes al contexto chileno y latinoamericano. Además, incorpora los avances desarrollados por el Laboratorio de Investigación Social Abierta (LISA), una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) gestionada desde el departamento de sociología de FACSO, que busca ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía."
+  },
+  {
+    "objectID": "about.html#nuestras-líneas-de-trabajo",
+    "href": "about.html#nuestras-líneas-de-trabajo",
+    "title": "Sobre DataSOC",
+    "section": "Nuestras Líneas de Trabajo",
+    "text": "Nuestras Líneas de Trabajo\n\n     I INVESTIGACIÓN  \n     F FORMACIÓN  \n     T TRANSFERENCIA E IMPACTO  \n     C CERTIFICACIÓN DE CALIDAD  \n     G GOBERNANZA DE DATOS"
+  },
+  {
     "objectID": "proyectos/proyectos.html",
     "href": "proyectos/proyectos.html",
     "title": "Proyectos y Reportes",
     "section": "",
     "text": "CINDAI\n\n\nCiencias de Datos de Investigación\n\n\nCINDAI es el primer sistema de gestión de datos desarrollado por DataSOC. Su función consiste en facilitar el análisis de información científica en la Dirección de Investigación y Publicaciones de la Facultad de Ciencias Sociales\n\n\n\n\n\nmar 2026\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "noticias/posts/taller-udec/index.html",
-    "href": "noticias/posts/taller-udec/index.html",
-    "title": "Workshop DataSOC en la Universidad de Concepción",
-    "section": "",
-    "text": "Repositorio"
-  },
-  {
-    "objectID": "equipo/posts/gc/index.html",
-    "href": "equipo/posts/gc/index.html",
-    "title": "Gabriel Cortés",
-    "section": "",
-    "text": "Sociólogo"
-  },
-  {
-    "objectID": "equipo/posts/gc/index.html#proyectos-relacionados",
-    "href": "equipo/posts/gc/index.html#proyectos-relacionados",
-    "title": "Gabriel Cortés",
-    "section": "Proyectos Relacionados",
-    "text": "Proyectos Relacionados\n\n\n\n  \n    CINDAI\n  \n  \n\nNo matching items"
-  },
-  {
-    "objectID": "equipo/equipo.html",
-    "href": "equipo/equipo.html",
-    "title": "Equipo",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "componentes/investigacion/index.html",
-    "href": "componentes/investigacion/index.html",
-    "title": "Investigación",
-    "section": "",
-    "text": "DataSOC se propone como un nodo para el desarrollo de investigación metodológica y metacientífica avanzada, integrando datos tanto cuantitativos como cualitativos. La investigación es el componente que permite transformar los datos en conocimiento, contribuyendo a cerrar la brecha entre lo técnico y lo social. De tal manera, esta línea opera en el núcleo de DataSOC, proporcionando las bases conceptuales"
-  },
-  {
-    "objectID": "equipo/posts/a-jc/index.html",
-    "href": "equipo/posts/a-jc/index.html",
-    "title": "Juan Carlos Castillo",
-    "section": "",
-    "text": "Investigador principal de la línea «Interacciones Grupales e Individuales» de COES, profesor titular en el Departamento de Sociología de la Universidad de Chile y Director de Investigación y Publicaciones de la Facultad de Ciencias Sociales de la misma universidad. Doctor en Sociología de la Universidad de Humboldt, Berlín y magíster en Public Management de la Universidad de Potsdam. Actualmente es investigador principal del Proyecto Fondecyt Regular Nº1250518 «Justicia de Mercado y Merecimiento del Bienestar Social», del Núcleo Milenio de Desigualdades y Oportunidades Digitales (NUDOS), y está a cargo del desarrollo y la implementación del Observatorio de Cohesión Social y del Laboratorio de Investigación Social Abierta (LISA) de COES. Anteriormente fue coordinador del área de investigación del Centro de Medición, Mide UC de la Facultad de Ciencias Sociales de la PUC y profesor del Instituto de Sociología de la PUC."
-  },
-  {
-    "objectID": "noticias/noticias.html",
-    "href": "noticias/noticias.html",
-    "title": "Noticias",
-    "section": "",
-    "text": "Workshop DataSOC en la Universidad de Concepción\n\n\nInvestigadores DataSOC realizaron Workshop Herramientas computaciones para la investigación social reproducible en el Doctorado de Educación de la Universidad de Educación\n\n\n\n\n\nmar 2026\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "proyectos/posts/CINDAI/index.html",
@@ -68,5 +33,12 @@
     "title": "CINDAI",
     "section": "",
     "text": "Gabriel Cortés\n            \n            Asistente de Gestión de la Dirección de Investigación\n              \n                \n                  \n                    \n                    \n                    Lorem ipsum dolor sit amet.\n                      \nNo hay resultados"
+  },
+  {
+    "objectID": "noticias/noticias.html",
+    "href": "noticias/noticias.html",
+    "title": "Noticias",
+    "section": "",
+    "text": "Workshop DataSOC en la Universidad de Concepción\n\n\nInvestigadores DataSOC realizaron Workshop Herramientas computaciones para la investigación social reproducible en el Doctorado de Educación de la Universidad de Educación\n\n\n\n\n\nmar 2026\n\n\n\n\n\nNo hay resultados"
   }
 ]

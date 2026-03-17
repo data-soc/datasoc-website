@@ -1,8 +1,26 @@
 [
   {
+    "listing": "/about.html",
+    "items": [
+      "/equipo/posts/a-jc/index.html",
+      "/equipo/posts/gc/index.html",
+      "/equipo/posts/tbd/index.html"
+    ]
+  },
+  {
     "listing": "/proyectos/proyectos.html",
     "items": [
       "/proyectos/posts/CINDAI/index.html"
+    ]
+  },
+  {
+    "listing": "/proyectos/posts/CINDAI/index.html",
+    "items": []
+  },
+  {
+    "listing": "/noticias/noticias.html",
+    "items": [
+      "/noticias/posts/taller-udec/index.html"
     ]
   },
   {
@@ -14,25 +32,5 @@
       "/equipo/posts/gc/index.html",
       "/equipo/posts/tbd/index.html"
     ]
-  },
-  {
-    "listing": "/equipo/posts/gc/index.html",
-    "items": [
-      "/proyectos/posts/CINDAI/index.html"
-    ]
-  },
-  {
-    "listing": "/equipo/equipo.html",
-    "items": []
-  },
-  {
-    "listing": "/noticias/noticias.html",
-    "items": [
-      "/noticias/posts/taller-udec/index.html"
-    ]
-  },
-  {
-    "listing": "/proyectos/posts/CINDAI/index.html",
-    "items": []
   }
 ]
