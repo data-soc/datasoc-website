@@ -1,5 +1,18 @@
 ---
 title: Gabriel Cortés
+toc: false
+listing:
+  - id: listing-proyectos
+    contents: "../../../proyectos/posts/*/index.qmd"
+    template: "../../proyectos-relacionados.ejs"
+    include:
+      team: "Gabriel Cortés"
 ---
 
 Sociólogo
+
+
+## Proyectos Relacionados
+
+::: {#listing-proyectos}
+:::

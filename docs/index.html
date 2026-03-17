@@ -135,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-include-after-body','listing-language','listing-title','listing-subtitle','listing-contacto','listing-github','listing-web','listing-image','listing-about','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-bio','listing-permalink',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-include-after-body','listing-language','listing-title','listing-subtitle','listing-contacto','listing-github','listing-web','listing-image','listing-about','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-bio','listing-permalink','listing-toc','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-include-after-body","listing-language","listing-title","listing-subtitle","listing-contacto","listing-github","listing-web","listing-image","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-bio","listing-permalink"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-include-after-body","listing-language","listing-title","listing-subtitle","listing-contacto","listing-github","listing-web","listing-image","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-bio","listing-permalink","listing-toc","listing-listing"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -436,10 +436,12 @@ window.addEventListener("load", function () {
 </div>
 <div id="listing-proyectos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R29iZXJuYW56YSUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1773754731000" data-listing-file-modified-sort="1773754731522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="g-col-1" data-index="0" data-categories="R29iZXJuYW56YSUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1773774045000" data-listing-file-modified-sort="1773774045264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
 <a href="./proyectos/posts/CINDAI/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="proyectos\posts\CINDAI\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./proyectos/posts/CINDAI/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 CINDAI

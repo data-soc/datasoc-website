@@ -1,0 +1,47 @@
+```{=html}
+<style>
+.proyecto-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.proyecto-info {
+  flex: 1;
+}
+
+.proyecto-titulo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.proyecto-titulo:hover {
+  color: #ac221e;
+}
+
+.proyecto-imagen {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+</style>
+
+<% for (const item of items) { %>
+<div class="proyecto-card">
+  <div class="proyecto-info">
+    <a href="<%= item.path %>" class="proyecto-titulo"><%= item.title %></a>
+  </div>
+  <% if (item.image) { %>
+  <img src="<%= item.image %>" alt="<%= item.title %>" class="proyecto-imagen">
+  <% } %>
+</div>
+<% } %>
+```
