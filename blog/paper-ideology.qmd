@@ -1,0 +1,81 @@
+---
+title: "Paper recomendado: The ideological orientation of academic social science research 1960–2024"
+page-layout: full
+title-block-banner: true
+lang: es
+listing:
+  contents:
+  - "*/index.qmd"
+sort: "date desc"
+type: default
+fields: [date, author, title, description]  # sin categorías
+filter-ui: [search]
+date-format: "MMM YYYY" 
+page-size: 10
+max-items: 999
+format: html
+---
+
+Autor: James Manzi (Universidad de Oxford)
+Publicación: Theory and Society, marzo 2026
+DOI: [10.1007/s11186-026-09690-2](https://doi.org/10.1007/s11186-026-09690-2)   
+
+## ¿Qué hace el estudio?
+
+Manzi analiza aproximadamente 600.000 resúmenes (abstracts) de artículos de ciencias sociales en inglés publicados entre 1960 y 2024, con el objetivo de medir sistemáticamente su orientación ideológica a lo largo del tiempo. Para ello, utiliza modelos de lenguaje (LLMs) —específicamente GPT-4o— que clasifican cada abstract según un espectro político fijo calibrado para Estados Unidos en 2025, donde 0 es extrema derecha y 10 es extrema izquierda.
+
+La base de datos principal es OpenAlex, y los artículos provienen de 367 revistas distribuidas en once disciplinas: antropología, comunicaciones, criminología, economía, estudios étnicos, estudios de género, ciencia política, psicología, administración pública, salud pública y sociología.
+
+## Metodología: ¿cómo se midió?
+
+El autor construyó una escala de 0 a 10 anclada en actores políticos, medios de comunicación y think tanks reconocibles de EE.UU. en 2025 (por ejemplo: el punto 3 corresponde a posiciones como las de Ron DeSantis o la Heritage Foundation; el 7, a Elizabeth Warren o el Center for American Progress). Luego, GPT-4o respondió cinco preguntas sobre cada abstract: relevancia política, posición general, alineación izquierda/derecha, posición en temas económicos y posición en temas socioculturales.
+
+La confiabilidad del método fue validada de múltiples formas: el LLM clasificó correctamente resúmenes anónimos de think tanks conocidos (r = 0,97), y la estabilidad entre dos rondas de clasificación independientes fue casi perfecta (ICC = 0,98). Además, los resultados se mantuvieron consistentes al usar modelos alternativos (GPT-4o-mini, Mixtral, Llama), variaciones en las preguntas, distintos criterios de selección de artículos y bases de datos alternativas (SCOPUS, Web of Science).
+
+## Cinco hallazgos principales del estudio  
+
+### 1. Predominio izquierdista persistente y generalizado
+
+Aproximadamente el 90% de los artículos políticamente relevantes fueron clasificados como de izquierda durante todo el período 1960–2024. El puntaje promedio de todas las disciplinas estuvo siempre por encima de 5 (el punto neutral), con un rango que va de 5,7 en economía hasta 7,6 en estudios de género.
+
+### 2. Movimiento hacia la izquierda en todas las disciplinas desde 1990
+
+Todas las disciplinas mostraron una tendencia estadísticamente significativa hacia la izquierda entre 1990 y 2024. El viraje se aceleró notablemente a partir de 2010, especialmente en estudios de género, antropología, estudios étnicos y psicología.
+
+### 3. Diferencias entre disciplinas "policy-proximal" y "policy-distal"
+
+Las disciplinas más ligadas a políticas públicas (economía, ciencia política, administración pública, criminología, salud pública) mostraron cierta moderación hacia la derecha entre los años 70 y 80, antes de retomar el giro izquierdista. Las disciplinas más alejadas de la política pública (antropología, estudios de género, estudios étnicos, sociología, comunicaciones, psicología) mostraron un movimiento izquierdista más continuo y sostenido desde 1960.
+
+### 4. Mayor orientación izquierdista implica mayor homogeneidad ideológica
+
+Las disciplinas más izquierdistas tienden también a ser las más homogéneas internamente. La correlación entre el promedio del puntaje político y su desviación estándar es fuertemente negativa (r = −0,84). Dicho de otro modo: cuanto más a la izquierda es una disciplina, menos espacio tiene para voces discrepantes.
+
+### 5. El contenido sociocultural es más izquierdista que el económico, y la brecha crece
+
+Desde los primeros años del período, los temas socioculturales (género, raza, cultura, identidad) fueron clasificados más a la izquierda que los económicos. En los años 60 la diferencia era de 10–15%; hacia los años 2020, creció a 25–30%. Los temas económicos siguieron un patrón en "U" —moderación y retorno— mientras que los socioculturales alcanzaron niveles sin precedentes históricos.
+
+
+## ¿A qué se debe este patrón? La explicación sociológica
+
+Manzi no concluye que el sesgo sea necesariamente un problema de distorsión deliberada. Plantea que los resultados son compatibles con al menos dos explicaciones: que la investigación social sistemática conduce genuinamente a conclusiones más alineadas con valores liberales, o que ciertos temas se han vuelto más salientes y son inherentemente más fáciles de enmarcar desde perspectivas progresistas.
+
+La explicación estructural que el autor considera más respaldada por los datos es el modelo de autoselección ocupacional (Gross, 2013): a medida que la academia social adquirió reputación izquierdista, fue atrayendo selectivamente a académicos con esa orientación. El análisis de descomposición Mundlak indica que entre el 51% y el 57% del giro izquierdista se explica por la composición disciplinar —nuevos autores y subcampos que entran más a la izquierda— y solo el 16–20% por cambios en la orientación de autores a lo largo de sus carreras.
+
+La brecha entre lo sociocultural y lo económico es interpretada a la luz del concepto de "neoliberalismo progresista" (Fraser, 2019): una coalición en la que académicos, sectores financieros y tecnológicos comparten valores socioculturales avanzados mientras se mantienen moderados en lo económico.
+
+## Algunas limitaciones del estudio
+
+El estudio se limita a artículos en inglés y a revistas anglófonas, por lo que no puede generalizarse automáticamente a ciencias sociales en español u otros idiomas. Tampoco identifica las causas del patrón observado: no distingue si el giro se debe a cambios en temas de investigación, en los marcos de interpretación, en las prioridades editoriales o en la composición del cuerpo académico. Finalmente, la escala política utilizada es la de EE.UU. en 2025, lo que introduce un cierto anacronismo al evaluar textos de décadas anteriores con categorías contemporáneas.
+
+## Relevancia metodológica
+
+Más allá de sus hallazgos sustantivos, el paper demuestra que los LLMs pueden realizar clasificación ideológica a gran escala con alta confiabilidad, abriendo una nueva línea de investigación cuantitativa en sociología del conocimiento que antes era inviable por los costos del codificado humano.
+
+:::{.callout-note}
+## Referencia completa
+
+**Manzi, J.** (2026). The ideological orientation of academic social science research 1960–2024. *Theory and Society*, marzo 2026.
+
+DOI: [10.1007/s11186-026-09690-2](https://doi.org/10.1007/s11186-026-09690-2)
+:::
+
