@@ -166,7 +166,8 @@ a[href^="https"]::after {
 .bi-hexagon-fill,
 .bi-briefcase-fill,
 .bi-newspaper,
-.bi-people-fill
+.bi-people-fill,
+.bi-info-circle-fill
 {
   color: #ac221e;
 }
@@ -181,7 +182,8 @@ a[href^="https"]::after {
 .bi-hexagon-fill:hover,
 .bi-briefcase-fill:hover,
 .bi-newspaper:hover,
-.bi-people-fill:hover
+.bi-people-fill:hover,
+.bi-info-circle-fill:hover
 {
   color: #ECA0A0;
 }
@@ -332,15 +334,51 @@ a[href^="https"]::after {
 
 /* Botones hex */
 
+/* 1. EL CONTENEDOR PRINCIPAL (La fila) */
+.fila-descripcion {
+  display: flex;
+  align-items: center; 
+  gap: 40px; 
+  width: 90%; 
+  max-width: 800px; 
+  margin: 50px auto 25px auto;
+}
+
+/* 2. EL CONTENEDOR DEL LOGO (Hexágono) */
 .hex-buttons {
-    display: flex;
-    /*flex-wrap: wrap;*/
-    gap: 16px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; 
+  width: 150px; 
+}
+
+/* 3. EL TEXTO DESCRIPTIVO */
+.lineas-texto {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  color: #000000;
+  margin: 0; /* Resetea márgenes por defecto del navegador en las etiquetas <p> */
+}
+
+/* 4. ADAPTACIÓN PARA MÓVILES (Smartphones) */
+@media (max-width: 768px) {
+  .fila-descripcion {
+    /* Cambiamos la dirección para que el texto quede debajo del logo en pantallas pequeñas */
+    flex-direction: column; 
+    text-align: center; /* Centramos el contenido general */
+    gap: 20px; /* Reducimos el espacio entre logo y texto para móvil */
   }
-  
+
+  .lineas-texto {
+    /* Al pasar a una sola columna, centrar el texto suele verse mejor en móviles, 
+       pero puedes mantenerlo a la izquierda ('left') si prefieres la consistencia. */
+    text-align: center; 
+  }
+}
   .hex-button-about {
     display: flex;
     flex-wrap: wrap;
@@ -715,6 +753,42 @@ strong code
     transform: translateY(100%);
   }
 
+}
+
+/* Fade In Up Animation */
+/* Fade In Up - estado inicial (oculto) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.fade-in-up.visible {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Delays escalonados para múltiples hexágonos */
+.fade-in-up:nth-child(2) { animation-delay: 0.15s; }
+.fade-in-up:nth-child(3) { animation-delay: 0.30s; }
+.fade-in-up:nth-child(4) { animation-delay: 0.45s; }
+.fade-in-up:nth-child(5) { animation-delay: 0.60s; }
+.fade-in-up:nth-child(6) { animation-delay: 0.75s; }
+
+
+
+
+.fade-in-up.visible.texto-delay {
+  animation-delay: 0.2s;
 }
 
 

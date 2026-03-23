@@ -32,5 +32,11 @@
       "/equipo/posts/gc/index.html",
       "/equipo/posts/tbd/index.html"
     ]
+  },
+  {
+    "listing": "/equipo/posts/gc/index.html",
+    "items": [
+      "/proyectos/posts/CINDAI/index.html"
+    ]
   }
 ]

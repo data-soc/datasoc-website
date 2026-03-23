@@ -3,7 +3,6 @@ title: CINDAI
 subtitle: Ciencias de Datos de Investigación
 description: "CINDAI es el primer sistema de gestión de datos desarrollado por DataSOC. Su función consiste en facilitar el análisis de información científica en la Dirección de Investigación y Publicaciones de la Facultad de Ciencias Sociales"
 categories: [Gobernanza de Datos]
-team: Gabriel Cortés
 image: "featured.png"
 date: last-modified
 lang: es
@@ -25,12 +24,16 @@ format:
     code-copy: false
     page-layout: article
 filters: []
+
 listing:
   - id: equipo-proyecto
     contents:
-      - "../../../equipo/posts/gc/_metadata.yml" #agregar cuantos perfiles sea necesario
+      - "../../../equipo/posts/gc/_metadata.yml" 
+    # -  agregar cuantos perfiles sea necesario
     template: "../../team-card.ejs"
 --- 
+
+[cuerpo del documento]
 
 ## Responsable del Proyecto
 

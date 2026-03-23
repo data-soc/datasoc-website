@@ -40,8 +40,8 @@ website:
     # pinned: true
     right:
       - href: about.qmd
-        text: "<i class='bi bi-info'></i>Sobre DataSOC"
-      - href: index.qmd#lineash1
+        text: "<i class='bi bi-info-circle-fill'></i>Sobre DataSOC"
+      - href: index.qmd#lineas
         text: "<i class='bi bi-hexagon-fill'></i> Líneas de Trabajo"
       - href: index.qmd#proyectosh1
         text: "<i class='bi bi-briefcase-fill'></i> Proyectos y Reportes"

@@ -32,7 +32,7 @@ La relevancia de <span class="data-style">Data</span><span class="soc-style">SOC
 
 ## Nuestras Líneas de Trabajo
 
-<div class="hex-buttons">
+<div class="hex-button-about">
 
   <!-- I -->
   <a href="componentes/investigacion/index.qmd" class="btn-hex" title="I">
