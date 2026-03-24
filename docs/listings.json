@@ -30,11 +30,20 @@
       "/proyectos/posts/CINDAI/index.html",
       "/equipo/posts/a-jc/index.html",
       "/equipo/posts/gc/index.html",
+      "/equipo/posts/rc/index.html",
       "/equipo/posts/tbd/index.html"
     ]
   },
   {
     "listing": "/equipo/posts/gc/index.html",
+    "items": []
+  },
+  {
+    "listing": "/equipo/posts/rc/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/paper-ideology.html",
     "items": []
   }
 ]

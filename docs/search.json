@@ -89,5 +89,68 @@
     "title": "DataSOC – Centro de Datos Sociales",
     "section": "",
     "text": "DataSOC\n\n\nDataSOC es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos.\n\n\n  Nuestras Líneasde Trabajo  \n\n\n\n\n\n\n\nLÍNEAS DE TRABAJO\n\n\n\n\n    I INVESTIGACIÓN  \n\n\nInvestigación avanzada en ciencias de datos sociales, integrando la diversidad de datos producidos por las ciencias sociales\n\n\n\n\n    F FORMACIÓN  \n\n\nFormación metodológica avanzada en todos los niveles, incluyendo pregrado, postgrado y educación continua\n\n\n\n\n    T TRANSFERENCIA E IMPACTO  \n\n\nServicios especializados de acompañamiento técnico en el análisis, la visualización y el almacenamiento de datos sociales\n\n\n\n\n    C CERTIFICACIÓN DE CALIDAD  \n\n\nServicios de aseguramiento y certificación de la calidad de datos científicos-sociales bajo criterios de transparencia, integridad, accesibilidad y reproducibilidad en la producción, análisis y difusión de datos.\n\n\n\n\n    G GOBERNANZA DE DATOS  \n\n\nDesarrollo y transferencia de modelos de gobernanza de datos para la gestión universitaria\n\n\n\n\n\n\n\n\n\n\n\nPROYECTOS Y REPORTES\n\n\n\n\n\n\n\n\n\n\n\n\nCINDAI\n\n\nCINDAI es el primer sistema de gestión de datos desarrollado por DataSOC. Su función consiste en facilitar el análisis de información científica en la Dirección de…\n\n\n\n\n\nMarch 2026\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nNOTICIAS\n\n\n\n\n\n\n\n\n\nWorkshop DataSOC en la Universidad de Concepción\n\n\nInvestigadores DataSOC realizaron Workshop Herramientas computaciones para la investigación social reproducible en el Doctorado de Educación de la Universidad de Educación\n\n\n\n\n\nMar 16, 2026\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nEQUIPO\n\n\n\n\n\n  \n    \n        \n          \n            \n            \n              \n              \n                Juan Carlos Castillo\n                Director DataSOC\n                \n              \n            \n            \n            \n                \n                  \n                \n                \n                  \n                \n                \n                  \n                \n            \n          \n        \n        \n          \n            \n            \n              \n              \n                Gabriel Cortés\n                Asistente de Gestión de la Dirección de Investigación\n                \n              \n            \n            \n            \n                \n                  \n                \n                \n                  \n                \n            \n          \n        \n        \n          \n            \n            \n              \n              \n                TBD\n                \n                \n              \n            \n            \n            \n            \n          \n        \n    \n  \n\nNo matching items"
+  },
+  {
+    "objectID": "equipo/posts/rc/index.html",
+    "href": "equipo/posts/rc/index.html",
+    "title": "René Canales",
+    "section": "",
+    "text": "Sociólogo y Magíster en Sociología de la Pontificia Universidad Católica de Chile. Anteriormente se desempeñó como Asistente de Investigación del Observatorio de Cohesión Social del Centro de Estudios del Conflicto y la Cohesión Social (OCS-COES) y del Laboratorio de Investigación Social Abierta (LISA-COES). Actualmente se desempeña como Asistente del proyecto FIDA-DataSOC y Asistente del proyecto FONDECYT Regular No.1250518."
+  },
+  {
+    "objectID": "equipo/posts/rc/index.html#proyectos-relacionados",
+    "href": "equipo/posts/rc/index.html#proyectos-relacionados",
+    "title": "René Canales",
+    "section": "Proyectos Relacionados",
+    "text": "Proyectos Relacionados\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/paper-ideology.html",
+    "href": "blog/paper-ideology.html",
+    "title": "Paper recomendado: The ideological orientation of academic social science research 1960–2024",
+    "section": "",
+    "text": "Autor: James Manzi (Universidad de Oxford) Publicación: Theory and Society, marzo 2026 DOI: 10.1007/s11186-026-09690-2"
+  },
+  {
+    "objectID": "blog/paper-ideology.html#qué-hace-el-estudio",
+    "href": "blog/paper-ideology.html#qué-hace-el-estudio",
+    "title": "Paper recomendado: The ideological orientation of academic social science research 1960–2024",
+    "section": "¿Qué hace el estudio?",
+    "text": "¿Qué hace el estudio?\nManzi analiza aproximadamente 600.000 resúmenes (abstracts) de artículos de ciencias sociales en inglés publicados entre 1960 y 2024, con el objetivo de medir sistemáticamente su orientación ideológica a lo largo del tiempo. Para ello, utiliza modelos de lenguaje (LLMs) —específicamente GPT-4o— que clasifican cada abstract según un espectro político fijo calibrado para Estados Unidos en 2025, donde 0 es extrema derecha y 10 es extrema izquierda.\nLa base de datos principal es OpenAlex, y los artículos provienen de 367 revistas distribuidas en once disciplinas: antropología, comunicaciones, criminología, economía, estudios étnicos, estudios de género, ciencia política, psicología, administración pública, salud pública y sociología."
+  },
+  {
+    "objectID": "blog/paper-ideology.html#metodología-cómo-se-midió",
+    "href": "blog/paper-ideology.html#metodología-cómo-se-midió",
+    "title": "Paper recomendado: The ideological orientation of academic social science research 1960–2024",
+    "section": "Metodología: ¿cómo se midió?",
+    "text": "Metodología: ¿cómo se midió?\nEl autor construyó una escala de 0 a 10 anclada en actores políticos, medios de comunicación y think tanks reconocibles de EE.UU. en 2025 (por ejemplo: el punto 3 corresponde a posiciones como las de Ron DeSantis o la Heritage Foundation; el 7, a Elizabeth Warren o el Center for American Progress). Luego, GPT-4o respondió cinco preguntas sobre cada abstract: relevancia política, posición general, alineación izquierda/derecha, posición en temas económicos y posición en temas socioculturales.\nLa confiabilidad del método fue validada de múltiples formas: el LLM clasificó correctamente resúmenes anónimos de think tanks conocidos (r = 0,97), y la estabilidad entre dos rondas de clasificación independientes fue casi perfecta (ICC = 0,98). Además, los resultados se mantuvieron consistentes al usar modelos alternativos (GPT-4o-mini, Mixtral, Llama), variaciones en las preguntas, distintos criterios de selección de artículos y bases de datos alternativas (SCOPUS, Web of Science)."
+  },
+  {
+    "objectID": "blog/paper-ideology.html#cinco-hallazgos-principales-del-estudio",
+    "href": "blog/paper-ideology.html#cinco-hallazgos-principales-del-estudio",
+    "title": "Paper recomendado: The ideological orientation of academic social science research 1960–2024",
+    "section": "Cinco hallazgos principales del estudio",
+    "text": "Cinco hallazgos principales del estudio\n\n1. Predominio izquierdista persistente y generalizado\nAproximadamente el 90% de los artículos políticamente relevantes fueron clasificados como de izquierda durante todo el período 1960–2024. El puntaje promedio de todas las disciplinas estuvo siempre por encima de 5 (el punto neutral), con un rango que va de 5,7 en economía hasta 7,6 en estudios de género.\n\n\n2. Movimiento hacia la izquierda en todas las disciplinas desde 1990\nTodas las disciplinas mostraron una tendencia estadísticamente significativa hacia la izquierda entre 1990 y 2024. El viraje se aceleró notablemente a partir de 2010, especialmente en estudios de género, antropología, estudios étnicos y psicología.\n\n\n3. Diferencias entre disciplinas “policy-proximal” y “policy-distal”\nLas disciplinas más ligadas a políticas públicas (economía, ciencia política, administración pública, criminología, salud pública) mostraron cierta moderación hacia la derecha entre los años 70 y 80, antes de retomar el giro izquierdista. Las disciplinas más alejadas de la política pública (antropología, estudios de género, estudios étnicos, sociología, comunicaciones, psicología) mostraron un movimiento izquierdista más continuo y sostenido desde 1960.\n\n\n4. Mayor orientación izquierdista implica mayor homogeneidad ideológica\nLas disciplinas más izquierdistas tienden también a ser las más homogéneas internamente. La correlación entre el promedio del puntaje político y su desviación estándar es fuertemente negativa (r = −0,84). Dicho de otro modo: cuanto más a la izquierda es una disciplina, menos espacio tiene para voces discrepantes.\n\n\n5. El contenido sociocultural es más izquierdista que el económico, y la brecha crece\nDesde los primeros años del período, los temas socioculturales (género, raza, cultura, identidad) fueron clasificados más a la izquierda que los económicos. En los años 60 la diferencia era de 10–15%; hacia los años 2020, creció a 25–30%. Los temas económicos siguieron un patrón en “U” —moderación y retorno— mientras que los socioculturales alcanzaron niveles sin precedentes históricos."
+  },
+  {
+    "objectID": "blog/paper-ideology.html#a-qué-se-debe-este-patrón-la-explicación-sociológica",
+    "href": "blog/paper-ideology.html#a-qué-se-debe-este-patrón-la-explicación-sociológica",
+    "title": "Paper recomendado: The ideological orientation of academic social science research 1960–2024",
+    "section": "¿A qué se debe este patrón? La explicación sociológica",
+    "text": "¿A qué se debe este patrón? La explicación sociológica\nManzi no concluye que el sesgo sea necesariamente un problema de distorsión deliberada. Plantea que los resultados son compatibles con al menos dos explicaciones: que la investigación social sistemática conduce genuinamente a conclusiones más alineadas con valores liberales, o que ciertos temas se han vuelto más salientes y son inherentemente más fáciles de enmarcar desde perspectivas progresistas.\nLa explicación estructural que el autor considera más respaldada por los datos es el modelo de autoselección ocupacional (Gross, 2013): a medida que la academia social adquirió reputación izquierdista, fue atrayendo selectivamente a académicos con esa orientación. El análisis de descomposición Mundlak indica que entre el 51% y el 57% del giro izquierdista se explica por la composición disciplinar —nuevos autores y subcampos que entran más a la izquierda— y solo el 16–20% por cambios en la orientación de autores a lo largo de sus carreras.\nLa brecha entre lo sociocultural y lo económico es interpretada a la luz del concepto de “neoliberalismo progresista” (Fraser, 2019): una coalición en la que académicos, sectores financieros y tecnológicos comparten valores socioculturales avanzados mientras se mantienen moderados en lo económico."
+  },
+  {
+    "objectID": "blog/paper-ideology.html#algunas-limitaciones-del-estudio",
+    "href": "blog/paper-ideology.html#algunas-limitaciones-del-estudio",
+    "title": "Paper recomendado: The ideological orientation of academic social science research 1960–2024",
+    "section": "Algunas limitaciones del estudio",
+    "text": "Algunas limitaciones del estudio\nEl estudio se limita a artículos en inglés y a revistas anglófonas, por lo que no puede generalizarse automáticamente a ciencias sociales en español u otros idiomas. Tampoco identifica las causas del patrón observado: no distingue si el giro se debe a cambios en temas de investigación, en los marcos de interpretación, en las prioridades editoriales o en la composición del cuerpo académico. Finalmente, la escala política utilizada es la de EE.UU. en 2025, lo que introduce un cierto anacronismo al evaluar textos de décadas anteriores con categorías contemporáneas."
+  },
+  {
+    "objectID": "blog/paper-ideology.html#relevancia-metodológica",
+    "href": "blog/paper-ideology.html#relevancia-metodológica",
+    "title": "Paper recomendado: The ideological orientation of academic social science research 1960–2024",
+    "section": "Relevancia metodológica",
+    "text": "Relevancia metodológica\nMás allá de sus hallazgos sustantivos, el paper demuestra que los LLMs pueden realizar clasificación ideológica a gran escala con alta confiabilidad, abriendo una nueva línea de investigación cuantitativa en sociología del conocimiento que antes era inviable por los costos del codificado humano.\n\n\n\n\n\n\nNotaReferencia completa\n\n\n\nManzi, J. (2026). The ideological orientation of academic social science research 1960–2024. Theory and Society, marzo 2026.\nDOI: 10.1007/s11186-026-09690-2"
   }
 ]

@@ -1,0 +1,18 @@
+---
+title: René Canales
+toc: false
+listing:
+  - id: listing-proyectos
+    contents: "../../../proyectos/posts/*/index.qmd"
+    template: "../../proyectos-relacionados.ejs"
+    include:
+      team: "René Canales"
+---
+
+Sociólogo y Magíster en Sociología de la Pontificia Universidad Católica de Chile. Anteriormente se desempeñó como Asistente de Investigación del Observatorio de Cohesión Social del Centro de Estudios del Conflicto y la Cohesión Social (OCS-COES) y del Laboratorio de Investigación Social Abierta (LISA-COES). Actualmente se desempeña como Asistente del proyecto FIDA-DataSOC y Asistente del proyecto FONDECYT Regular No.1250518.
+
+
+## Proyectos Relacionados
+
+::: {#listing-proyectos}
+:::
