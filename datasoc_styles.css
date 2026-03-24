@@ -18,6 +18,13 @@ body {
 /* Compensar navbar fija al usar anclas (#equipo, etc.) */
 [id] { scroll-margin-top: 80px; }
 
+.navbar {
+  border-bottom: 3px solid #ac221e;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  max-height: 91px;
+}
+
 
 /* =========================================================
    2. BACKGROUNDS
@@ -38,6 +45,10 @@ body {
   color: #000000;
   font-family: "Courier New", system-ui; 
   font-weight: bold;
+}
+
+body {
+  font-size: 1.2rem;
 }
 
 
@@ -71,14 +82,14 @@ body {
   font-weight: normal;
   line-height: 1.15;
   margin: 0 0 .5rem 0;
-  font-size: clamp(1.6rem, 5vw, 3rem);
+  font-size: clamp(1.92rem, 6vw, 3.6rem);
   color: inherit;  /* <-- por defecto usa el color del contexto (negro en secciones claras) */
 }
 .section-lead {
   text-align: center;
   margin: 0 auto;
   max-width: 65ch;
-  font-size: clamp(1rem, 3.5vw, 1.5rem);
+  font-size: clamp(1.2rem, 4.2vw, 1.8rem);
   color: inherit;
   font-family: "Courier New", Courier, monospace;
 }
@@ -116,7 +127,7 @@ body {
    ========================================================= */
 
 .navbar-logo {
-  max-height: 75px;
+  max-height: 90px;
 }
 
 .nav-link:hover {
@@ -166,7 +177,8 @@ a[href^="https"]::after {
 .bi-hexagon-fill,
 .bi-briefcase-fill,
 .bi-newspaper,
-.bi-people-fill
+.bi-people-fill,
+.bi-info-circle-fill
 {
   color: #ac221e;
 }
@@ -181,7 +193,8 @@ a[href^="https"]::after {
 .bi-hexagon-fill:hover,
 .bi-briefcase-fill:hover,
 .bi-newspaper:hover,
-.bi-people-fill:hover
+.bi-people-fill:hover,
+.bi-info-circle-fill:hover
 {
   color: #ECA0A0;
 }
@@ -214,12 +227,13 @@ a[href^="https"]::after {
 .btn-21 {
   cursor: pointer;
   font-family: 'Baumans', system-ui;
-  font-size: 20px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   bottom: -50px;
+  margin-top: 2rem;
   animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /
-  width: 140px;
-  height: 80px;
+  width: 168px;
+  height: 96px;
   position: relative;
   color: white;
   transition: all 0.5s ease-in-out;
@@ -332,15 +346,51 @@ a[href^="https"]::after {
 
 /* Botones hex */
 
+/* 1. EL CONTENEDOR PRINCIPAL (La fila) */
+.fila-descripcion {
+  display: flex;
+  align-items: center; 
+  gap: 40px; 
+  width: 90%; 
+  max-width: 800px; 
+  margin: 20px auto 10px auto;
+}
+
+/* 2. EL CONTENEDOR DEL LOGO (Hexágono) */
 .hex-buttons {
-    display: flex;
-    /*flex-wrap: wrap;*/
-    gap: 16px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; 
+  width: 150px; 
+}
+
+/* 3. EL TEXTO DESCRIPTIVO */
+.lineas-texto {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.6;
+  text-align: left;
+  color: #000000;
+  margin: 0; /* Resetea márgenes por defecto del navegador en las etiquetas <p> */
+}
+
+/* 4. ADAPTACIÓN PARA MÓVILES (Smartphones) */
+@media (max-width: 768px) {
+  .fila-descripcion {
+    /* Cambiamos la dirección para que el texto quede debajo del logo en pantallas pequeñas */
+    flex-direction: column; 
+    text-align: center; /* Centramos el contenido general */
+    gap: 20px; /* Reducimos el espacio entre logo y texto para móvil */
   }
-  
+
+  .lineas-texto {
+    /* Al pasar a una sola columna, centrar el texto suele verse mejor en móviles, 
+       pero puedes mantenerlo a la izquierda ('left') si prefieres la consistencia. */
+    text-align: center; 
+  }
+}
   .hex-button-about {
     display: flex;
     flex-wrap: wrap;
@@ -485,7 +535,10 @@ strong code
 
 /* Alturas por tipo (puedes ajustar) */
 .parallax-image-container  { min-height: 800px; } /* Noticias/Recomendados */
-.parallax-image-container2 { min-height: 600px; } /* Sobre LISA */
+.parallax-image-container2 { min-height: 750px !important; 
+  padding: 4rem 1rem;
+  min-height: 100vh !important;
+} /* Sobre LISA */
 
 .parallax-inner {
   width: min(100%, 1200px);
@@ -511,15 +564,15 @@ strong code
   display: flex;                 /* en desktop ya no es block */
   align-items: center;           /* centra vertical */
   justify-content: center;       /* centra horizontal el wrapper */
-  min-height: 600px;             /* la altura que ya usabas */
+  min-height: 100vh;             /* la altura que ya usabas */
 }
 
 /* Wrapper centrado y un poco más abajo del centro */
 .parallax-image-container2 .parallax-inner {
   width: min(100%, 1100px);
-  padding: 0 1rem;               /* elimina padding superior grande */
+  padding: 3 1rem;               /* elimina padding superior grande */
   text-align: center;
-  transform: translateY(8%);     /* empuja ~8% hacia abajo (ajusta a gusto) */
+  transform: none;  
 }
 
 /* Fuerza título y lead centrados (por si el tema les aplica estilos) */
@@ -541,7 +594,8 @@ strong code
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 480px;
+  min-height: 100vh;
+  min-height: 100dvh;
   padding: 3rem 0;
   overflow: visible;
 }
@@ -715,6 +769,42 @@ strong code
     transform: translateY(100%);
   }
 
+}
+
+/* Fade In Up Animation */
+/* Fade In Up - estado inicial (oculto) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.fade-in-up.visible {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Delays escalonados para múltiples hexágonos */
+.fade-in-up:nth-child(2) { animation-delay: 0.15s; }
+.fade-in-up:nth-child(3) { animation-delay: 0.30s; }
+.fade-in-up:nth-child(4) { animation-delay: 0.45s; }
+.fade-in-up:nth-child(5) { animation-delay: 0.60s; }
+.fade-in-up:nth-child(6) { animation-delay: 0.75s; }
+
+
+
+
+.fade-in-up.visible.texto-delay {
+  animation-delay: 0.2s;
 }
 
 

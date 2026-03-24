@@ -1,9 +1,13 @@
 title: Gabriel Cortés
 subtitle: Asistente de Gestión de la Dirección de Investigación
-image: https://intranetdev.facso.cl/wp-content/uploads/2025/10/Gabriel-Cortes_600.jpg
+image: https://intranetdev.facso.cl/wp-content/uploads/2025/10/Gabriel-Cortes_600.jpg # puede ser un archivo local
 contacto: gabriel.cortes@uchile.cl
-github: gabcortes97
-bio: Lorem ipsum dolor sit amet.
+github: gabcortes97 # Solo el nombre de usuarios
+# web-personal: 
+shortbio: 
+ "Sociólogo de la Universidad de Chile y Magíster en Métodos para la Investigación Social
+ en la Universidad Diego Portales. Actualmente es Asistente de Gestión en la Dirección de Investigación
+ de la Universidad de Chile y colaborador en la formulación del proyecto FIDA-DataSOC" 
 permalink: /equipo/posts/gc/index.qmd
 about:
   template: trestles
@@ -13,11 +17,11 @@ about:
       href: mailto:gabriel.cortes@uchile.cl
       target: _blank
       text: Contacto
-    - icon: github
+    - icon: github # tanto github como el sitio web personal son opcionales
       href: https://github.com/gabcortes97
       target: _blank
       text: Github
     # - icon: globe
-    #   href: https://jc-castillo.com
+    #   href: linkedin, orcid, blogs, cualquier sitio web personal. 
     #   target: _blank
     #   text: Web Personal
