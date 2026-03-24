@@ -19,7 +19,7 @@ website:
     # right: |
     #    Last Update: {{< modified isodate>}}
   navbar:
-    logo: resources/imagenes/logo-d-nobg.png
+    logo: resources/imagenes/navbar-logo.png
     background: "#FFFFFF"
     # tools: 
     #    - icon: github
@@ -50,7 +50,8 @@ website:
 format:
   html:
     theme: 
-      light: flatly
+      - flatly
+      - resources/custom_datasoc.scss
     css: 
       - datasoc_styles.css
     toc: true

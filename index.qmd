@@ -6,7 +6,7 @@ format: html
 page-navigation: false
 toc: false
 about:
-  image: "resources/imagenes/sharing-default-2.png"
+  # image: "resources/imagenes/navbar-logo.png"
   id: hero-heading
   template: jolla
   image-shape: rectangle
