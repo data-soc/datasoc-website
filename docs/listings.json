@@ -1,20 +1,58 @@
 [
   {
-    "listing": "/about.html",
-    "items": [
-      "/equipo/posts/a-jc/index.html",
-      "/equipo/posts/gc/index.html",
-      "/equipo/posts/tbd/index.html"
-    ]
-  },
-  {
     "listing": "/proyectos/proyectos.html",
     "items": [
       "/proyectos/posts/CINDAI/index.html"
     ]
   },
   {
-    "listing": "/proyectos/posts/CINDAI/index.html",
+    "listing": "/index.html",
+    "items": [
+      "/noticias/posts/taller-udec/index.html",
+      "/proyectos/posts/CINDAI/index.html",
+      "/equipo/posts/a-jc/index.html",
+      "/equipo/posts/b-dm/index.html",
+      "/equipo/posts/c- gc/index.html",
+      "/equipo/posts/d- cc/index.html",
+      "/equipo/posts/d- rc/index.html",
+      "/equipo/posts/e- tu/index.html",
+      "/equipo/posts/f- ka/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/posts/b-dm/index.html",
+    "items": [
+      "/proyectos/posts/CINDAI/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/equipo.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/paper-ideology.html",
+    "items": []
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/equipo/posts/a-jc/index.html",
+      "/equipo/posts/b-dm/index.html",
+      "/equipo/posts/c- gc/index.html",
+      "/equipo/posts/d- cc/index.html",
+      "/equipo/posts/d- rc/index.html",
+      "/equipo/posts/e- tu/index.html",
+      "/equipo/posts/f- ka/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/posts/c- gc/index.html",
+    "items": [
+      "/proyectos/posts/CINDAI/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/posts/d- rc/index.html",
     "items": []
   },
   {
@@ -24,26 +62,7 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/noticias/posts/taller-udec/index.html",
-      "/proyectos/posts/CINDAI/index.html",
-      "/equipo/posts/a-jc/index.html",
-      "/equipo/posts/gc/index.html",
-      "/equipo/posts/rc/index.html",
-      "/equipo/posts/tbd/index.html"
-    ]
-  },
-  {
-    "listing": "/equipo/posts/gc/index.html",
-    "items": []
-  },
-  {
-    "listing": "/equipo/posts/rc/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/paper-ideology.html",
+    "listing": "/proyectos/posts/CINDAI/index.html",
     "items": []
   }
 ]

@@ -24,11 +24,12 @@ format:
     code-copy: false
     page-layout: article
 filters: []
+team: "Gabriel Cortés"
 
 listing:
   - id: equipo-proyecto
     contents:
-      - "../../../equipo/posts/gc/_metadata.yml" 
+      - "../../../equipo/posts/c- gc/_metadata.yml" 
     # -  agregar cuantos perfiles sea necesario
     template: "../../team-card.ejs"
 --- 

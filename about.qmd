@@ -1,13 +1,11 @@
 ---
 title: "Sobre DataSOC"
 subtitle: "Ciencia de Datos Sociales"
-format: html
+format:
+  html:
+    page-layout: full
 date: last-modified
 # image: "resources/imagenes/logo-d-nobg.png"
-about:
-  id: hero-heading
-  template: marquee
-  image-shape: rectangle
 listing:
   - id: equipo
     template: people-box.ejs
@@ -35,29 +33,25 @@ La relevancia de <span class="data-style">Data</span><span class="soc-style">SOC
 <div class="hex-button-about">
 
   <!-- I -->
-  <a href="componentes/investigacion/index.qmd" class="btn-hex" title="I">
-    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
-      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
-      <text x="50" y="85" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
-        font-size="80" fill="#7a0a0a">I</text>
-      <text x="50" y="63" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
-        font-size="12" fill="white" letter-spacing="0.5">INVESTIGACIÓN</text>
-    </svg>
-  </a>
+<a href="componentes/investigacion/index.qmd" class="btn-hex" aria-label="Ir a la sección de Investigación">
+  <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+    <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+    <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">I</text>
+    <text x="50" y="63" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">INVESTIGACIÓN</text>
+  </svg>
+</a>
 
   <!-- F -->
-  <a href="#f" class="btn-hex" title="F">
+   <a href="#f" class="btn-hex" title="F">
     <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
       <text x="50" y="85" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
-        font-size="72" fill="#7a0a0a">F</text>
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">F</text>
       <text x="50" y="63" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
         font-size="12" fill="white" letter-spacing="0.5">FORMACIÓN</text>
     </svg>
   </a>
@@ -68,13 +62,13 @@ La relevancia de <span class="data-style">Data</span><span class="soc-style">SOC
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
       <text x="50" y="85" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
-        font-size="72" fill="#7a0a0a">T</text>
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">T</text>
       <text x="50" y="55" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
         font-size="12" fill="white" letter-spacing="0.5">TRANSFERENCIA</text>
         <text x="50" y="70" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
         font-size="12" fill="white" letter-spacing="0.5">E IMPACTO</text>
     </svg>
   </a>
@@ -85,13 +79,13 @@ La relevancia de <span class="data-style">Data</span><span class="soc-style">SOC
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
       <text x="50" y="85" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
-        font-size="72" fill="#7a0a0a">C</text>
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">C</text>
       <text x="50" y="55" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
         font-size="12" fill="white" letter-spacing="0.5">CERTIFICACIÓN</text>
         <text x="50" y="70" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
         font-size="12" fill="white" letter-spacing="0.5">DE CALIDAD</text>
     </svg>
   </a>
@@ -102,13 +96,13 @@ La relevancia de <span class="data-style">Data</span><span class="soc-style">SOC
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
       <text x="50" y="85" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
-        font-size="72" fill="#7a0a0a">G</text>
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">G</text>
       <text x="50" y="55" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
         font-size="12" fill="white" letter-spacing="0.5">GOBERNANZA</text>
         <text x="50" y="70" text-anchor="middle"
-        font-family="Oswald, Impact, sans-serif" font-weight="350"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
         font-size="12" fill="white" letter-spacing="0.5">DE DATOS</text>
     </svg>
   </a>

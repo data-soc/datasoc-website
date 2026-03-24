@@ -253,7 +253,7 @@ window.addEventListener("load", function () {
 
 :::{.fila-descripcion}
 :::{.hex-buttons .fade-in-up}
-  <a href="#f" class="btn-hex" title="F">
+  <a href="componentes/formacion/index.qmd" class="btn-hex" title="F">
     <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
@@ -273,7 +273,7 @@ window.addEventListener("load", function () {
 
 :::{.fila-descripcion }
 :::{.hex-buttons .fade-in-up}
-  <a href="#t" class="btn-hex" title="T">
+  <a href="componentes/transferencia/index.qmd" class="btn-hex" title="T">
     <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
@@ -296,7 +296,7 @@ window.addEventListener("load", function () {
 
 :::{.fila-descripcion}
 :::{.hex-buttons .fade-in-up}
-  <a href="#c" class="btn-hex" title="C">
+  <a href="componentes/certificacion/index.qmd" class="btn-hex" title="C">
     <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
@@ -319,7 +319,7 @@ Servicios de [**aseguramiento y certificación**]{.soc-style} de la calidad de d
 
 :::{.fila-descripcion}
 :::{.hex-buttons .fade-in-up}
-  <a href="#g" class="btn-hex" title="G">
+  <a href="componentes/gobernanza/index.qmd" class="btn-hex" title="G">
     <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
       <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
       <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
@@ -399,8 +399,13 @@ Servicios de [**aseguramiento y certificación**]{.soc-style} de la calidad de d
 
 ::: {#equipo}
 :::
+
+<div style="padding-bottom: 3rem;"></div>
+
 :::
 :::
+
+
 
 
 ```{=html}

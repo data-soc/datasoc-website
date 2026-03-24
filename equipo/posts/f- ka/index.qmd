@@ -1,0 +1,23 @@
+---
+title: Katherine Aravena
+subtitle: Asistente de Investigación
+contacto: katherine.aravena@ug.uchile.cl
+github: https://github.com/KAravena
+web: https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/
+image: https://correlacional.netlify.app/images/ayudantes/katherine.png
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:katherine.aravena@ug.uchile.cl
+      text: Contacto
+    - icon: github
+      href: https://github.com/KAravena
+      text: Github
+    - icon: globe
+      href: https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/
+      text: Web Personal
+---
+
+Estudiante de Sociología en la Universidad de Chile, ayudante de Economía, Diseños de Investigación (2025) y Estadística Correlacional (2025). Ayudante de investigación en el Laboratorio de Investigación Social Abierta (LISA–COES), pasante del Museo de la Educación Gabriela Mistral y miembro del NIIE-DP. Certificada por Duke en análisis de datos y Yale en mercados financieros.

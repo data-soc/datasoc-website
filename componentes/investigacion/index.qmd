@@ -1,6 +1,10 @@
 ---
 title: "Investigación"
-format: html
+format:
+  html:
+    page-layout: full
+    grid:
+      body-width: 900px # Ajusta este valor (ej. 1000px, 1200px) a tu gusto
 categories:
 - Líneas
 - Investigación

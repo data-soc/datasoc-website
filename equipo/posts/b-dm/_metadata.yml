@@ -1,0 +1,25 @@
+title: Daniel Miranda
+subtitle: Asesor de proyectos de investigación
+image: https://intranet.facso.cl/wp-content/uploads/2025/10/Daniel-miranda_600.jpg # puede ser un archivo local
+contacto: danmiranda@uchile.cl
+# github: gabcortes97 # Solo el nombre de usuarios
+# web-personal: 
+shortbio: 
+ "Psicólogo, Universidad de Talca. Magíster en Sociología y Magíster en Psicología Social Comunitaria, Pontificia Universidad de Chile. Doctor en Psicología, Pontificia Universidad Católica de Chile. Profesor Asistente, Departamento de Psicología" 
+permalink: /equipo/posts/b-dm/index.qmd
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:danmiranda@uchile.cl
+      target: _blank
+    #   text: Contacto
+    # - icon: github # tanto github como el sitio web personal son opcionales
+    #   href: https://github.com/gabcortes97
+    #   target: _blank
+    #   text: Github
+    # - icon: globe
+    #   href: linkedin, orcid, blogs, cualquier sitio web personal. 
+    #   target: _blank
+    #   text: Web Personal

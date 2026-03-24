@@ -1,0 +1,41 @@
+---
+title: "Certificación de Calidad en Datos Sociales"
+format:
+  html:
+    page-layout: full
+    grid:
+      body-width: 900px # Ajusta este valor (ej. 1000px, 1200px) a tu gusto
+categories:
+- Líneas
+- Formación
+date: last-modified
+image: certificacion.png
+about:
+  id: hero-heading
+  template: solana
+  image-shape: rounded
+---
+
+## Nuestro Diagnóstico
+
+Debido a la intensificación en la producción de datos, nunca antes se había contado con tantos “conjuntos de datos como productos completos y sustituibles, en formatos de fácil transferencia” (Edwards et al., 2013, p. 8). Sin embargo, la mayor disponibilidad de datos no garantiza su calidad. Para las disciplinas científicas, el valor de un dato depende estrechamente de comprender con precisión los procedimientos mediante los cuales fue producido. Este proceso de comodificación de los datos, que multiplica las fuentes de información y oscurece su contexto de producción, altera radicalmente la relación entre conocimiento y no-conocimiento, desafiando la capacidad de la ciencia para arbitrar la calidad y legitimidad del conocimiento (Edwards et al., 2013).
+
+En este contexto, se ha intensificado a nivel global una crisis de confianza política y ciudadana en el rol público de la ciencia, particularmente en las ciencias sociales (Breznau, 2021). Esta desconfianza se expresa en recortes presupuestarios, cierre o reducciones de programas académicos así como un creciente escepticismo general respecto de los hallazgos, métodos y motivaciones de la comunidad científica (Robertson, 2025). Asimismo, en Chile, durante los últimos años han estallado de manera periódica polémicas derivadas de imprecisiones en encuestas de opinión pública y sus supuestos efectos sobre resultados electorales (Saldaña, 2025).
+
+Ante esta situación de cuestionamiento y escepticismo sobre los datos, han surgido iniciativas internacionales para intentar arbitrar la calidad de datos, centros de datos y encuestadoras. Destaca la experiencia del German Data Forum (RatSWD) que, desde 2008, acredita la calidad de Centros de Datos e Investigación a partir de estándares y criterios que incluyen originalidad, valor añadido, protección de datos sensibles, documentación de calidad y sustentabilidad institucional. En Estados Unidos, también se observan iniciativas similares, aunque más orientadas a las encuestadoras de opinión pública. Por ejemplo, la American Association for Public Opinion Research (AAPOR) cuenta con la Transparency Iniciative, que promueve entre sus miembros la transparencia en el diseño muestral y metodológico de sus estudios.
+
+En Chile, diversas instituciones participan activamente en la producción de datos sociales – como el INE, MIDESOC, CEP –, además de iniciativas dirigidas desde universidades como la Encuesta Bicentenario de la Universidad Católica o los servicios ofrecidos por el Centro de Microdatos de la Universidad de Chile. Por otro lado, iniciativas como el Consorcio IDI buscan la construcción de una infraestructura de datos integrados en el contexto de la discusión de una ley que crea un Sistema Nacional de Gestión de Datos (actualmente en su primer trámite constitucional en el Senado, boletín 17590-05). Pese a esto, y a diferencia de otros países, hasta ahora no existe un sistema formal de certificación de la calidad de los datos sociales, ni de los centros que los producen. 
+
+## Nuestra Propuesta
+
+En este contexto, nuestra propuesta es establecer un sistema formal de aseguramiento y certificación de calidad de datos científicos-sociales, basado en estándares internacionales adaptados al contexto nacional. Esto incluye los siguientes componentes:
+
+- **Sistematización de estándares internacionales**: Se realizará una revisión exhaustiva de las experiencias internacionales en certificación de calidad de datos sociales, como el German Data Forum (RatSWD) y la American Association for Public Opinion Research (AAPOR). A partir de este análisis, se identificarán los estándares y criterios más relevantes que puedan ser adaptados al contexto chileno.
+
+- **Sistematización de estándares nacionales**: Se llevará a cabo un mapeo de las prácticas actuales de producción de datos sociales en Chile, identificando las fortalezas y debilidades en términos de calidad, transparencia y reproducibilidad. Este diagnóstico permitirá adaptar los estándares internacionales a las particularidades del contexto nacional. De tal forma, se establecerán vínculos con iniciativas tales como el Instituto Milenio de Fundamentos de los Datos o el Consorcio IDI, y se seguirá la discusión sobre el proyecto de ley que crea el Sistema Nacional de Gestión de Datos. 
+
+- **Generación de protocolos de calidad de los datos**: Se desarrollarán protocolos detallados que establezcan los criterios y procedimientos para la certificación de calidad de datos sociales. Estos protocolos incluirán aspectos como el diseño muestral, la documentación de procesos, la protección de datos sensibles y la reproducibilidad de los análisis.
+
+- **Creación del “Sello DataSoc”**: Se desarrollará un sistema de certificación que evalúe y garantice la calidad de los datos sociales producidos por instituciones, encuestadoras y centros de datos. Este sello certificará aspectos clave como la transparencia en el diseño muestral, la documentación detallada de los procesos de recolección y análisis, la protección de datos sensibles y la reproducibilidad de los resultados.
+
+
