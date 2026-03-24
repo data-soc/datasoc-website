@@ -18,6 +18,13 @@ body {
 /* Compensar navbar fija al usar anclas (#equipo, etc.) */
 [id] { scroll-margin-top: 80px; }
 
+.navbar {
+  border-bottom: 3px solid #ac221e;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  max-height: 91px;
+}
+
 
 /* =========================================================
    2. BACKGROUNDS
