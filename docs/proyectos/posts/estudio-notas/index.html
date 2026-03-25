@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="El Estudio de Notas de la Facultad de Ciencias Sociales es el primer análisis enfocado exclusivamente a comprender cómo se distribuyen las notas en la Facultad y cuáles son las características de los estudiantes que determinan esto">
 
-<title>Tomás Urzúa</title>
+<title>Estudio de Notas FACSO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-c7836dec1362a212b7800621d6c05a90.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-7880c26ce17c45db2e921a9b496d9e39.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,36 +57,36 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-proyectos .list');
+    const listingTargetEl = window.document.querySelector('#listing-equipo-proyecto .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-contacto','listing-github','listing-shortbio','listing-permalink','listing-about',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-contacto","listing-github","listing-shortbio","listing-permalink","listing-about"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-proyectos'] = new List('listing-listing-proyectos', options);
+    window['quarto-listings']['listing-equipo-proyecto'] = new List('listing-equipo-proyecto', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -98,6 +99,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -144,8 +146,8 @@ window.Quarto = {
     <img src="../../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -179,70 +181,62 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="featured.png" class="about-image
-  round " style="height: 20em; width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+    <img src="featured.png" class="about-image " style="width: 100%;">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tomás Urzúa</h1>
-<p class="subtitle lead">Asistente de investigación</p>
+<h1 class="title">Estudio de Notas FACSO</h1>
+<p class="subtitle lead">Diagnóstico y análisis de las notas de estudiantes de pregrado</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Investigación</div>
+  </div>
+  </div>
+<div>
+  <div class="description">
+    El Estudio de Notas de la Facultad de Ciencias Sociales es el primer análisis enfocado exclusivamente a comprender cómo se distribuyen las notas en la Facultad y cuáles son las características de los estudiantes que determinan esto
+  </div>
 </div>
 <div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">25 de marzo de 2026</p>
+    </div>
   </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:tomas.urzua@ug.uchile.cl" class="about-link" rel="" target="_blank">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Contacto</span>
-  </a>
-  <a href="https://github.com/tomasurzuam" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Licenciado en Sociología de la Universidad de Chile y estudiante del Magíster en Ciencias Sociales de la misma institución. Anteriormente se desempeñó como Asistente de Investigación del Observatorio de Cohesión Social del Centro de Estudios del Conflicto y la Cohesión Social (OCS-COES). En la actualidad es Tesista del Proyecto Fondecyt Regular N°1250518, “Justicia de mercado y merecimiento del bienestar social”. Sus áreas de investigación abordan sociología de la educación, economía moral y metodologías cuantitativas a través de un marco de ciencia abierta y reproducibilidad de los datos.</p>
-<section id="proyectos-relacionados" class="level2">
-<h2 data-anchor-id="proyectos-relacionados">Proyectos Relacionados</h2>
-<div id="listing-listing-proyectos" class="quarto-listing quarto-listing-container-custom">
-<style>
-.proyecto-card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid #e0e0e0;
-}
-.proyecto-info {
-  flex: 1;
-}
-.proyecto-titulo {
-  font-weight: 700;
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: inherit;
-}
-.proyecto-titulo:hover {
-  color: #ac221e;
-}
-.proyecto-imagen {
-  width: 120px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-</style>
-<div class="listing-no-matching d-none">No matching items</div>
+</header> <main class="content" id="quarto-document-content">
+<p>El Estudio de Notas es un proyecto dirigido por DataSOC que tiene como objetivo describir y analizar el rendimiento académico de las y los estudiantes de pregrado de FACSO, sus cambios en el tiempo y sus factores asociados. Para ello, el estudio utiliza datos extraídos de UCampus entre 2021 y 2024. En esta línea, el proyecto contempla una investigación en dos etapas: primero una enfocada en los estudiantes como unidad de análisis, y posteriormente una centrada en los cursos impartidos por la Facultad, en orden de comprender en profundidad cómo se distribuyen las notas y cuáles son los determinantes que explican esto.</p>
+<section id="responsable-del-proyecto" class="level2">
+<h2 data-anchor-id="responsable-del-proyecto">Responsable del Proyecto</h2>
+<div id="listing-equipo-proyecto" class="quarto-listing quarto-listing-container-custom">
+  <div class="team-card">
+    <div class="team-photo-cell">
+      <img src="featured.png" alt="Foto de Tomás Urzúa" class="team-image">
+      <a href="../../../equipo/posts/e- tu/index.html" class="team-name-link">
+        <div class="team-title">Tomás Urzúa</div>
+      </a>
+      <div class="team-subtitle">Asistente de investigación</div>
+      <div class="team-icons">
+        <a href="mailto:tomas.urzua@ug.uchile.cl" class="contact-link" target="_blank" title="Contacto">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+          <a href="https://github.com/tomasurzuam" class="github-link" target="_blank" title="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+      </div>
+    </div>
+    <div class="team-bio">Licenciado en Sociología de la Universidad de Chile y estudiante del  Magíster en Ciencias Sociales mención Sociología de la Modernización.</div>
+  </div>
+<div class="listing-no-matching d-none">No hay resultados</div>
 </div>
 
 
 </section>
-</main></div>
+</main> 
+  </div>
 </div>
  <!-- /main -->
 <section class="bg-black text-white footer border-top" id="footer" style="background-color: #000 !important;">
@@ -284,68 +278,6 @@ window.Quarto = {
 </section>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -362,6 +294,11 @@ window.Quarto = {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -700,4 +637,5 @@ window.Quarto = {
 
 
 
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

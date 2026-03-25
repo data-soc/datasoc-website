@@ -2,13 +2,15 @@
   {
     "listing": "/proyectos/proyectos.html",
     "items": [
-      "/proyectos/posts/CINDAI/index.html"
+      "/proyectos/posts/CINDAI/index.html",
+      "/proyectos/posts/estudio-notas/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
       "/noticias/posts/taller-udec/index.html",
+      "/proyectos/posts/estudio-notas/index.html",
       "/proyectos/posts/CINDAI/index.html",
       "/equipo/posts/a-jc/index.html",
       "/equipo/posts/b-dm/index.html",
@@ -63,6 +65,14 @@
   },
   {
     "listing": "/proyectos/posts/CINDAI/index.html",
+    "items": []
+  },
+  {
+    "listing": "/equipo/posts/e- tu/index.html",
+    "items": []
+  },
+  {
+    "listing": "/proyectos/posts/estudio-notas/index.html",
     "items": []
   }
 ]

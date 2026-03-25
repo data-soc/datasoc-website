@@ -1,23 +1,17 @@
 ---
 title: Tomás Urzúa
-subtitle: Asistente de Investigación
-contacto: tomas.urzua@ug.uchile.cl
-github: https://github.com/tomasurzuam
-web: https://www.linkedin.com/in/tom%C3%A1s-urz%C3%BAa-moreno-b65755375/
-image: featured.png
-about:
-  template: trestles
-  image-shape: round
-  links:
-    - icon: envelope
-      href: mailto:tomas.urzua@ug.uchile.cl
-      text: Contacto
-    - icon: github
-      href: https://github.com/tomasurzuam
-      text: Github
-    - icon: globe
-      href: https://www.linkedin.com/in/tom%C3%A1s-urz%C3%BAa-moreno-b65755375/
-      text: Web Personal
+toc: false
+listing:
+  - id: listing-proyectos
+    contents: "../../../proyectos/posts/*/index.qmd"
+    template: "../../proyectos-relacionados.ejs"
+    include:
+      team: "Tomás Urzúa"
 ---
 
 Licenciado en Sociología de la Universidad de Chile y estudiante del Magíster en Ciencias Sociales de la misma institución. Anteriormente se desempeñó como Asistente de Investigación del Observatorio de Cohesión Social del Centro de Estudios del Conflicto y la Cohesión Social (OCS-COES). En la actualidad es Tesista del Proyecto Fondecyt Regular N°1250518, “Justicia de mercado y merecimiento del bienestar social”. Sus áreas de investigación abordan sociología de la educación, economía moral y metodologías cuantitativas a través de un marco de ciencia abierta y reproducibilidad de los datos.
+
+## Proyectos Relacionados
+
+::: {#listing-proyectos}
+:::
