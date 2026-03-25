@@ -1,0 +1,18 @@
+---
+title: Gabriel Cortés
+toc: false
+listing:
+  - id: listing-proyectos
+    contents: "../../../proyectos/posts/*/index.qmd"
+    template: "../../proyectos-relacionados.ejs"
+    include:
+      team: "Gabriel Cortés"
+---
+
+Sociólogo de la Universidad de Chile y Magíster en Métodos para la Investigación Social en la Universidad Diego Portales. Anteriormente se desempeñó como Analista de Datos en la Dirección Académica de la Universidad de Chile y como Asistente de Investigación del Observatorio de Cohesión Social del Centro de Estudios del Conflicto y la Cohesión Social (COES). Actualmente es Asistente de Gestión en la Dirección de Investigación de la Universidad de Chile y colaborador en la formulación del proyecto FIDA-DataSOC.
+
+
+## Proyectos Relacionados
+
+::: {#listing-proyectos}
+:::

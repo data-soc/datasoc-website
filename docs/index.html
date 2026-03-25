@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cd1a285b1c955e89689bebde17f5e2bf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-604b15cedbb466ed51cdaa7746d50dfd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -135,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-include-after-body','listing-language','listing-title','listing-subtitle','listing-contacto','listing-github','listing-web','listing-image','listing-about','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-bio','listing-permalink',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-include-after-body','listing-language','listing-title','listing-subtitle','listing-contacto','listing-github','listing-web','listing-image','listing-about','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-shortbio','listing-permalink','listing-toc','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-include-after-body","listing-language","listing-title","listing-subtitle","listing-contacto","listing-github","listing-web","listing-image","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-bio","listing-permalink"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-include-after-body","listing-language","listing-title","listing-subtitle","listing-contacto","listing-github","listing-web","listing-image","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-shortbio","listing-permalink","listing-toc","listing-listing"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -185,7 +185,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="datasoc_styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -196,8 +196,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./resources/imagenes/logo-nobg.png" alt="" class="navbar-logo light-content">
-    <img src="./resources/imagenes/logo-nobg.png" alt="" class="navbar-logo dark-content">
+    <img src="./resources/imagenes/navbar-logo.png" alt="" class="navbar-logo light-content">
+    <img src="./resources/imagenes/navbar-logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -207,7 +207,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#lineash1"> 
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text"><i class="bi bi-info-circle-fill"></i>Sobre DataSOC</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#lineas"> 
 <span class="menu-text"><i class="bi bi-hexagon-fill"></i> Líneas de Trabajo</span></a>
   </li>  
   <li class="nav-item">
@@ -366,60 +370,69 @@ window.addEventListener("load", function () {
 <div class="parallax-container">
 <div class="parallax-image-container2">
 <div>
-<p class="section-title">
-<span class="data-style">data</span><span class="soc-style">SOC</span>
+<p class="section-title fade-in-up">
+<span class="data-style">Data</span><span class="soc-style">SOC</span>
 </p>
-<p class="section-lead">
-<span class="data-style">data</span><span class="soc-style">SOC</span> es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos.
+<p class="section-lead fade-in-up" style="
+    background: rgba(34,44,49, 0.5);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+  ">
+<span class="data-style">Data</span><span class="soc-style">SOC</span> es el Centro de Datos Sociales de la Facultad de Ciencias Sociales de la Universidad de Chile. Su objetivo es posicionar a FACSO como un referente en el análisis, procesamiento, gestión y transferencia de datos sociales, en un marco de ciencia abierta, guiado por altos estándares conceptuales, metodológicos y éticos.
 </p>
 </div>
-<p><a href="#lineash1"> <button class="btn-21"> <span>Nuestras Líneas<br>de Trabajo</span> </button> </a></p>
+<p><a href="#lineas"> <button class="btn-21 fade-in-up"> <span>Nuestras Líneas<br>de Trabajo</span> </button> </a></p>
 </div>
 </div>
 <!-- ====================== Líneas ====================== -->
 <div class="section-text">
 <div class="section-container">
-<div id="lineash1">
+<div id="lineas">
 <p class="section-title" style="text-align:center;">
 <i class="bi bi-hexagon-fill" style="margin-right: 10px;"></i><span class="soc-style">LÍNEAS DE TRABAJO</span>
 </p>
 </div>
-<div id="lineas">
-<div class="hex-buttons">
-<p><!-- I --> <a href="./componentes/investigacion/index.html" class="btn-hex" title="I"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="80" fill="#7a0a0a">I</text> <text x="50" y="63" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">INVESTIGACIÓN</text> </svg> </a></p>
-<p><!-- F --> <a href="#f" class="btn-hex" title="F"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="72" fill="#7a0a0a">F</text> <text x="50" y="63" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">FORMACIÓN</text> </svg> </a></p>
-<p><!-- T --> <a href="#t" class="btn-hex" title="T"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="72" fill="#7a0a0a">T</text> <text x="50" y="55" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">TRANSFERENCIA</text> <text x="50" y="70" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">E IMPACTO</text> </svg> </a></p>
-<p><!-- C --> <a href="#c" class="btn-hex" title="C"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="72" fill="#7a0a0a">C</text> <text x="50" y="55" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">CERTIFICACIÓN</text> <text x="50" y="70" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">DE CALIDAD</text> </svg> </a></p>
-<p><!-- G --> <a href="#g" class="btn-hex" title="G"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="72" fill="#7a0a0a">G</text> <text x="50" y="55" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">GOBERNANZA</text> <text x="50" y="70" text-anchor="middle" font-family="Oswald, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">DE DATOS</text> </svg> </a></p>
+<div class="fila-descripcion">
+<div class="hex-buttons fade-in-up">
+<p><a href="./componentes/investigacion/index.html" class="btn-hex" aria-label="Ir a la sección de Investigación"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">I</text> <text x="50" y="63" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">INVESTIGACIÓN</text> </svg> </a></p>
 </div>
-<style>
-  @keyframes hexfadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  #lineas .btn-hex { opacity: 0; }
-</style>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var buttons = document.querySelectorAll(".btn-hex");
-
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          buttons.forEach(function(btn, index) {
-            setTimeout(function() {
-              btn.style.animation = "hexfadeIn 1s forwards";
-            }, index * 600);
-          });
-          observer.disconnect();
-        }
-      });
-    }, { threshold: 0.3 });
-
-    var lineas = document.getElementById("lineas");
-    if (lineas) observer.observe(lineas);
-  });
-</script>
+<div class="lineas-texto fade-in-up texto-delay">
+<p><span class="soc-style"><strong>Investigación avanzada</strong></span> en ciencias de datos sociales, integrando la diversidad de datos producidos por las ciencias sociales</p>
+</div>
+</div>
+<div class="fila-descripcion">
+<div class="hex-buttons fade-in-up">
+<p><a href="./componentes/formacion/index.html" class="btn-hex" title="F"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">F</text> <text x="50" y="63" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">FORMACIÓN</text> </svg> </a></p>
+</div>
+<div class="lineas-texto fade-in-up texto-delay">
+<p><span class="soc-style"><strong>Formación metodológica avanzada</strong></span> en todos los niveles, incluyendo pregrado, postgrado y educación continua</p>
+</div>
+</div>
+<div class="fila-descripcion">
+<div class="hex-buttons fade-in-up">
+<p><a href="./componentes/transferencia/index.html" class="btn-hex" title="T"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">T</text> <text x="50" y="55" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">TRANSFERENCIA</text> <text x="50" y="70" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">E IMPACTO</text> </svg> </a></p>
+</div>
+<div class="lineas-texto fade-in-up texto-delay">
+<p><span class="soc-style"><strong>Servicios especializados</strong></span> de acompañamiento técnico en el análisis, la visualización y el almacenamiento de datos sociales</p>
+</div>
+</div>
+<div class="fila-descripcion">
+<div class="hex-buttons fade-in-up">
+<p><a href="./componentes/certificacion/index.html" class="btn-hex" title="C"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">C</text> <text x="50" y="55" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">CERTIFICACIÓN</text> <text x="50" y="70" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">DE CALIDAD</text> </svg> </a></p>
+</div>
+<div class="lineas-texto fade-in-up texto-delay">
+<p>Servicios de <span class="soc-style"><strong>aseguramiento y certificación</strong></span> de la calidad de datos científicos-sociales bajo criterios de transparencia, integridad, accesibilidad y reproducibilidad en la producción, análisis y difusión de datos.</p>
+</div>
+</div>
+<div class="fila-descripcion">
+<div class="hex-buttons fade-in-up">
+<p><a href="./componentes/gobernanza/index.html" class="btn-hex" title="G"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">G</text> <text x="50" y="55" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">GOBERNANZA</text> <text x="50" y="70" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">DE DATOS</text> </svg> </a></p>
+</div>
+<div class="lineas-texto fade-in-up texto-delay">
+<p><span class="soc-style"><strong>Desarrollo y transferencia</strong></span> de modelos de gobernanza de datos para la gestión universitaria</p>
+</div>
 </div>
 </div>
 </div>
@@ -430,16 +443,42 @@ window.addEventListener("load", function () {
 
 </div>
 <div class="parallax-inner">
-<p class="section-title">
+<p class="section-title fade-in-up">
 <i class="bi bi-briefcase-fill" style="margin-right: 10px;"></i><span class="soc-style">PROYECTOS Y REPORTES</span>
 </p>
 </div>
 <div id="listing-proyectos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R29iZXJuYW56YSUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1773754731000" data-listing-file-modified-sort="1773754731522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="g-col-1" data-index="0" data-categories="SW52ZXN0aWdhY2klQzMlQjNu" data-listing-date-sort="1774447033000" data-listing-file-modified-sort="1774447033738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<a href="./proyectos/posts/estudio-notas/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./proyectos/posts/estudio-notas/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estudio de Notas FACSO
+</h5>
+<div class="card-text listing-description delink">
+<p>El Estudio de Notas de la Facultad de Ciencias Sociales es el primer análisis enfocado exclusivamente a comprender cómo se distribuyen las notas en la Facultad y cuáles son…</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+March 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="R29iZXJuYW56YSUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1774387401000" data-listing-file-modified-sort="1774387401018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="465">
 <a href="./proyectos/posts/CINDAI/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="proyectos\posts\CINDAI\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./proyectos/posts/CINDAI/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 CINDAI
@@ -469,7 +508,7 @@ March 2026
 <div id="noticiash1">
 
 </div>
-<p class="section-title" style="text-align:center;">
+<p class="section-title fade-in-up" style="text-align:center;">
 <i class="bi bi-newspaper" style="margin-right: 10px;"></i><span class="soc-style">NOTICIAS</span>
 </p>
 <div id="listing-noticias" class="quarto-listing quarto-listing-container-default">
@@ -505,7 +544,7 @@ Mar 16, 2026
 <div class="parallax-container">
 <div class="parallax-image-container">
 <div class="parallax-inner">
-<p class="section-title">
+<p class="section-title fade-in-up">
 <i class="bi bi-people-fill" style="margin-right: 10px;"></i><span class="soc-style">EQUIPO</span>
 </p>
 </div>
@@ -557,7 +596,7 @@ Mar 16, 2026
   object-fit: cover;
   display: block;
   min-width: 100%;
-  object-position: center top; 
+  object-position: center 30%; 
 }
 
 .listing-equipo .card-header-link {
@@ -570,14 +609,14 @@ Mar 16, 2026
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 120px; /* ← ajusta según cuánto texto máximo esperas */
+  height: 144px; /* ← ajusta según cuánto texto máximo esperas */
   overflow: hidden; /* por si el texto es muy largo */
 }
 
 .listing-equipo .listing-box-title {
   margin: 0.5rem 0 0.25rem;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.32rem;
   color: #1f2937;
   font-family: 'Baumans', system-ui; 
   font-weight: normal;
@@ -586,7 +625,7 @@ Mar 16, 2026
 
 .listing-equipo .listing-box-subtitle {
   margin: 0.25rem 0;
-  font-size: 0.95rem;
+  font-size: 1.14rem;
   color: #4b5563;
   font-family: "Courier New", system-ui; 
   font-weight: bold;
@@ -596,7 +635,7 @@ Mar 16, 2026
 .listing-equipo .listing-box-links {
   margin: 0.25rem 0 0.5rem;
   color: #4b5563;
-  font-size: 0.9rem;
+  font-size: 1.44rem;
 }
 
 /* Contenedor de iconos en fila */
@@ -686,7 +725,37 @@ Mar 16, 2026
           <div class="team-card">
 
             <!-- Imagen + Título + Subtítulo enlazados -->
-            <a href="./equipo/posts/gc/index.html" class="card-header-link">
+            <a href="./equipo/posts/b-dm/index.html" class="card-header-link">
+              <img src="https://intranet.facso.cl/wp-content/uploads/2025/10/Daniel-miranda_600.jpg" alt="Daniel Miranda" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Daniel Miranda</div>
+                <div class="listing-box-subtitle">Asesor de proyectos de investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:danmiranda@uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/c- gc/index.html" class="card-header-link">
               <img src="https://intranetdev.facso.cl/wp-content/uploads/2025/10/Gabriel-Cortes_600.jpg" alt="Gabriel Cortés" class="listing-box-image">
               <div class="team-card-body">
                 <div class="listing-box-title">Gabriel Cortés</div>
@@ -720,11 +789,11 @@ Mar 16, 2026
           <div class="team-card">
 
             <!-- Imagen + Título + Subtítulo enlazados -->
-            <a href="./equipo/posts/tbd/index.html" class="card-header-link">
-              <img src="" alt="TBD" class="listing-box-image">
+            <a href="./equipo/posts/d- cc/index.html" class="card-header-link">
+              <img src="https://intranet.facso.cl/wp-content/uploads/2025/10/Carolina-Carillo_600.jpg" alt="Carolina Carrillo" class="listing-box-image">
               <div class="team-card-body">
-                <div class="listing-box-title">TBD</div>
-                <div class="listing-box-subtitle"></div>
+                <div class="listing-box-title">Carolina Carrillo</div>
+                <div class="listing-box-subtitle">Asistente de la Dirección de Investigación</div>
                 <div class="listing-box-links"></div>
               </div>
             </a>
@@ -733,9 +802,123 @@ Mar 16, 2026
             <div class="card-icons">
            
               
-
+                <a href="mailto:carolina.carrillo@uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
               
 
+              
+                <a href="https://github.com/chincolcarrillo" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/d- rc/index.html" class="card-header-link">
+              <img src="./equipo/posts/d- rc/rene.jpg" alt="René Canales" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">René Canales</div>
+                <div class="listing-box-subtitle">Asistente de Investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:renecanales@uc.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="renejcanales" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/e- tu/index.html" class="card-header-link">
+              <img src="https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/equipo/posts/e-%20tu/featured.png" alt="Tomás Urzúa" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Tomás Urzúa</div>
+                <div class="listing-box-subtitle">Asistente de investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:tomas.urzua@ug.uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="tomasurzuam" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/f- ka/index.html" class="card-header-link">
+              <img src="https://correlacional.netlify.app/images/ayudantes/katherine.png" alt="Katherine Aravena" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Katherine Aravena</div>
+                <div class="listing-box-subtitle">Asistente de Investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:katherine.aravena@ug.uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="https://github.com/KAravena" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+                <a href="https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/" class="web-link" target="_blank" title="Web Personal">
+                  <i class="bi bi-globe2"></i>
+                </a>
               
             </div>
 
@@ -747,8 +930,32 @@ Mar 16, 2026
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<div style="padding-bottom: 3rem;">
+
 </div>
 </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target); // Solo anima una vez
+        }
+      });
+    },
+    {
+      threshold: 0.15, // Se activa cuando el 15% del elemento es visible
+    }
+  );
+
+  document.querySelectorAll(".fade-in-up").forEach((el) => {
+    observer.observe(el);
+  });
+});
+</script>
 
 
 
@@ -759,15 +966,15 @@ Mar 16, 2026
 
     <div class="container py-5">
 
-        <div class="row align-items-center justify-content-center">
+        <div class="row align-items-end justify-content-center">
 
             
 
-            <div class="col-sm text-center py-3">
+            <div class="col-sm text-center py-3" style="margin-top:2rem;">
 
-                <div style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                <div style="height: 80px; display: flex; align-items: flex-end; justify-content: center;">
 
-                    <img class="img-fluid" src="https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/resources/imagenes/datasoc-black.png" alt="datasoc" style="max-width: 180px;">
+                    <img class="img-fluid" src="https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/resources/imagenes/logo-footer-dark.png" alt="datasoc" style="max-width: 230px;">
 
                 </div>
 
@@ -783,9 +990,9 @@ Mar 16, 2026
 
             <div class="col-sm text-center py-3">
 
-                <div style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
 
-                    <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logo-facso_investiga-white.png" alt="Logo FACSO" style="max-width: 180px;">
+                    <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logo-facso_investiga-white.png" alt="Logo FACSO" style="max-width: 230px;">
 
                 </div>
 
@@ -805,9 +1012,9 @@ Mar 16, 2026
 
             <div class="col-sm text-center py-3">
 
-                <div style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
 
-                    <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logoUChile.png" alt="Logo UChile" style="max-width: 190px;">
+                    <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logoUChile.png" alt="Logo UChile" style="max-width: 230px;">
 
                 </div>
 

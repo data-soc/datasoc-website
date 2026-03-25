@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+
+// 1. Achica el tamaño base de la fuente (por defecto es 1rem)
+$font-size-base: 1.2rem; 
+
+
+/*-- scss:rules --*/
+
+// Aquí abajo puedes poner reglas CSS normales si las necesitas, 
+// como por ejemplo, limitar la altura del logo/imagen de fondo:
+
+
+/*-- scss:rules --*/
+
+html, body {
+  /* El valor 0.8 equivale a un zoom del 80% en el navegador. 
+     Puedes ajustarlo a 0.75 o 0.85 según lo que necesites */
+  zoom: 0.9; 
+  
+  /* Soporte adicional para navegadores como Firefox */
+  -moz-transform: scale(0.8);
+  -moz-transform-origin: top center;
+  
+  /* Asegura que el fondo cubra toda la pantalla incluso si el contenido se encoge */
+  min-height: 125vh; 
+  overflow-x: hidden;
+}

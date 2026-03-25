@@ -19,7 +19,7 @@ website:
     # right: |
     #    Last Update: {{< modified isodate>}}
   navbar:
-    logo: resources/imagenes/logo-nobg.png
+    logo: resources/imagenes/navbar-logo.png
     background: "#FFFFFF"
     # tools: 
     #    - icon: github
@@ -39,7 +39,9 @@ website:
     #      target: _blank
     # pinned: true
     right:
-      - href: index.qmd#lineash1
+      - href: about.qmd
+        text: "<i class='bi bi-info-circle-fill'></i>Sobre DataSOC"
+      - href: index.qmd#lineas
         text: "<i class='bi bi-hexagon-fill'></i> Líneas de Trabajo"
       - href: index.qmd#proyectosh1
         text: "<i class='bi bi-briefcase-fill'></i> Proyectos y Reportes"
@@ -48,9 +50,10 @@ website:
 format:
   html:
     theme: 
-      light: flatly
+      - flatly
+      - resources/custom_datasoc.scss
     css: 
-      - styles.css
+      - datasoc_styles.css
     toc: true
     linkcolor: "#497BBD"
 include-after-body: "footer.html"

@@ -1,0 +1,886 @@
+/* css styles */
+
+/* =========================================================
+   1. BASE / RESET
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+} /*Esto para que al hacer click en los links del navbar la página no "salte", sino que se deslice */
+
+/* Evitar scroll lateral fantasma */
+html, body { max-width: 100%; overflow-x: clip; }
+
+body {
+  background-color: #ffffff;
+}
+
+/* Compensar navbar fija al usar anclas (#equipo, etc.) */
+[id] { scroll-margin-top: 80px; }
+
+.navbar {
+  border-bottom: 3px solid #ac221e;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  max-height: 91px;
+}
+
+
+/* =========================================================
+   2. BACKGROUNDS
+   ========================================================= */
+
+
+/* =========================================================
+   3. TIPOGRAFÍA / FUENTES
+   ========================================================= */
+
+.soc-style {
+  color: #ac221e;
+  font-family: 'Baumans', system-ui; 
+  font-weight: normal;
+}
+
+.data-style {
+  color: #000000;
+  font-family: "Courier New", system-ui; 
+  font-weight: bold;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid #ac221e;
+    color: white !important;
+}
+#TOC .nav-link:hover{
+  color: white !important;
+}
+
+/* =========================================================
+   4. LAYOUT / SECCIONES
+   ========================================================= */
+
+.section-container {
+  padding-left: 1.5em;
+  padding-right:  1.5em;
+  padding-top: 1em;
+  margin-top: 0em;
+  max-width: 100%;
+  width: 100vw;
+}
+
+/* Secciones normales */
+.section-text { padding-block: clamp(2rem, 6vw, 5rem); }
+.section-container { width: min(100%, 1200px); margin-inline: auto; padding-inline: 1rem; }
+
+
+.post-contents {
+	padding-left: 1.5em
+	padding-right: 1.5em;
+	margin: 1rem;
+}
+
+/* Títulos y textos */
+.section-title {
+  font-weight: normal;
+  line-height: 1.15;
+  margin: 0 0 .5rem 0;
+  font-size: clamp(1.92rem, 6vw, 3.6rem);
+  color: inherit;  /* <-- por defecto usa el color del contexto (negro en secciones claras) */
+}
+.section-lead {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 65ch;
+  font-size: clamp(1.2rem, 4.2vw, 1.8rem);
+  color: inherit;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* En parallax, títulos/textos blancos */
+.parallax-image-container .section-title,
+.parallax-image-container .section-lead,
+.parallax-image-container2 .section-title,
+.parallax-image-container2 .section-lead {
+  color: #fff;
+}
+
+/*margenes y padding*/
+
+#quarto-document-content .column-page{
+  padding-top: 0.1em;
+  margin-top: 0;
+}
+
+#quarto-content {
+  padding-top: 0.1em;
+  margin-top: 0;
+}
+
+/*banner
+
+.column-page .title,
+.column-body .title{
+  color: #ffffff;
+} */
+
+
+/* =========================================================
+   5. NAVBAR / NAVEGACIÓN
+   ========================================================= */
+
+.navbar-logo {
+  max-height: 90px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #ECA0A0;
+}
+
+.active{
+  color: #ffffff !important;
+  font-weight: 400;
+  background-color: #ECA0A0;
+}
+
+/* Menu de Navegación*/
+
+.dropdown-item:hover{
+  background-color:#ECA0A0;
+}
+
+/*-- links hover --*/
+
+a:hover {
+  color: #c22828;
+}
+
+/* Eliminar símbolo de enlace externo en todo el sitio */
+a[target="_blank"]::after,
+a[href^="http"]::after,
+a[href^="https"]::after {
+    content: none !important;
+    display: none !important;
+}
+
+
+/* =========================================================
+   6. ICONOS
+   ========================================================= */
+
+.bi-github,
+.bi-facebook,
+.bi-twitter,
+.bi-instagram,
+.bi-youtube,
+.bi-envelope-fill,
+.bi-globe2,
+.bi-hexagon-fill,
+.bi-briefcase-fill,
+.bi-newspaper,
+.bi-people-fill,
+.bi-info-circle-fill
+{
+  color: #ac221e;
+}
+
+.bi-github:hover,
+.bi-facebook:hover,
+.bi-twitter:hover,
+.bi-instagram:hover,
+.bi-youtube:hover,
+.bi-envelope-fill:hover,
+.bi-globe2:hover,
+.bi-hexagon-fill:hover,
+.bi-briefcase-fill:hover,
+.bi-newspaper:hover,
+.bi-people-fill:hover,
+.bi-info-circle-fill:hover
+{
+  color: #ECA0A0;
+}
+
+.about-link i {
+    font-size: 3em; /* Tamaño del ícono */
+}
+
+
+/* =========================================================
+   7. BOTONES
+   ========================================================= */
+
+.btn-template-primary {
+    color: #ECA0A0;
+    background-color: white;
+    border-color: #ECA0A0 !important;
+}
+
+.btn-template-primary:hover,
+.btn-template-primary:focus,
+.btn-template-primary:active,
+.btn-template-primary.active,
+.open > .dropdown-toggle.btn-template-primary {
+  color: #ffffff;
+  background-color: #ECA0A0;
+  border-color: #ac221e;
+}
+
+.btn-21 {
+  cursor: pointer;
+  font-family: 'Baumans', system-ui;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  bottom: -50px;
+  margin-top: 2rem;
+  animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /
+  width: 168px;
+  height: 96px;
+  position: relative;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0px;
+  background: transparent;
+  overflow: hidden;
+  border: none;
+}
+
+.btn-21:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ac221e);
+  animation: btn-21-right 2s linear infinite;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-21:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #ac221e);
+  animation: btn-21-bottom 2s linear infinite;
+  animation-delay: 1s;
+  transform: translateY(-100%);
+}
+
+.btn-21 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+
+.btn-21 span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, transparent, #ac221e);
+  animation: btn-21-left 2s linear infinite;
+}
+
+.btn-21 span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #ac221e);
+  animation: btn-21-top 2s linear infinite;
+  animation-delay: 1s;
+  transform: translateY(-100%);
+}
+
+.btn-21:hover:before {
+  background: linear-gradient(to right, transparent, #ac221e);
+}
+
+.btn-21:hover:after {
+  background: linear-gradient(to bottom, transparent, #ac221e);
+}
+
+.btn-21 span:hover:before {
+  background: linear-gradient(to top, transparent, #ac221e);
+}
+
+.btn-21 span:hover:after {
+  background: linear-gradient(to left, transparent, #ac221e);
+}
+
+.btn-21:hover {
+  color: #ac221e;
+}
+
+.btn-21:active:before {
+  background: linear-gradient(to right, transparent, #ffff);
+}
+
+.btn-21:active:after {
+  background: linear-gradient(to bottom, transparent, #ffff);
+}
+
+.btn-21 span:active:before {
+  background: linear-gradient(to top, transparent, #ffff);
+}
+
+.btn-21 span:active:after {
+  background: linear-gradient(to left, transparent, #ffff);
+}
+
+.btn-21:active {
+  color: #ffff;
+}
+
+.btn-21:focus {
+  outline: none
+}
+
+/* Botones hex */
+
+/* 1. EL CONTENEDOR PRINCIPAL (La fila) */
+.fila-descripcion {
+  display: flex;
+  align-items: center; 
+  gap: 40px; 
+  width: 90%; 
+  max-width: 800px; 
+  margin: 20px auto 10px auto;
+}
+
+/* 2. EL CONTENEDOR DEL LOGO (Hexágono) */
+.hex-buttons {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; 
+  width: 150px; 
+}
+
+/* 3. EL TEXTO DESCRIPTIVO */
+.lineas-texto {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.6;
+  text-align: left;
+  color: #000000;
+  margin: 0; /* Resetea márgenes por defecto del navegador en las etiquetas <p> */
+}
+
+/* 4. ADAPTACIÓN PARA MÓVILES (Smartphones) */
+@media (max-width: 768px) {
+  .fila-descripcion {
+    /* Cambiamos la dirección para que el texto quede debajo del logo en pantallas pequeñas */
+    flex-direction: column; 
+    text-align: center; /* Centramos el contenido general */
+    gap: 20px; /* Reducimos el espacio entre logo y texto para móvil */
+  }
+
+  .lineas-texto {
+    /* Al pasar a una sola columna, centrar el texto suele verse mejor en móviles, 
+       pero puedes mantenerlo a la izquierda ('left') si prefieres la consistencia. */
+    text-align: center; 
+  }
+}
+  .hex-button-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+
+  .btn-hex {
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: filter 0.2s ease, transform 0.15s ease;
+  }
+
+  .btn-hex:hover {
+    filter: brightness(1.2) drop-shadow(0 4px 12px #ac221e);
+    transform: translateY(-3px);
+  }
+
+  .btn-hex:active {
+    transform: translateY(0px);
+    filter: brightness(0.9);
+  }
+
+  .btn-hex svg {
+    width: 150px;
+    height: 150px;
+    display: block;
+  }
+
+/*botones noticias */
+
+.post-actions .no-external{
+  background-color: #ac221e ;
+  border: black;
+  font-family: 'Baumans', system-ui;
+  font-weight: normal;
+}
+
+.post-actions .no-external:hover{
+ filter: brightness(1.2) drop-shadow(0 4px 12px #ac221e);
+    transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   8. CÓDIGO
+   ========================================================= */
+
+p code{
+  color: #ac221e;
+  background-color: #ECA0A0;
+}
+
+h2 code,
+h3 code,
+strong code
+{
+  color:#ac221e;
+  background-color: #ECA0A0;
+}
+
+.listing-box-calendar {
+  color: #ECA0A0;
+}
+
+
+/* =========================================================
+   9. Listings
+   ========================================================= */
+
+/*listings*/
+
+.card-left {
+  margin-left: 20px;
+}
+
+.listing-title .no-external {
+  font-family: 'Baumans', system-ui;
+  font-weight: bold;
+}
+
+#listing-proyectos .listing-title {
+  font-family: 'Baumans', system-ui;
+  font-weight: bold;
+}
+
+
+/* =========================================================
+   10. PARALLAX
+   ========================================================= */
+
+/* ===== Parallax base ===== */
+.parallax-container { position: relative; overflow: hidden; }
+
+.parallax-image-container,
+.parallax-image-container2 {
+  background-image: url(resources/imagenes/parallax-blocs.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;   /* Desktop ok */
+  position: relative;
+  isolation: isolate;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.parallax-image-container::before,
+.parallax-image-container2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.9) 35%,
+    rgba(255, 255, 255, 0.6) 65%,
+    rgba(255, 255, 255, 0.3) 85%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.parallax-image-container > *,
+.parallax-image-container2 > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Alturas por tipo (puedes ajustar) */
+.parallax-image-container  { min-height: 800px; } /* Noticias/Recomendados */
+.parallax-image-container2 { min-height: 750px !important; 
+  padding: 4rem 1rem;
+  min-height: 100vh !important;
+} /* Sobre LISA */
+
+.parallax-inner {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 3rem 1rem 1.25rem;
+  text-align: center;
+}
+
+/* =========================================================
+   (Opcional) EFECTO DEGRADADO INFERIOR SUAVE EN PARALLAX
+   ========================================================= */
+.parallax-image-container::after,
+.parallax-image-container2::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: 0;
+  height: 160px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.4) 100%);
+  pointer-events: none;
+}
+
+/* Centrado vertical real (flex) */
+.parallax-image-container2 {
+  display: flex;                 /* en desktop ya no es block */
+  align-items: center;           /* centra vertical */
+  justify-content: center;       /* centra horizontal el wrapper */
+  min-height: 100vh;             /* la altura que ya usabas */
+}
+
+/* Wrapper centrado y un poco más abajo del centro */
+.parallax-image-container2 .parallax-inner {
+  width: min(100%, 1100px);
+  padding: 3 1rem;               /* elimina padding superior grande */
+  text-align: center;
+  transform: none;  
+}
+
+/* Fuerza título y lead centrados (por si el tema les aplica estilos) */
+.parallax-image-container2 .section-title,
+.parallax-image-container2 .section-lead {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+/* =========================================================
+   11. HERO / PARTÍCULAS
+   ========================================================= */
+
+/* Hero particles*/ 
+.hero-heading-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 3rem 0;
+  overflow: visible;
+}
+
+
+
+\.hero-heading-content {\n  position: relative;\n  z-index: 2;
+  pointer-events: none;
+}
+
+.hero-heading-content img {
+  pointer-events: none;
+}
+
+/* Particles */
+.particles-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.particles-layer canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*-- imagen hero --*/
+
+.hero-heading-content .img-fluid {
+  animation: fadeIn 6s 1s both; /* 'both' cubre el inicio y el final */
+}
+
+
+/* =========================================================
+   12. TARJETAS DE EQUIPO (perfiles proyectos)
+   ========================================================= */
+
+/* ===== Tarjeta de equipo con fotos circulares ===== */
+.team-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: var(--content-max, 1040px);
+  margin: 2rem auto;
+}
+
+.team-photo-cell {
+  width: 220px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1rem;
+}
+
+.team-bio {
+  padding: 1rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.team-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 0.75rem;
+  border: 2px solid $line;
+}
+
+.team-title {
+  font-family: $headingFont;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+}
+
+.team-subtitle {
+  font-size: 0.95rem;
+  color: $ink-soft;
+}
+
+.team-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem 0.75rem;
+  justify-content: center;
+}
+
+.team-name-link {
+  text-decoration: none;
+  color: inherit;
+}
+.team-name-link:hover {
+  color: #ac221e;
+}
+
+
+/* =========================================================
+   13. FOOTER
+   ========================================================= */
+
+/* FIX FOOTER - Fuerza logos en fila horizontal (Quarto pisa Bootstrap) */
+#footer .row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer .col,
+#footer [class*="col-"] {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: 300px;
+}
+
+
+/* =========================================================
+   15. ANIMACIONES / @KEYFRAMES
+   ========================================================= */
+
+@keyframes fadeIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes btn-21-right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+
+}
+
+@keyframes btn-21-top {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+
+}
+
+@keyframes btn-21-left {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+
+}
+
+@keyframes btn-21-bottom {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+
+}
+
+/* Fade In Up Animation */
+/* Fade In Up - estado inicial (oculto) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.fade-in-up.visible {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Delays escalonados para múltiples hexágonos */
+.fade-in-up:nth-child(2) { animation-delay: 0.15s; }
+.fade-in-up:nth-child(3) { animation-delay: 0.30s; }
+.fade-in-up:nth-child(4) { animation-delay: 0.45s; }
+.fade-in-up:nth-child(5) { animation-delay: 0.60s; }
+.fade-in-up:nth-child(6) { animation-delay: 0.75s; }
+
+
+
+
+.fade-in-up.visible.texto-delay {
+  animation-delay: 0.2s;
+}
+
+
+/* =========================================================
+   16. RESPONSIVE / MEDIA QUERIES
+   ========================================================= */
+
+@media (max-width: 768px) {
+  /* Desactivar fixed en móvil para ambos */
+  .parallax-image-container,
+  .parallax-image-container2 {
+    background-attachment: scroll !important;
+    min-height: auto;
+  }
+
+  /* Noticias/Recomendados: menos padding (porque llevan listing adentro) */
+  .parallax-image-container { padding: 0; }
+
+  /* Sobre LISA: conservar aire (se veía "apretado" sin padding) */
+  .parallax-image-container2 { padding: 2rem 1rem; }
+
+  .parallax-inner { padding: 1.75rem 1rem 1rem; }
+}
+
+@media (max-width: 768px) {
+  /* Evita márgenes superiores que empujan el listado */
+  .parallax-image-container .quarto-listing,
+  .parallax-image-container [id^="listing-"],
+  .parallax-image-container .cards,
+  .parallax-image-container .grid,
+  .parallax-image-container > *:last-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    background: transparent !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-image-container2 {
+    display: block;              /* vuelve a flujo normal en móvil */
+    padding: 2rem 1rem;          /* conserva aire */
+    min-height: auto;
+  }
+  .parallax-image-container2 .parallax-inner {
+    transform: none;             /* sin bajar extra en pantallas chicas */
+    padding: 0;                  /* usa el padding del contenedor */
+  }
+}
+
+/* Versión responsiva en móvil */
+@media (max-width: 640px) {
+  .team-card {
+    flex-direction: column;
+  }
+
+  .team-photo-cell {
+    width: 100%;
+    padding-bottom: 0.25rem;
+  }
+
+  .team-bio {
+    width: 100%;
+    padding-top: 0;
+  }
+}
+
+/* Accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  .parallax-image-container,
+  .parallax-image-container2 {
+    background-attachment: scroll !important;
+  }
+}

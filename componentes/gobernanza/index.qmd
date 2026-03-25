@@ -1,0 +1,41 @@
+---
+title: "Gobernanza de Datos Sociales"
+format:
+  html:
+    page-layout: full
+    grid:
+      body-width: 900px # Ajusta este valor (ej. 1000px, 1200px) a tu gusto
+categories:
+- Líneas
+- Transferencia
+date: last-modified
+image: gobernanza.png
+about:
+  id: hero-heading
+  template: solana
+  image-shape: rounded
+---
+
+## Nuestro Diagnóstico
+
+El funcionamiento de una infraestructura de conocimiento depende de la capacidad institucional para organizar, articular y sostener el ciclo de vida de los datos mediante reglas, prácticas, estándares y responsabilidades compartidas. Sin embargo, en el campo de los datos sociales, la expansión acelerada de fuentes de información, desde registros administrativos hasta grandes volúmenes de datos digitales generados de manera continua y no reactiva, ha tensionado profundamente los marcos tradicionales de gobernanza. Esta multiplicidad de datos, actores y tecnologías ha dado lugar a flujos de información altamente dinámicos, donde la disponibilidad masiva no siempre se traduce en calidad, trazabilidad o legitimidad. A lo anterior se suman exigencias crecientes derivadas del nuevo marco regulatorio sobre protección de datos personales (Ley 21.719), de la demanda por procesos de toma de decisiones basados en evidencia, de los requisitos de contar con plan de gestión de datos para proyectos de investigación, y de los principios de transparencia y apertura que orientan la ciencia contemporánea. En este escenario, la gobernanza de datos se vuelve un eje estructural, pues articula las condiciones que permiten que los datos circulen de manera segura, documentada y responsable.
+
+En la Universidad de Chile, estos desafíos se expresan de manera particularmente compleja. La Universidad genera y gestiona un volumen considerable de información sobre estudiantes, académicos, funcionarios y unidades, además de datos asociados a investigación, docencia, extensión y gestión. Si bien la reciente creación de la Unidad de Datos en la Vicerrectoría de Tecnologías de Información constituye un avance relevante, la gobernanza universitaria continúa distribuida en múltiples reparticiones con escasa coordinación transversal. Los sistemas de información han emergido históricamente como soluciones locales, respondiendo a necesidades administrativas específicas, lo que ha dificultado la consolidación de estándares comunes, la interoperabilidad entre plataformas y la definición de responsabilidades institucionales claras. El resultado es un ecosistema de datos operativo, pero altamente dependiente de conocimiento tácito, esfuerzos individuales y lógicas particulares a cada unidad académica, dirección o equipo, que no siempre garantizan sostenibilidad.
+
+En la Facultad de Ciencias Sociales, este panorama adquiere características propias. Los procesos de autoevaluación institucional han permitido constatar brechas significativas en la gobernanza de datos, principalmente en la débil definición de los roles institucionales en materia de datos, lo que dificulta asignar responsabilidades, resguardar la continuidad y establecer procedimientos compartidos. Asimismo, la fragmentación y la heterogeneidad de los sistemas de información, con bases de datos y plataformas de trabajo que operan de manera aislada y según criterios particulares. Esta situación se ve atada a la ausencia de estándares de calidad y de documentación, lo que impide reconstruir los procesos de producción y limita la reutilización de información.
+
+Desde la perspectiva de las infraestructuras de conocimiento, estas tensiones son expresiones de un ecosistema que ha crecido sin un marco articulador que permita la interoperación de sistemas, prácticas y tecnologías. El desafío no es reemplazar la diversidad existente, sino integrarla, establecer criterios comunes, promover buenas prácticas y asegurar que el conocimiento producido sea trazable, confiable y socialmente responsable.
+
+
+## Nuestra Propuesta
+
+Nuestra propuesta se basa en desarrollar y transferir modelos de gobernanza de datos orientados por los principios FAIR. Funcionar bajo estos estándares implica gestionar los datos de modo que sean encontrables, accesibles, interoperables y reutilizables, contribuyendo a mejorar la calidad, transparencia y reproducibilidad de los procesos de investigación, docencia y gestión académica (Jacobsen et al., 2020). Esto incluye los siguientes componentes:
+
+- **Adopción de estándares FAIR para la gestión de datos universitarios**: Se promoverá la incorporación de los principios FAIR como marco orientador para la gobernanza de datos en la Facultad, asegurando que la información sea encontrable, accesible, interoperable y reutilizable tanto por personas como por sistemas automatizados. La adopción de estos principios permite aumentar el valor científico y social de los datos, mejorar la eficiencia institucional, facilitar la colaboración y fortalecer la transparencia y la reproducibilidad de los procesos (European Commission, 2018).
+
+- **Consolidación y fortalecimiento de la experiencia CINDAI**: DataSOC se apoyará en los avances desarrollados por la Dirección de Investigación y Publicaciones de la Facultad a través de la plataforma [Ciencia de Datos en Investigación (CINDAI)](/proyectos/posts/CINDAI/index.qmd), orientada a integrar y documentar información asociada a postulaciones y proyectos del cuerpo académico. Esta iniciativa ha permitido avanzar hacia una gestión más oportuna y confiable de la información, demostrando la importancia de contar con sistemas de datos diseñados desde principios de calidad, trazabilidad y actualización continua. 
+
+- **Desarrollo de modelos de gobernanza interoperables y no disruptivos**: A partir de la experiencia de CINDAI, se diseñarán modelos de gobernanza de datos que operen como capas de integración, sin reemplazar los sistemas centrales y locales existentes. CINDAI se desarrolló bajo el principio de no duplicar esfuerzos ni demandar a las unidades administrativas que migren desde sus sistemas consolidados hacia nuevas herramientas. Por el contrario, su diseño se orientó a integrar y articular datos provenientes de múltiples fuentes existentes, operando como una capa superior que trabaja “por encima” de los sistemas centrales (como SEPA-VID), de las plataformas gubernamentales de datos abiertos de ANID, y de los sistemas internos utilizados por equipos de gestión, incluyendo fichas de postulación, registros académicos y bases de la Unidad de Personal. Este enfoque busca armonizar definiciones, estandarizar metadatos y establecer flujos de trabajo compartidos, fortaleciendo la interoperabilidad entre sistemas dispersos sin exigir procesos de migración costosos o inviables para las unidades.
+
+- **Transferencia de modelos de gobernanza a unidades estratégicas de la Facultad y otras unidades académicas de la Universidad**: DataSOC actuará como un catalizador institucional para la transferencia y adaptación de estos modelos de gobernanza a otras unidades de la Facultad y otras unidades académicas de la Universidad, promoviendo prácticas sostenibles y fortaleciendo capacidades técnicas y metodológicas en equipos de gestión.
+

@@ -1,0 +1,43 @@
+---
+title: Estudio de Notas FACSO
+subtitle: Diagnóstico y análisis de las notas de estudiantes de pregrado
+description: "El Estudio de Notas de la Facultad de Ciencias Sociales  es el primer análisis enfocado exclusivamente a comprender cómo se distribuyen las notas en la Facultad y cuáles son las características de los estudiantes que determinan esto"
+categories: [Investigación]
+image: "featured.png"
+date: last-modified
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "featured.png"
+  # image-alt: "Ilustración de ciencia abierta con iconos de datos y colaboración"
+format:
+   html:
+    # theme: scss-posts.scss
+    # css: [styles/pro.css]
+    toc: false
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    df-print: paged
+    code-copy: false
+    page-layout: article
+filters: []
+team: "Tomás Urzúa"
+
+listing:
+  - id: equipo-proyecto
+    contents:
+      - "../../../equipo/posts/e- tu/_metadata.yml" 
+    # -  agregar cuantos perfiles sea necesario
+    template: "../../team-card.ejs"
+--- 
+
+El Estudio de Notas es un proyecto dirigido por DataSOC que tiene como objetivo describir y analizar el rendimiento académico de las y los estudiantes de pregrado de FACSO, sus cambios en el tiempo y sus factores asociados. Para ello, el estudio utiliza datos extraídos de UCampus entre 2021 y 2024. En esta línea, el proyecto contempla una investigación en dos etapas: primero una enfocada en los estudiantes como unidad de análisis, y posteriormente una centrada en los cursos impartidos por la Facultad, en orden de comprender en profundidad cómo se distribuyen las notas y cuáles son los determinantes que explican esto. 
+
+
+## Responsable del Proyecto
+
+::: {#equipo-proyecto}
+:::

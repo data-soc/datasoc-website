@@ -1,0 +1,116 @@
+---
+title: "Sobre DataSOC"
+subtitle: "Ciencia de Datos Sociales"
+format:
+  html:
+    page-layout: full
+date: last-modified
+# image: "resources/imagenes/logo-d-nobg.png"
+listing:
+  - id: equipo
+    template: people-box.ejs
+    contents:
+      - equipo/posts/*/*.qmd
+    sort: date desc
+---
+
+En los últimos años, la disponibilidad masiva de grandes volúmenes de *big data*, la irrupción de la inteligencia artificial generativa, y el aprendizaje automático (*machine learning*), han transformado radicalmente las posibilidades del análisis de datos. Las metodologías han debido actualizarse e incorporar ciencia de datos, procesamiento de lenguaje natural, prácticas de reproducibilidad y ciencia abierta, habilitando nuevos tipos de evidencia y herramientas analíticas para el diseño de políticas y la evaluación de impacto. Tal contexto introduce desafíos significativos para las ciencias sociales: problemas de representatividad y sesgo en fuentes no previstas para investigación, riesgos sobre privacidad y protección de datos, dificultades de interpretabilidad de modelos complejos, y la necesidad de adaptar marcos teóricos y metodológicos para integrar resultados algorítmicos con explicaciones sociales robustas.
+
+Los datos sociales pueden definirse como toda aquella información que permite comprender fenómenos sociales, económicos, culturales o políticos. Incluyen desde encuestas de opinión pública y censos demográficos, hasta registros administrativos, datos geoespaciales, interacciones en redes sociales y grandes volúmenes de datos digitales generados por plataformas en línea. Además, abarcan datos cualitativos como entrevistas, grupos focales, observaciones etnográficas y archivos históricos, así como también datos visuales y audiovisuales. Estos datos sociales no son meros insumos técnicos, sino representaciones de procesos sociales que demandan posicionamiento epistemológico, interpretaciones teóricas, precisión metodológica y marcos éticos robustos. No se trata de seguir reproduciendo una oposición radical entre lo “técnico” y lo “social” (Edwards et al., 2023; Barjak et al., 2009), sino de reconocer los caminos que abren los avances computacionales y hacerlos dialogar con los marcos interpretativos de estas disciplinas, y con ello dar respuesta a las preguntas y las necesidades del país. En este espacio es que la Facultad de Ciencias Sociales de la Universidad de Chile posee una fortaleza distintiva, al contar con una amplia diversidad de disciplinas, enfoques teóricos y metodologías que permiten dar sentido a los datos sociales desde múltiples perspectivas.
+
+Actualmente, en Chile no existe una plataforma articulada y sostenible dedicada específicamente al desarrollo, gobernanza y proyección estratégica de los datos sociales. Si bien hay iniciativas y proyectos relacionadas con datos sociales (como el Consorcio IDI, el Instituto Milenio Fundamentos de los Datos IMFD, o el Centro de Microdatos), hasta ahora los datos sociales se producen y circulan de manera altamente fragmentada, con escasos estándares comunes y mecanismos débiles de coordinación. Tal dispersión limita la calidad, comparabilidad y trazabilidad de los datos, y dificulta su preservación en el tiempo. Esto reduce su potencial para generar evidencia robusta que fortalezca la investigación, la formulación de políticas públicas y la innovación social. La Universidad de Chile y la Facultad de Ciencias Sociales no son ajenas a estos desafíos, observándose múltiples problemas en la gobernanza de datos, en la incorporación de nuevas tecnologías en la investigación, formación y gestión, y en la transferencia de conocimientos hacia la sociedad.
+
+La necesidad de contar con una infraestructura robusta de datos sociales se vuelve aún más urgente en el contexto actual, dadas las transformaciones tecnológicas, sociales y políticas que enfrentan las sociedades contemporáneas. El conocimiento científico se ve amenazado por la crisis de confianza pública, la proliferación de desinformación y la creciente complejidad de los fenómenos sociales. Además, los populismos y las crisis democráticas en la región subrayan la importancia de contar con datos sociales rigurosos y transparentes que permitan fundamentar decisiones públicas y fortalecer la participación ciudadana. En este escenario, las universidades tienen un rol crucial como productores y guardianes del conocimiento social, siendo responsables de garantizar que los datos generados sean de alta calidad, éticamente gestionados y accesibles para la sociedad.
+
+Frente a este escenario, la Facultad de Ciencias Sociales de la Universidad de Chile propone la creación de <span class="data-style">Data</span><span class="soc-style">SOC</span>, una iniciativa orientada a generar un centro que pueda posicionarse  como un referente nacional en el procesamiento, análisis, gestión y transferencia de datos sociales, guiados por altos estándares conceptuales, metodológicos y éticos. <span class="data-style">Data</span><span class="soc-style">SOC</span> busca articular y potenciar las capacidades existentes en la Facultad, integrando investigación, formación, gobernanza de datos, innovación y certificación de calidad. A diferencia de otras iniciativas como el Centro de Microdatos de la Facultad de Economía y Negocios, <span class="data-style">Data</span><span class="soc-style">SOC</span> no se orienta al levantamiento de datos, sino a transformar la manera en que se producen, gestionan y utilizan los datos sociales, asegurando que el conocimiento generado sea riguroso, transparente y socialmente relevante. 
+
+Su diseño se organiza en torno a cinco líneas de trabajo: investigación, formación (en pregrado, postgrado y educación continua), innovación y transferencia, certificación de la calidad de los datos sociales, y gobernanza responsable de datos. Cada una de estas líneas de trabajo aporta elementos esenciales para utilizar los datos sociales: generación de evidencia y de metodologías, formación de capacidades humanas especializadas, desarrollo de estándares éticos y técnicos, incubación  y transferencia de soluciones innovadoras, y mecanismos de aseguramiento de la calidad que garanticen la confiabilidad y la trazabilidad.
+
+La relevancia de <span class="data-style">Data</span><span class="soc-style">SOC</span> radica precisamente en su capacidad de ordenar, conectar y potenciar los datos sociales, lo que permite que el conocimiento social circule de forma más abierta, transparente y rigurosa. Al establecer protocolos de gobernanza, estándares de documentación, herramientas de preservación, programas de formación especializada y mecanismos de certificación, <span class="data-style">Data</span><span class="soc-style">SOC</span> ofrece una estructura estable que reduce la fragmentación, facilita la interoperabilidad entre proyectos y equipos, y fortalece la función pública de la Universidad en la producción de conocimiento socialmente significativo. A mediano y largo plazo, <span class="data-style">Data</span><span class="soc-style">SOC</span> aspira a convertirse en un referente nacional en ciencia de datos sociales, articulando redes al interior de la Universidad de Chile y generando alianzas estratégicas con instituciones públicas, organismos internacionales y organizaciones sociales. De este modo, <span class="data-style">Data</span><span class="soc-style">SOC</span> busca situar a la Universidad de Chile en la vanguardia regional en el desarrollo de ciencia de datos sociales al servicio de la sociedad. Para ello, toma como referente iniciativas internacionales como el [German Data Forum (RatSWD)](https://www.konsortswd.de/en/about/ratswd/) y el [Institute for Social Research (ISR) de la Universidad de Michigan](https://isr.umich.edu/), infraestructuras de datos abocadas a la certificación y apertura de datos sociales,  adaptando sus aprendizajes al contexto chileno y latinoamericano. Además, incorpora los avances desarrollados por el [Laboratorio de Investigación Social Abierta (LISA)](https://lisacoes.com/), una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) gestionada desde el departamento de sociología de FACSO, que busca ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía. 
+
+## Nuestras Líneas de Trabajo
+
+<div class="hex-button-about">
+
+  <!-- I -->
+<a href="componentes/investigacion/index.qmd" class="btn-hex" aria-label="Ir a la sección de Investigación">
+  <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+    <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+    <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">I</text>
+    <text x="50" y="63" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">INVESTIGACIÓN</text>
+  </svg>
+</a>
+
+  <!-- F -->
+   <a href="#f" class="btn-hex" title="F">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">F</text>
+      <text x="50" y="63" text-anchor="middle"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">FORMACIÓN</text>
+    </svg>
+  </a>
+
+  <!-- T -->
+  <a href="#t" class="btn-hex" title="T">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">T</text>
+      <text x="50" y="55" text-anchor="middle"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">TRANSFERENCIA</text>
+        <text x="50" y="70" text-anchor="middle"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">E IMPACTO</text>
+    </svg>
+  </a>
+
+  <!-- C -->
+  <a href="#c" class="btn-hex" title="C">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">C</text>
+      <text x="50" y="55" text-anchor="middle"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">CERTIFICACIÓN</text>
+        <text x="50" y="70" text-anchor="middle"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">DE CALIDAD</text>
+    </svg>
+  </a>
+
+  <!-- G -->
+  <a href="#g" class="btn-hex" title="G">
+    <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"/>
+      <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"/>
+      <text x="50" y="85" text-anchor="middle"
+        font-family="Courier, Impact, sans-serif" font-weight="350"
+        font-size="100" fill="#7a0a0a">G</text>
+      <text x="50" y="55" text-anchor="middle"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">GOBERNANZA</text>
+        <text x="50" y="70" text-anchor="middle"
+        font-family="Baumans, Impact, sans-serif" font-weight="350"
+        font-size="12" fill="white" letter-spacing="0.5">DE DATOS</text>
+    </svg>
+  </a>
+
+</div>
+
+# Equipo
+
+
+:::{#equipo}
+:::

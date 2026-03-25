@@ -1,0 +1,29 @@
+title: René Canales
+subtitle: Asistente de Investigación
+image: rene.jpg
+contacto: renecanales@uc.cl
+github: renejcanales # Solo el nombre de usuarios
+# web-personal: 
+shortbio: 
+ "Sociólogo y Magíster en Sociología de la Pontificia Universidad Católica de Chile. Actualmente se desempeña como Asistente del proyecto FIDA-DataSOC y Asistente del proyecto FONDECYT Regular No.1250518" 
+permalink: /equipo/posts/rc/index.qmd
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:renecanales@uc.cl
+      target: _blank
+      text: Contacto
+    - icon: github # tanto github como el sitio web personal son opcionales
+      href: https://github.com/renejcanales
+      target: _blank
+      text: Github
+    - icon: globe
+      href: https://renejcanales.github.io/renecanales-website/ 
+      target: _blank
+      text: Web Personal
+    - icon: orcid
+      href: https://orcid.org/0009-0002-4299-2725
+      target: _blank
+      text: ORCID

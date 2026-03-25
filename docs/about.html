@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-03-24">
+
+<title>Sobre DataSOC</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-604b15cedbb466ed51cdaa7746d50dfd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-equipo .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-include-after-body','listing-language','listing-title','listing-subtitle','listing-contacto','listing-github','listing-web','listing-image','listing-about','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-shortbio','listing-permalink','listing-toc','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-include-after-body","listing-language","listing-title","listing-subtitle","listing-contacto","listing-github","listing-web","listing-image","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-shortbio","listing-permalink","listing-toc","listing-listing"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-equipo'] = new List('listing-equipo', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="datasoc_styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./resources/imagenes/navbar-logo.png" alt="" class="navbar-logo light-content">
+    <img src="./resources/imagenes/navbar-logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text"><i class="bi bi-info-circle-fill"></i>Sobre DataSOC</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#lineas"> 
+<span class="menu-text"><i class="bi bi-hexagon-fill"></i> Líneas de Trabajo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#proyectosh1"> 
+<span class="menu-text"><i class="bi bi-briefcase-fill"></i> Proyectos y Reportes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#noticiash1"> 
+<span class="menu-text"><i class="bi bi-newspaper"></i> Noticias</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#nuestras-líneas-de-trabajo" id="toc-nuestras-líneas-de-trabajo" class="nav-link active" data-scroll-target="#nuestras-líneas-de-trabajo">Nuestras Líneas de Trabajo</a></li>
+  <li><a href="#equipo" id="toc-equipo" class="nav-link" data-scroll-target="#equipo">Equipo</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sobre DataSOC</h1>
+<p class="subtitle lead">Ciencia de Datos Sociales</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 24, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>En los últimos años, la disponibilidad masiva de grandes volúmenes de <em>big data</em>, la irrupción de la inteligencia artificial generativa, y el aprendizaje automático (<em>machine learning</em>), han transformado radicalmente las posibilidades del análisis de datos. Las metodologías han debido actualizarse e incorporar ciencia de datos, procesamiento de lenguaje natural, prácticas de reproducibilidad y ciencia abierta, habilitando nuevos tipos de evidencia y herramientas analíticas para el diseño de políticas y la evaluación de impacto. Tal contexto introduce desafíos significativos para las ciencias sociales: problemas de representatividad y sesgo en fuentes no previstas para investigación, riesgos sobre privacidad y protección de datos, dificultades de interpretabilidad de modelos complejos, y la necesidad de adaptar marcos teóricos y metodológicos para integrar resultados algorítmicos con explicaciones sociales robustas.</p>
+<p>Los datos sociales pueden definirse como toda aquella información que permite comprender fenómenos sociales, económicos, culturales o políticos. Incluyen desde encuestas de opinión pública y censos demográficos, hasta registros administrativos, datos geoespaciales, interacciones en redes sociales y grandes volúmenes de datos digitales generados por plataformas en línea. Además, abarcan datos cualitativos como entrevistas, grupos focales, observaciones etnográficas y archivos históricos, así como también datos visuales y audiovisuales. Estos datos sociales no son meros insumos técnicos, sino representaciones de procesos sociales que demandan posicionamiento epistemológico, interpretaciones teóricas, precisión metodológica y marcos éticos robustos. No se trata de seguir reproduciendo una oposición radical entre lo “técnico” y lo “social” (Edwards et al., 2023; Barjak et al., 2009), sino de reconocer los caminos que abren los avances computacionales y hacerlos dialogar con los marcos interpretativos de estas disciplinas, y con ello dar respuesta a las preguntas y las necesidades del país. En este espacio es que la Facultad de Ciencias Sociales de la Universidad de Chile posee una fortaleza distintiva, al contar con una amplia diversidad de disciplinas, enfoques teóricos y metodologías que permiten dar sentido a los datos sociales desde múltiples perspectivas.</p>
+<p>Actualmente, en Chile no existe una plataforma articulada y sostenible dedicada específicamente al desarrollo, gobernanza y proyección estratégica de los datos sociales. Si bien hay iniciativas y proyectos relacionadas con datos sociales (como el Consorcio IDI, el Instituto Milenio Fundamentos de los Datos IMFD, o el Centro de Microdatos), hasta ahora los datos sociales se producen y circulan de manera altamente fragmentada, con escasos estándares comunes y mecanismos débiles de coordinación. Tal dispersión limita la calidad, comparabilidad y trazabilidad de los datos, y dificulta su preservación en el tiempo. Esto reduce su potencial para generar evidencia robusta que fortalezca la investigación, la formulación de políticas públicas y la innovación social. La Universidad de Chile y la Facultad de Ciencias Sociales no son ajenas a estos desafíos, observándose múltiples problemas en la gobernanza de datos, en la incorporación de nuevas tecnologías en la investigación, formación y gestión, y en la transferencia de conocimientos hacia la sociedad.</p>
+<p>La necesidad de contar con una infraestructura robusta de datos sociales se vuelve aún más urgente en el contexto actual, dadas las transformaciones tecnológicas, sociales y políticas que enfrentan las sociedades contemporáneas. El conocimiento científico se ve amenazado por la crisis de confianza pública, la proliferación de desinformación y la creciente complejidad de los fenómenos sociales. Además, los populismos y las crisis democráticas en la región subrayan la importancia de contar con datos sociales rigurosos y transparentes que permitan fundamentar decisiones públicas y fortalecer la participación ciudadana. En este escenario, las universidades tienen un rol crucial como productores y guardianes del conocimiento social, siendo responsables de garantizar que los datos generados sean de alta calidad, éticamente gestionados y accesibles para la sociedad.</p>
+<p>Frente a este escenario, la Facultad de Ciencias Sociales de la Universidad de Chile propone la creación de <span class="data-style">Data</span><span class="soc-style">SOC</span>, una iniciativa orientada a generar un centro que pueda posicionarse como un referente nacional en el procesamiento, análisis, gestión y transferencia de datos sociales, guiados por altos estándares conceptuales, metodológicos y éticos. <span class="data-style">Data</span><span class="soc-style">SOC</span> busca articular y potenciar las capacidades existentes en la Facultad, integrando investigación, formación, gobernanza de datos, innovación y certificación de calidad. A diferencia de otras iniciativas como el Centro de Microdatos de la Facultad de Economía y Negocios, <span class="data-style">Data</span><span class="soc-style">SOC</span> no se orienta al levantamiento de datos, sino a transformar la manera en que se producen, gestionan y utilizan los datos sociales, asegurando que el conocimiento generado sea riguroso, transparente y socialmente relevante.</p>
+<p>Su diseño se organiza en torno a cinco líneas de trabajo: investigación, formación (en pregrado, postgrado y educación continua), innovación y transferencia, certificación de la calidad de los datos sociales, y gobernanza responsable de datos. Cada una de estas líneas de trabajo aporta elementos esenciales para utilizar los datos sociales: generación de evidencia y de metodologías, formación de capacidades humanas especializadas, desarrollo de estándares éticos y técnicos, incubación y transferencia de soluciones innovadoras, y mecanismos de aseguramiento de la calidad que garanticen la confiabilidad y la trazabilidad.</p>
+<p>La relevancia de <span class="data-style">Data</span><span class="soc-style">SOC</span> radica precisamente en su capacidad de ordenar, conectar y potenciar los datos sociales, lo que permite que el conocimiento social circule de forma más abierta, transparente y rigurosa. Al establecer protocolos de gobernanza, estándares de documentación, herramientas de preservación, programas de formación especializada y mecanismos de certificación, <span class="data-style">Data</span><span class="soc-style">SOC</span> ofrece una estructura estable que reduce la fragmentación, facilita la interoperabilidad entre proyectos y equipos, y fortalece la función pública de la Universidad en la producción de conocimiento socialmente significativo. A mediano y largo plazo, <span class="data-style">Data</span><span class="soc-style">SOC</span> aspira a convertirse en un referente nacional en ciencia de datos sociales, articulando redes al interior de la Universidad de Chile y generando alianzas estratégicas con instituciones públicas, organismos internacionales y organizaciones sociales. De este modo, <span class="data-style">Data</span><span class="soc-style">SOC</span> busca situar a la Universidad de Chile en la vanguardia regional en el desarrollo de ciencia de datos sociales al servicio de la sociedad. Para ello, toma como referente iniciativas internacionales como el <a href="https://www.konsortswd.de/en/about/ratswd/">German Data Forum (RatSWD)</a> y el <a href="https://isr.umich.edu/">Institute for Social Research (ISR) de la Universidad de Michigan</a>, infraestructuras de datos abocadas a la certificación y apertura de datos sociales, adaptando sus aprendizajes al contexto chileno y latinoamericano. Además, incorpora los avances desarrollados por el <a href="https://lisacoes.com/">Laboratorio de Investigación Social Abierta (LISA)</a>, una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) gestionada desde el departamento de sociología de FACSO, que busca ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía.</p>
+<section id="nuestras-líneas-de-trabajo" class="level2">
+<h2 class="anchored" data-anchor-id="nuestras-líneas-de-trabajo">Nuestras Líneas de Trabajo</h2>
+<div class="hex-button-about">
+<p><!-- I --> <a href="./componentes/investigacion/index.html" class="btn-hex" aria-label="Ir a la sección de Investigación"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">I</text> <text x="50" y="63" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">INVESTIGACIÓN</text> </svg> </a></p>
+<p><!-- F --> <a href="#f" class="btn-hex" title="F"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">F</text> <text x="50" y="63" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">FORMACIÓN</text> </svg> </a></p>
+<p><!-- T --> <a href="#t" class="btn-hex" title="T"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">T</text> <text x="50" y="55" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">TRANSFERENCIA</text> <text x="50" y="70" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">E IMPACTO</text> </svg> </a></p>
+<p><!-- C --> <a href="#c" class="btn-hex" title="C"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">C</text> <text x="50" y="55" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">CERTIFICACIÓN</text> <text x="50" y="70" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">DE CALIDAD</text> </svg> </a></p>
+<p><!-- G --> <a href="#g" class="btn-hex" title="G"> <svg viewbox="0 0 100 115" xmlns="http://www.w3.org/2000/svg"> <polygon points="50,4 96,28 96,87 50,111 4,87 4,28" fill="#5a5a5a"></polygon> <polygon points="50,9 91,32 91,83 50,106 9,83 9,32" fill="#ac221e"></polygon> <text x="50" y="85" text-anchor="middle" font-family="Courier, Impact, sans-serif" font-weight="350" font-size="100" fill="#7a0a0a">G</text> <text x="50" y="55" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">GOBERNANZA</text> <text x="50" y="70" text-anchor="middle" font-family="Baumans, Impact, sans-serif" font-weight="350" font-size="12" fill="white" letter-spacing="0.5">DE DATOS</text> </svg> </a></p>
+</div>
+</section>
+<section id="equipo" class="level1">
+<h1>Equipo</h1>
+<div id="listing-equipo" class="quarto-listing quarto-listing-container-custom">
+<style>
+.listing-equipo .quarto-listing-container-grid-team {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.listing-equipo .list.responsive-grid-team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  align-items: stretch;
+}
+
+.listing-equipo .listing-box-team {
+  width: 100%;
+}
+
+.listing-equipo .team-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  background: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.listing-equipo .team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.listing-equipo .card-header-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.listing-equipo .listing-box-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  min-width: 100%;
+  object-position: center 30%; 
+}
+
+.listing-equipo .card-header-link {
+  display: block;
+  width: 100%; /* ← asegura que el <a> llene la card */
+}
+
+.listing-equipo .team-card-body {
+  padding: 1rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 144px; /* ← ajusta según cuánto texto máximo esperas */
+  overflow: hidden; /* por si el texto es muy largo */
+}
+
+.listing-equipo .listing-box-title {
+  margin: 0.5rem 0 0.25rem;
+  font-weight: bold;
+  font-size: 1.32rem;
+  color: #1f2937;
+  font-family: 'Baumans', system-ui; 
+  font-weight: normal;
+  text-align: center;
+}
+
+.listing-equipo .listing-box-subtitle {
+  margin: 0.25rem 0;
+  font-size: 1.14rem;
+  color: #4b5563;
+  font-family: "Courier New", system-ui; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.listing-equipo .listing-box-links {
+  margin: 0.25rem 0 0.5rem;
+  color: #4b5563;
+  font-size: 1.44rem;
+}
+
+/* Contenedor de iconos en fila */
+.listing-equipo .card-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem 0.75rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.listing-equipo .contact-link,
+.listing-equipo .github-link,
+.listing-equipo .web-link {
+  display: inline-flex;
+  align-items: center;
+  color: #ac221e;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.listing-equipo .contact-link:hover,
+.listing-equipo .github-link:hover,
+.listing-equipo .web-link:hover {
+  color: #ac221e;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .listing-equipo .list.responsive-grid-team {
+    grid-template-columns: 1fr;
+  }
+
+  .listing-equipo .listing-box-image {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}
+</style>
+
+<div class="listing-equipo">
+  <div class="quarto-listing-container-grid-team">
+    <div class="list responsive-grid-team">
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/a-jc/index.html" class="card-header-link">
+              <img src="./equipo/posts/a-jc/featured.png" alt="Juan Carlos Castillo" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Juan Carlos Castillo</div>
+                <div class="listing-box-subtitle">Director DataSOC</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:juancastillov@uchile" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="https://github.com/juancarloscastillo" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+                <a href="https://jc-castillo.com" class="web-link" target="_blank" title="Web Personal">
+                  <i class="bi bi-globe2"></i>
+                </a>
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/b-dm/index.html" class="card-header-link">
+              <img src="https://intranet.facso.cl/wp-content/uploads/2025/10/Daniel-miranda_600.jpg" alt="Daniel Miranda" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Daniel Miranda</div>
+                <div class="listing-box-subtitle">Asesor de proyectos de investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:danmiranda@uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/c- gc/index.html" class="card-header-link">
+              <img src="https://intranetdev.facso.cl/wp-content/uploads/2025/10/Gabriel-Cortes_600.jpg" alt="Gabriel Cortés" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Gabriel Cortés</div>
+                <div class="listing-box-subtitle">Asistente de Gestión de la Dirección de Investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:gabriel.cortes@uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="gabcortes97" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/d- cc/index.html" class="card-header-link">
+              <img src="https://intranet.facso.cl/wp-content/uploads/2025/10/Carolina-Carillo_600.jpg" alt="Carolina Carrillo" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Carolina Carrillo</div>
+                <div class="listing-box-subtitle">Asistente de la Dirección de Investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:carolina.carrillo@uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="https://github.com/chincolcarrillo" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/d- rc/index.html" class="card-header-link">
+              <img src="./equipo/posts/d- rc/rene.jpg" alt="René Canales" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">René Canales</div>
+                <div class="listing-box-subtitle">Asistente de Investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:renecanales@uc.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="renejcanales" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/e- tu/index.html" class="card-header-link">
+              <img src="https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/equipo/posts/e-%20tu/featured.png" alt="Tomás Urzúa" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Tomás Urzúa</div>
+                <div class="listing-box-subtitle">Asistente de investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:tomas.urzua@ug.uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="tomasurzuam" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      
+        <div class="listing-box-team">
+          <div class="team-card">
+
+            <!-- Imagen + Título + Subtítulo enlazados -->
+            <a href="./equipo/posts/f- ka/index.html" class="card-header-link">
+              <img src="https://correlacional.netlify.app/images/ayudantes/katherine.png" alt="Katherine Aravena" class="listing-box-image">
+              <div class="team-card-body">
+                <div class="listing-box-title">Katherine Aravena</div>
+                <div class="listing-box-subtitle">Asistente de Investigación</div>
+                <div class="listing-box-links"></div>
+              </div>
+            </a>
+
+            <!-- Iconos alineados horizontalmente -->
+            <div class="card-icons">
+           
+              
+                <a href="mailto:katherine.aravena@ug.uchile.cl" class="contact-link" target="_blank" title="Contacto">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              
+
+              
+                <a href="https://github.com/KAravena" class="github-link" target="_blank" title="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              
+
+              
+                <a href="https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/" class="web-link" target="_blank" title="Web Personal">
+                  <i class="bi bi-globe2"></i>
+                </a>
+              
+            </div>
+
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<section class="bg-black text-white footer border-top" id="footer" style="background-color: #000 !important;">
+
+    <div class="container py-5">
+
+        <div class="row align-items-end justify-content-center">
+
+            
+
+            <div class="col-sm text-center py-3" style="margin-top:2rem;">
+
+                <div style="height: 80px; display: flex; align-items: flex-end; justify-content: center;">
+
+                    <img class="img-fluid" src="https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/resources/imagenes/logo-footer-dark.png" alt="datasoc" style="max-width: 230px;">
+
+                </div>
+
+                <div class="pt-2">
+
+                    <a class="azul mx-2" href="https://github.com/data-soc/" target="_blank"><i class="bi bi-github"></i></a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-sm text-center py-3">
+
+                <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
+
+                    <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logo-facso_investiga-white.png" alt="Logo FACSO" style="max-width: 230px;">
+
+                </div>
+
+                <div class="pt-2">
+
+                    <a class="azul mx-2" href="https://web.facebook.com/socialesuchile" target="_blank"><i class="bi bi-facebook"></i></a>
+
+                    <a class="azul mx-2" href="https://twitter.com/facsouchile" target="_blank"><i class="bi bi-twitter"></i></a>
+
+                    <a class="azul mx-2" href="https://www.instagram.com/facsouchile/" target="_blank"><i class="bi bi-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-sm text-center py-3">
+
+                <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
+
+                    <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logoUChile.png" alt="Logo UChile" style="max-width: 230px;">
+
+                </div>
+
+                <div class="pt-2">
+
+                    <a class="azul mx-2" href="https://www.facebook.com/uchile" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+
+                    <a class="azul mx-2" href="https://twitter.com/uchile" target="_blank"><i class="bi bi-twitter"></i></a>
+
+                    <a class="azul mx-2" href="https://www.instagram.com/uchile" target="_blank"><i class="bi bi-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="">2026</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/data-soc/datasoc-website" target="_blank">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

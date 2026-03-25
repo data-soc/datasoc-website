@@ -108,7 +108,8 @@ a:hover {
 .bi-instagram:hover,
 .bi-youtube:hover,
 .bi-envelope-fill:hover,
-.bi-globe2:hover
+.bi-globe2:hover,
+.bi-info-circle-fill:hover
 {
   color: #ECA0A0;
 }
@@ -119,7 +120,8 @@ a:hover {
 .bi-instagram,
 .bi-youtube,
 .bi-envelope-fill,
-.bi-globe2
+.bi-globe2,
+.bi-info-circle-fill
 {
   color: #ac221e;
 }

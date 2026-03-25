@@ -1,0 +1,26 @@
+title: Tomás Urzúa
+subtitle: Asistente de investigación
+image: https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/equipo/posts/e-%20tu/featured.png
+contacto: tomas.urzua@ug.uchile.cl
+github: tomasurzuam # Solo el nombre de usuarios
+# web-personal: 
+shortbio: 
+ "Licenciado en Sociología de la Universidad de Chile y estudiante del 
+ Magíster en Ciencias Sociales mención Sociología de la Modernización." 
+permalink: "/equipo/posts/e- tu/index.qmd"
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:tomas.urzua@ug.uchile.cl
+      target: _blank
+      text: Contacto
+    - icon: github # tanto github como el sitio web personal son opcionales
+      href: https://github.com/tomasurzuam
+      target: _blank
+      text: Github
+    # - icon: globe
+    #   href: linkedin, orcid, blogs, cualquier sitio web personal. 
+    #   target: _blank
+    #   text: Web Personal

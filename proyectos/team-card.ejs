@@ -1,0 +1,29 @@
+```{=html}
+<% for (const item of items) { %>
+  <div class="team-card">
+    <div class="team-photo-cell">
+      <img src="<%= item.image %>" alt="Foto de <%= item.title %>" class="team-image">
+      <a href="<%= item.permalink %>" class="team-name-link">
+        <div class="team-title"><%= item.title %></div>
+      </a>
+      <div class="team-subtitle"><%= item.subtitle %></div>
+      <div class="team-icons">
+        <a href="mailto:<%= item.contacto %>" class="contact-link" target="_blank" title="Contacto">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+        <% if (item.github) { %>
+          <a href="https://github.com/<%= item.github %>" class="github-link" target="_blank" title="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+        <% } %>
+        <% if (item.web) { %>
+          <a href="<%= item.web %>" class="web-link" target="_blank" title="Web Personal">
+            <i class="bi bi-globe"></i>
+          </a>
+        <% } %>
+      </div>
+    </div>
+    <div class="team-bio"><%= item.shortbio %></div>
+  </div>
+<% } %>
+```
