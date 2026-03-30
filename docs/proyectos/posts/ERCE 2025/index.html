@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-29">
+<meta name="description" content="Proyecto de consultoría orientado a diseñar y ejecutar el análisis cuantitativo para la sistematización curricular ESD/GCE en ERCE 2025, con foco en la producción de resultados regionales y nacionales, validación con actores clave y generación de visualizaciones accesibles.">
 
-<title>Investigación</title>
+<title>Análisis Curricular ERCE 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-31a93eec790234021612c82aa2730466.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-fb07cd92aac7c8b7d7f9a3ba616227e2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -55,56 +57,115 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-equipo-proyecto .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../datasoc_styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-github','listing-shortbio','listing-permalink','listing-about','listing-contacto',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-github","listing-shortbio","listing-permalink","listing-about","listing-contacto"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-equipo-proyecto'] = new List('listing-equipo-proyecto', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../datasoc_styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo light-content">
-    <img src="../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text"><i class="bi bi-info-circle-fill"></i>Sobre DataSOC</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html#lineas"> 
+    <a class="nav-link" href="../../../index.html#lineas"> 
 <span class="menu-text"><i class="bi bi-hexagon-fill"></i> Líneas de Trabajo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html#proyectosh1"> 
+    <a class="nav-link" href="../../../index.html#proyectosh1"> 
 <span class="menu-text"><i class="bi bi-briefcase-fill"></i> Proyectos y Reportes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html#noticiash1"> 
+    <a class="nav-link" href="../../../index.html#noticiash1"> 
 <span class="menu-text"><i class="bi bi-newspaper"></i> Noticias</span></a>
   </li>  
 </ul>
@@ -115,65 +176,101 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#nuestro-diagnóstico" id="toc-nuestro-diagnóstico" class="nav-link active" data-scroll-target="#nuestro-diagnóstico">Nuestro Diagnóstico</a></li>
-  <li><a href="#nuestra-propuesta" id="toc-nuestra-propuesta" class="nav-link" data-scroll-target="#nuestra-propuesta">Nuestra Propuesta</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-solana column-page-left">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+    <img src="featured.png" class="about-image " style="width: 100%;">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Investigación</h1>
+<h1 class="title">Análisis Curricular ERCE 2025</h1>
+<p class="subtitle lead">Sistematización y análisis cuantitativo del currículo en educación para el desarrollo sostenible y ciudadanía global</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Líneas</div>
     <div class="quarto-category">Investigación</div>
   </div>
   </div>
-<div class="quarto-title-meta column-page-left">
+<div>
+  <div class="description">
+    Proyecto de consultoría orientado a diseñar y ejecutar el análisis cuantitativo para la sistematización curricular ESD/GCE en ERCE 2025, con foco en la producción de resultados regionales y nacionales, validación con actores clave y generación de visualizaciones accesibles.
+  </div>
+</div>
+<div class="quarto-title-meta">
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 29, 2026</p>
+      <p class="date">29 de marzo de 2026</p>
     </div>
   </div>
   </div>
-</header> 
-      <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
-
-<!-- ::: hero-heading -->
-<!-- DataSOC se propone como un nodo para el desarrollo de investigación metodológica y metacientífica avanzada, integrando datos tanto cuantitativos como cualitativos. La investigación es el componente que permite transformar los datos en conocimiento, contribuyendo a cerrar la brecha entre lo técnico y lo social. De tal manera, esta línea opera en el núcleo de DataSOC, proporcionando las bases conceptuales -->
-<!-- ::: -->
-<section id="nuestro-diagnóstico" class="level2">
-<h2 data-anchor-id="nuestro-diagnóstico">Nuestro Diagnóstico</h2>
-<p>El panorama contemporáneo de la investigación social enfrenta cambios importantes derivados de las nuevas tecnologías digitales, y de la demanda por mayor transparencia y apertura de datos sociales. Avances como el modelamiento de la Big Data y la inteligencia artificial generativa implican una transformación en las formas tradicionales de investigación social, acelerando la producción basada en análisis de datos. Dado que estas innovaciones vienen principalmente de disciplinas STEM, se ha cuestionado el rol de las ciencias sociales en su desarrollo y utilización, llegando a proclamar el “fin de la teoría social” y la emergencia de una ciencia computacional puramente inductiva (Sato, 2024).</p>
-<p>Por otro lado, en los años recientes, la academia ha enfrentado desafíos importantes derivados de la crisis de replicabilidad (Baker, 2016; Nosek et al., 2015; Peng, 2015) y las restricciones de acceso a publicaciones financiadas por fondos públicos. En este contexto, el movimiento Ciencia Abierta ha ganado relevancia impulsando iniciativas que promueven la transparencia y el acceso a la investigación. En esta línea, la Agencia Nacional de Investigación y Desarrollo (ANID) ha recogido parte de estas inquietudes, publicando una Política de Acceso Abierto a la Información Científica y a Datos de Investigación (ANID, 2022).</p>
-<p>En este contexto, es necesario relevar dos premisas centrales. En primer lugar, frente a la formas netamente inductivas de análisis, la ciencias sociales pueden aportar marcos interpretativos que orienten al dato y lo hagan útil para la toma de decisiones. En segundo lugar, aceptar el valor agregado de la teoría social en el análisis de datos implica necesariamente reconocer y valorar la diversidad del conocimiento producido a partir de distintos tipos de datos que no se limitan al puro dato cuantitativo, sino que se extiende a textos, imagenes y material arqueológico, por nombrar algunos.</p>
-</section>
-<section id="nuestra-propuesta" class="level2">
-<h2 data-anchor-id="nuestra-propuesta">Nuestra Propuesta</h2>
-<p>DataSOC se propone como un nodo para el desarrollo de investigación metodológica y metacientífica avanzada, integrando datos tanto cuantitativos como cualitativos. La investigación es el componente que permite transformar los datos en conocimiento, contribuyendo a cerrar la brecha entre lo técnico y lo social. De tal manera, esta línea opera en el núcleo de DataSOC, proporcionando las bases conceptuales, técnicas y empíricas que habilitan el desarrollo del resto de sus líneas de acción. Además, el desarrollo de líneas de investigación permitirá a DataSOC presentarse ante fondos concursables externos, lo que constituirá una potencial fuente de financiamiento y, por lo tanto, contribuirá a la sustentabilidad del Centro. Algunas líneas de investigación que DataSOC podría albergar incluyen:</p>
-<ul>
-<li><p>Investigación metodológica en el área de las ciencias sociales computacionales, con especial énfasis en el desarrollo de nuevas técnicas y tecnologías tales como la inteligencia artificial, el Machine Learning, el Agent-Based Modelling, Big Data, el Procesamiento de Lenguaje Natural, entre otras. En este contexto, se busca establecer vínculos con iniciativas similares en la Universidad de Chile, como la Iniciativa de Datos e Inteligencia Artificial de FCFM, con el propósito de relevar el rol de las ciencias sociales y construir un espacio interdisciplinario de diálogo en el desarrollo de estas herramientas.</p></li>
-<li><p>Investigación vinculada a las áreas de la ciencia abierta, la metaciencia y cienciometría: particularmente, se propone utilizar los datos sobre proyectos de investigación postulados, adjudicados y no-adjudicados por académicos de la Facultad como un potencial objeto de estudio. En esta línea, la Dirección de Investigación y Publicaciones ha venido desarrollando la Unidad de Ciencia de Datos en Investigación - CINDAI que busca desarrollar un sistema local e integrado de gestión, producción y visualización de información científica en la Facultad.</p></li>
-<li><p>La reflexión metodológica, ética y epistemológica de los datos sociales, incluyendo la diversidad de tipo de datos que producen las disciplinas de la Facultad y avanzando en crear estándares para su tratamiento y análisis.</p></li>
-</ul>
-
-
-</section>
-</main></div>
+</header> <main class="content" id="quarto-document-content">
+<p>El proyecto Análisis Curricular tiene como objetivo diseñar y ejecutar el análisis cuantitativo para la sistematización del análisis curricular en educación para el desarrollo sostenible (ESD) y ciudadanía global (GCE), en el marco del estudio ERCE 2025.</p>
+<p>La consultoría contempla la consolidación y depuración de bases de datos, la definición de indicadores y unidades de análisis, la elaboración de productos regionales y nacionales, la validación de hallazgos con actores clave y la producción de visualizaciones accesibles. Asimismo, considera un trabajo transversal de supervisión, control de calidad, versionado de decisiones metodológicas y documentación reproducible de scripts, bases y procedimientos.</p>
+<p>El proyecto se organiza en tres etapas: una fase inicial de diseño y preparación del marco cuantitativo, una segunda fase de ejecución analítica y elaboración de resultados regionales, y una etapa final orientada al desarrollo de análisis nacionales, validación con stakeholders y entrega consolidada de informes, presentaciones y repositorios documentados.</p>
+<section id="responsables-del-proyecto" class="level2">
+<h2 data-anchor-id="responsables-del-proyecto">Responsables del Proyecto</h2>
+<div id="listing-equipo-proyecto" class="quarto-listing quarto-listing-container-custom">
+  <div class="team-card">
+    <div class="team-photo-cell">
+      <img src="https://lisacoes.netlify.app/equipo/posts/01-pi/featured.png" alt="Foto de Juan Carlos Castillo" class="team-image">
+      <a href="../../../equipo/posts/a-jc/index.html" class="team-name-link">
+        <div class="team-title">Juan Carlos Castillo</div>
+      </a>
+      <div class="team-subtitle">Director DataSOC</div>
+      <div class="team-icons">
+        <a href="mailto:" class="contact-link" target="_blank" title="Contacto">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+          <a href="https://github.com/juancarloscastillo" class="github-link" target="_blank" title="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+      </div>
     </div>
-    <img src="investigacion.png" class="about-image
-  rounded " style="width: 15em;">
+    <div class="team-bio">Sociólogo, Universidad de Chile. Magíster en Public Management, Universidad de Potsdam. Doctor en Sociología, Universidad Humboldt de Berlín. Profesor Titular, Departamento de Sociología, Universidad de Chile. Investigador principal de la línea «Interacciones Grupales e Individuales» de COES y Director de Investigación y Publicaciones, Facultad de Ciencias Sociales, Universidad de Chile.</div>
+  </div>
+  <div class="team-card">
+    <div class="team-photo-cell">
+      <img src="https://intranet.facso.cl/wp-content/uploads/2025/10/Daniel-miranda_600.jpg" alt="Foto de Daniel Miranda" class="team-image">
+      <a href="../../../equipo/posts/b-dm/index.html" class="team-name-link">
+        <div class="team-title">Daniel Miranda</div>
+      </a>
+      <div class="team-subtitle">Asesor de proyectos de investigación</div>
+      <div class="team-icons">
+        <a href="mailto:danmiranda@uchile.cl" class="contact-link" target="_blank" title="Contacto">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+      </div>
+    </div>
+    <div class="team-bio">Psicólogo, Universidad de Talca. Magíster en Sociología y Magíster en Psicología Social Comunitaria, Pontificia Universidad de Chile. Doctor en Psicología, Pontificia Universidad Católica de Chile. Profesor Asistente, Departamento de Psicología</div>
+  </div>
+  <div class="team-card">
+    <div class="team-photo-cell">
+      <img src="https://correlacional.netlify.app/images/ayudantes/katherine.png" alt="Foto de Katherine Aravena" class="team-image">
+      <a href="../../../equipo/posts/f- ka/index.html" class="team-name-link">
+        <div class="team-title">Katherine Aravena</div>
+      </a>
+      <div class="team-subtitle">Asistente de investigación</div>
+      <div class="team-icons">
+        <a href="mailto:" class="contact-link" target="_blank" title="Contacto">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+          <a href="https://github.com/KAravena" class="github-link" target="_blank" title="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+      </div>
+    </div>
+    <div class="team-bio">Licenciada en Sociología, Universidad de Chile. Estudiante del Magíster en Psicología Educacional, Universidad de Chile. Se ha desempeñado como asistente de investigación en LISA-COES, C22 Ciencias Sociales Digitales del Centro de Estudios Públicos (CEP) y en la consultoría ERCE 2025.</div>
+  </div>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div>
+
+
+</section>
+</main> 
   </div>
 </div>
  <!-- /main -->
@@ -252,68 +349,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -330,6 +365,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -668,4 +708,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

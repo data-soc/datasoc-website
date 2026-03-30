@@ -2,53 +2,43 @@
   {
     "listing": "/proyectos/proyectos.html",
     "items": [
+      "/proyectos/posts/ERCE 2025/index.html",
       "/proyectos/posts/CINDAI/index.html",
       "/proyectos/posts/estudio-notas/index.html"
     ]
   },
   {
-    "listing": "/proyectos/posts/CINDAI/index.html",
+    "listing": "/proyectos/posts/ERCE 2025/index.html",
     "items": []
   },
   {
-    "listing": "/noticias/posts/paper-ideology/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/noticias/noticias.html",
     "items": [
       "/noticias/posts/paper-ideology/index.html",
-      "/noticias/posts/taller-udec/index.html",
-      "/proyectos/posts/estudio-notas/index.html",
-      "/proyectos/posts/CINDAI/index.html",
-      "/equipo/posts/a-jc/index.html",
-      "/equipo/posts/b-dm/index.html",
-      "/equipo/posts/c- gc/index.html",
-      "/equipo/posts/d- cc/index.html",
-      "/equipo/posts/d- rc/index.html",
-      "/equipo/posts/e- tu/index.html",
-      "/equipo/posts/f- ka/index.html"
+      "/noticias/posts/taller-udec/index.html"
     ]
   },
   {
-    "listing": "/equipo/posts/e- tu/index.html",
+    "listing": "/equipo/posts/f- ka/index.html",
     "items": [
-      "/proyectos/posts/estudio-notas/index.html"
+      "/proyectos/posts/ERCE 2025/index.html"
     ]
   },
   {
-    "listing": "/equipo/posts/b-dm/index.html",
+    "listing": "/equipo/posts/d- rc/index.html",
+    "items": []
+  },
+  {
+    "listing": "/equipo/posts/c- gc/index.html",
     "items": [
       "/proyectos/posts/CINDAI/index.html"
     ]
   },
   {
-    "listing": "/equipo/equipo.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/paper-ideology.html",
-    "items": []
+    "listing": "/equipo/posts/a-jc/index.html",
+    "items": [
+      "/proyectos/posts/ERCE 2025/index.html"
+    ]
   },
   {
     "listing": "/about.html",
@@ -63,21 +53,49 @@
     ]
   },
   {
-    "listing": "/equipo/posts/c- gc/index.html",
-    "items": [
-      "/proyectos/posts/CINDAI/index.html"
-    ]
-  },
-  {
-    "listing": "/equipo/posts/d- rc/index.html",
+    "listing": "/blog/paper-ideology.html",
     "items": []
   },
   {
-    "listing": "/noticias/noticias.html",
+    "listing": "/equipo/equipo.html",
+    "items": []
+  },
+  {
+    "listing": "/equipo/posts/b-dm/index.html",
+    "items": [
+      "/proyectos/posts/ERCE 2025/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/posts/e- tu/index.html",
+    "items": [
+      "/proyectos/posts/estudio-notas/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/noticias/posts/paper-ideology/index.html",
-      "/noticias/posts/taller-udec/index.html"
+      "/noticias/posts/taller-udec/index.html",
+      "/proyectos/posts/ERCE 2025/index.html",
+      "/proyectos/posts/CINDAI/index.html",
+      "/proyectos/posts/estudio-notas/index.html",
+      "/equipo/posts/a-jc/index.html",
+      "/equipo/posts/b-dm/index.html",
+      "/equipo/posts/c- gc/index.html",
+      "/equipo/posts/d- cc/index.html",
+      "/equipo/posts/d- rc/index.html",
+      "/equipo/posts/e- tu/index.html",
+      "/equipo/posts/f- ka/index.html"
     ]
+  },
+  {
+    "listing": "/noticias/posts/paper-ideology/index.html",
+    "items": []
+  },
+  {
+    "listing": "/proyectos/posts/CINDAI/index.html",
+    "items": []
   },
   {
     "listing": "/proyectos/posts/estudio-notas/index.html",

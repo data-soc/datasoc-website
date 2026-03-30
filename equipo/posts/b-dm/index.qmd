@@ -6,7 +6,7 @@ listing:
     contents: "../../../proyectos/posts/*/index.qmd"
     template: "../../proyectos-relacionados.ejs"
     include:
-      team: "Gabriel Cortés"
+      team: "Daniel Miranda"
 ---
 
 Psicólogo, Universidad de Talca. Magíster en Sociología y Magíster en Psicología Social Comunitaria, Pontificia Universidad de Chile. Doctor en Psicología, Pontificia Universidad Católica de Chile. Profesor Asistente, Departamento de Psicología

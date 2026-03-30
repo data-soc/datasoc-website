@@ -1,23 +1,17 @@
 ---
 title: Katherine Aravena
-subtitle: Asistente de Investigación
-contacto: katherine.aravena@ug.uchile.cl
-github: https://github.com/KAravena
-web: https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/
-image: https://correlacional.netlify.app/images/ayudantes/katherine.png
-about:
-  template: trestles
-  image-shape: round
-  links:
-    - icon: envelope
-      href: mailto:katherine.aravena@ug.uchile.cl
-      text: Contacto
-    - icon: github
-      href: https://github.com/KAravena
-      text: Github
-    - icon: globe
-      href: https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/
-      text: Web Personal
+toc: false
+listing:
+  - id: listing-proyectos
+    contents: "../../../proyectos/posts/*/index.qmd"
+    template: "../../proyectos-relacionados.ejs"
+    include:
+      team: "Katherine Aravena"
 ---
 
-Estudiante de Sociología en la Universidad de Chile, ayudante de Economía, Diseños de Investigación (2025) y Estadística Correlacional (2025). Ayudante de investigación en el Laboratorio de Investigación Social Abierta (LISA–COES), pasante del Museo de la Educación Gabriela Mistral y miembro del NIIE-DP. Certificada por Duke en análisis de datos y Yale en mercados financieros.
+Licenciada en Sociología por la Universidad de Chile y actualmente cursando el Magíster en Psicología Educacional en la misma universidad. Se ha desempeñado como asistente de investigación en el Laboratorio de Investigación Social Abierta, una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES), donde trabajó en integración de bases, documentación y entregables reproducibles. Actualmente es asistente de investigación en C22 Ciencias Sociales Digitales del Centro de Estudios Públicos (CEP), desarrollando construcción de bases, curación de corpus y reportes analíticos reproducibles
+
+## Proyectos Relacionados
+
+::: {#listing-proyectos}
+:::

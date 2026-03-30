@@ -1,0 +1,48 @@
+---
+title: Análisis Curricular ERCE 2025
+subtitle: Sistematización y análisis cuantitativo del currículo en educación para el desarrollo sostenible y ciudadanía global
+description: "Proyecto de consultoría orientado a diseñar y ejecutar el análisis cuantitativo para la sistematización curricular ESD/GCE en ERCE 2025, con foco en la producción de resultados regionales y nacionales, validación con actores clave y generación de visualizaciones accesibles."
+categories: [Investigación]
+image: "featured.png"
+date: last-modified
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "featured.png"
+  # image-alt: "Ilustración de ciencia abierta con iconos de datos y colaboración"
+format:
+   html:
+    # theme: scss-posts.scss
+    # css: [styles/pro.css]
+    toc: false
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    df-print: paged
+    code-copy: false
+    page-layout: article
+filters: []
+team: ["Juan Carlos Castillo", "Daniel Miranda", "Katherine Aravena"]
+listing:
+  - id: equipo-proyecto
+    contents:
+       - "../../../equipo/posts/a-jc/_metadata.yml"
+       - "../../../equipo/posts/b-dm/_metadata.yml"
+       - "../../../equipo/posts/f- ka/_metadata.yml"
+    template: "../../team-card.ejs"
+--- 
+
+
+El proyecto Análisis Curricular tiene como objetivo diseñar y ejecutar el análisis cuantitativo para la sistematización del análisis curricular en educación para el desarrollo sostenible (ESD) y ciudadanía global (GCE), en el marco del estudio ERCE 2025.
+
+La consultoría contempla la consolidación y depuración de bases de datos, la definición de indicadores y unidades de análisis, la elaboración de productos regionales y nacionales, la validación de hallazgos con actores clave y la producción de visualizaciones accesibles. Asimismo, considera un trabajo transversal de supervisión, control de calidad, versionado de decisiones metodológicas y documentación reproducible de scripts, bases y procedimientos.
+
+El proyecto se organiza en tres etapas: una fase inicial de diseño y preparación del marco cuantitativo, una segunda fase de ejecución analítica y elaboración de resultados regionales, y una etapa final orientada al desarrollo de análisis nacionales, validación con stakeholders y entrega consolidada de informes, presentaciones y repositorios documentados.
+
+
+## Responsables del Proyecto
+
+::: {#equipo-proyecto}
+:::
