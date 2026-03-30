@@ -26,7 +26,9 @@
   },
   {
     "listing": "/equipo/posts/d- rc/index.html",
-    "items": []
+    "items": [
+      "/proyectos/posts/FONDOS-CSS/index.html"
+    ]
   },
   {
     "listing": "/equipo/posts/c- gc/index.html",
@@ -77,8 +79,9 @@
     "items": [
       "/noticias/posts/paper-ideology/index.html",
       "/noticias/posts/taller-udec/index.html",
-      "/proyectos/posts/ERCE 2025/index.html",
+      "/proyectos/posts/FONDOS-CSS/index.html",
       "/proyectos/posts/CINDAI/index.html",
+      "/proyectos/posts/ERCE 2025/index.html",
       "/proyectos/posts/estudio-notas/index.html",
       "/equipo/posts/a-jc/index.html",
       "/equipo/posts/b-dm/index.html",
@@ -99,6 +102,10 @@
   },
   {
     "listing": "/proyectos/posts/estudio-notas/index.html",
+    "items": []
+  },
+  {
+    "listing": "/proyectos/posts/FONDOS-CSS/index.html",
     "items": []
   }
 ]
