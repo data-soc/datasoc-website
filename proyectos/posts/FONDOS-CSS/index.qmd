@@ -1,0 +1,43 @@
+---
+title: Estudio Fondos ANID en Ciencias Sociales
+subtitle: Estudio sobre adjudicación de proyectos ANID en Ciencias Sociales (2015-2025)
+description: "El estudio busca caracterizar los proyectos de investigación adjudicados en ciencias sociales, considerando grupos de estudio, instituciones, trayectorias académicas y tipos de instrumento de financiamiento"
+categories: [Investigación]
+image: "featured.png"
+date: last-modified
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "featured.png"
+  # image-alt: "Ilustración de ciencia abierta con iconos de datos y colaboración"
+format:
+   html:
+    # theme: scss-posts.scss
+    # css: [styles/pro.css]
+    toc: false
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    df-print: paged
+    code-copy: false
+    page-layout: article
+filters: []
+team: "René Canales"
+
+listing:
+  - id: equipo-proyecto
+    contents:
+      - "../../../equipo/posts/d- rc/_metadata.yml" 
+    # -  agregar cuantos perfiles sea necesario
+    template: "../../team-card.ejs"
+--- 
+
+El Estudio de Fondos ANID en Ciencias Sociales es un proyecto dirigido por DataSOC que tiene como objetivo caracterizar los proyectos de investigación adjudicados en ciencias sociales, considerando grupos de estudio, instituciones, trayectorias académicas y tipos de instrumento de financiamiento. Para ello, el estudio utiliza datos extraídos de ANID entre 2015 y 2025. En esta línea, el proyecto contempla una investigación en dos etapas: primero una enfocada en los proyectos como unidad de análisis, y posteriormente una centrada en las instituciones que los adjudican, en orden de comprender en profundidad cómo se distribuyen los fondos y cuáles son los determinantes que explican esto. 
+
+
+## Responsable del Proyecto
+
+::: {#equipo-proyecto}
+:::
