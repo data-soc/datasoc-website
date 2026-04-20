@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0e49b4d9b3aec212b597d498ca320ec4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-604b15cedbb466ed51cdaa7746d50dfd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -113,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -140,7 +141,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo">
+    <img src="../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo light-content">
+    <img src="../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -208,7 +210,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="SW52ZXN0aWdhY2klQzMlQjNu" data-listing-date-sort="1774892776000" data-listing-file-modified-sort="1774892776218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="quarto-post image-right" data-index="0" data-categories="SW52ZXN0aWdhY2klQzMlQjNu" data-listing-date-sort="1776699853000" data-listing-file-modified-sort="1776699853386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <div class="thumbnail"><a href="../proyectos/posts/ERCE 2025/index.html" class="no-external">
 
 <img loading="lazy" src="../proyectos/posts/ERCE 2025/featured.png" class="thumbnail-image">
@@ -228,12 +230,12 @@ window.Quarto = {
 <div class="metadata">
 <a href="../proyectos/posts/ERCE 2025/index.html" class="no-external">
 <div class="listing-date">
-mar 2026
+abr 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="R29iZXJuYW56YSUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1774447065000" data-listing-file-modified-sort="1774447065003" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="465">
+<div class="quarto-post image-right" data-index="1" data-categories="R29iZXJuYW56YSUyMGRlJTIwRGF0b3M=" data-listing-date-sort="1774387401000" data-listing-file-modified-sort="1774387401018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="465">
 <div class="thumbnail"><a href="../proyectos/posts/CINDAI/index.html" class="no-external">
 
 <img loading="lazy" src="../proyectos/posts/CINDAI/featured.png" class="thumbnail-image">
@@ -258,7 +260,7 @@ mar 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="SW52ZXN0aWdhY2klQzMlQjNu" data-listing-date-sort="1774892776000" data-listing-file-modified-sort="1774892776219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<div class="quarto-post image-right" data-index="2" data-categories="SW52ZXN0aWdhY2klQzMlQjNu" data-listing-date-sort="1776699853000" data-listing-file-modified-sort="1776699853388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
 <div class="thumbnail"><a href="../proyectos/posts/FONDOS-CSS/index.html" class="no-external">
 
 <img loading="lazy" src="../proyectos/posts/FONDOS-CSS/featured.png" class="thumbnail-image">
@@ -278,12 +280,12 @@ mar 2026
 <div class="metadata">
 <a href="../proyectos/posts/FONDOS-CSS/index.html" class="no-external">
 <div class="listing-date">
-mar 2026
+abr 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="SW52ZXN0aWdhY2klQzMlQjNu" data-listing-date-sort="1774447716000" data-listing-file-modified-sort="1774447716275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<div class="quarto-post image-right" data-index="3" data-categories="SW52ZXN0aWdhY2klQzMlQjNu" data-listing-date-sort="1774447033000" data-listing-file-modified-sort="1774447033738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
 <div class="thumbnail"><a href="../proyectos/posts/estudio-notas/index.html" class="no-external">
 
 <img loading="lazy" src="../proyectos/posts/estudio-notas/featured.png" class="thumbnail-image">
@@ -312,41 +314,77 @@ mar 2026
 <div class="listing-no-matching d-none">No hay resultados</div>
 </div></main> <!-- /main -->
 <section class="bg-black text-white footer border-top" id="footer" style="background-color: #000 !important;">
+
     <div class="container py-5">
+
         <div class="row align-items-end justify-content-center">
+
             
+
             <div class="col-sm text-center py-3" style="margin-top:2rem;">
+
                 <div style="height: 80px; display: flex; align-items: flex-end; justify-content: center;">
+
                     <img class="img-fluid" src="https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/resources/imagenes/logo-footer-dark.png" alt="datasoc" style="max-width: 230px;">
+
                 </div>
+
                 <div class="pt-2">
+
                     <a class="azul mx-2" href="https://github.com/data-soc/" target="_blank"><i class="bi bi-github"></i></a>
+
                 </div>
+
             </div>
 
+
+
             <div class="col-sm text-center py-3">
+
                 <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
+
                     <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logo-facso_investiga-white.png" alt="Logo FACSO" style="max-width: 230px;">
+
                 </div>
+
                 <div class="pt-2">
+
                     <a class="azul mx-2" href="https://web.facebook.com/socialesuchile" target="_blank"><i class="bi bi-facebook"></i></a>
+
                     <a class="azul mx-2" href="https://twitter.com/facsouchile" target="_blank"><i class="bi bi-twitter"></i></a>
+
                     <a class="azul mx-2" href="https://www.instagram.com/facsouchile/" target="_blank"><i class="bi bi-instagram"></i></a>
+
                 </div>
+
             </div>
 
+
+
             <div class="col-sm text-center py-3">
+
                 <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
+
                     <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logoUChile.png" alt="Logo UChile" style="max-width: 230px;">
+
                 </div>
+
                 <div class="pt-2">
+
                     <a class="azul mx-2" href="https://www.facebook.com/uchile" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+
                     <a class="azul mx-2" href="https://twitter.com/uchile" target="_blank"><i class="bi bi-twitter"></i></a>
+
                     <a class="azul mx-2" href="https://www.instagram.com/uchile" target="_blank"><i class="bi bi-instagram"></i></a>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </section>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -399,13 +437,14 @@ mar 2026
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

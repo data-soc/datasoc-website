@@ -1,8 +1,13 @@
 ```{=html}
 <% for (const item of items) { %>
+  <%
+    const permalinkDir = item.permalink.replace(/\/index\.qmd$/, '').replace(/\/$/, '');
+    const imageFile = item.image || 'featured.jpg';
+    const teamImage = permalinkDir + '/' + imageFile;
+  %>
   <div class="team-card">
     <div class="team-photo-cell">
-      <img src="<%= item.image %>" alt="Foto de <%= item.title %>" class="team-image">
+      <img src="<%= teamImage %>" alt="Foto de <%= item.title %>" class="team-image">
       <a href="<%= item.permalink %>" class="team-name-link">
         <div class="team-title"><%= item.title %></div>
       </a>

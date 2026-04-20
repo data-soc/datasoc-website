@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,13 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-19ef6431e5d7984b3952f4ec3efdee3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-fb07cd92aac7c8b7d7f9a3ba616227e2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -141,7 +142,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo">
+    <img src="../../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../../resources/imagenes/navbar-logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -201,7 +203,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">30 de marzo de 2026</p>
+      <p class="date">20 de abril de 2026</p>
     </div>
   </div>
   </div>
@@ -212,8 +214,8 @@ window.Quarto = {
 <div id="listing-equipo-proyecto" class="quarto-listing quarto-listing-container-custom">
   <div class="team-card">
     <div class="team-photo-cell">
-      <img src="rene.jpg" alt="Foto de René Canales" class="team-image">
-      <a href="../../../equipo/posts/rc/index.qmd" class="team-name-link">
+      <img src="../../../equipo/posts/d- rc/featured.jpg" alt="Foto de René Canales" class="team-image">
+      <a href="../../../equipo/posts/d- rc/index.html" class="team-name-link">
         <div class="team-title">René Canales</div>
       </a>
       <div class="team-subtitle">Asistente de Investigación</div>
@@ -238,41 +240,77 @@ window.Quarto = {
 </div>
  <!-- /main -->
 <section class="bg-black text-white footer border-top" id="footer" style="background-color: #000 !important;">
+
     <div class="container py-5">
+
         <div class="row align-items-end justify-content-center">
+
             
+
             <div class="col-sm text-center py-3" style="margin-top:2rem;">
+
                 <div style="height: 80px; display: flex; align-items: flex-end; justify-content: center;">
+
                     <img class="img-fluid" src="https://raw.githubusercontent.com/data-soc/datasoc-website/refs/heads/main/resources/imagenes/logo-footer-dark.png" alt="datasoc" style="max-width: 230px;">
+
                 </div>
+
                 <div class="pt-2">
+
                     <a class="azul mx-2" href="https://github.com/data-soc/" target="_blank"><i class="bi bi-github"></i></a>
+
                 </div>
+
             </div>
 
+
+
             <div class="col-sm text-center py-3">
+
                 <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
+
                     <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logo-facso_investiga-white.png" alt="Logo FACSO" style="max-width: 230px;">
+
                 </div>
+
                 <div class="pt-2">
+
                     <a class="azul mx-2" href="https://web.facebook.com/socialesuchile" target="_blank"><i class="bi bi-facebook"></i></a>
+
                     <a class="azul mx-2" href="https://twitter.com/facsouchile" target="_blank"><i class="bi bi-twitter"></i></a>
+
                     <a class="azul mx-2" href="https://www.instagram.com/facsouchile/" target="_blank"><i class="bi bi-instagram"></i></a>
+
                 </div>
+
             </div>
 
+
+
             <div class="col-sm text-center py-3">
+
                 <div style="height: 96px; display: flex; align-items: flex-end; justify-content: center;">
+
                     <img class="img-fluid" src="https://colaboratoriocienciassociales.uchile.cl/assets/images/logoUChile.png" alt="Logo UChile" style="max-width: 230px;">
+
                 </div>
+
                 <div class="pt-2">
+
                     <a class="azul mx-2" href="https://www.facebook.com/uchile" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+
                     <a class="azul mx-2" href="https://twitter.com/uchile" target="_blank"><i class="bi bi-twitter"></i></a>
+
                     <a class="azul mx-2" href="https://www.instagram.com/uchile" target="_blank"><i class="bi bi-instagram"></i></a>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </section>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

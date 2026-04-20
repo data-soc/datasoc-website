@@ -4,7 +4,7 @@ subtitle: Asistente de la Dirección de Investigación
 contacto: carolina.carrillo@uchile.cl
 github: https://github.com/chincolcarrillo
 # web: https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/
-image: https://intranet.facso.cl/wp-content/uploads/2025/10/Carolina-Carillo_600.jpg
+image: featured.jpg
 about:
   template: trestles
   image-shape: round
